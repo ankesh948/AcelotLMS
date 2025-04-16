@@ -1,0 +1,25 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 213 192" width="36" height="32">
+	<title>Accelot icon</title>
+	<style>
+		.s0 { fill: #0068ad } 
+		.s1 { fill: #008fd3 } 
+		.s2 { fill: #f4831f } 
+		.s3 { fill: #e81a33 } 
+		.s4 { fill: #f05a22 } 
+		.s5 { fill: #6557a5 } 
+		.s6 { fill: #3c2371 } 
+		.s7 { fill: #ffd303 } 
+	</style>
+	<g id="Layer 1">
+		<g id="&lt;Group&gt;">
+			<path id="&lt;Path&gt;" class="s0" d="m32.3 190.9l-28-38.3 24.7-35 27.3 38.3z"/>
+			<path id="&lt;Path&gt;" class="s1" d="m56.3 155.9l-27.7-38 24.7-34.9 27.5 37.3z"/>
+			<path id="&lt;Path&gt;" class="s2" d="m80.6 120.8l-27.3-37.8 26.6-40.2 28 38.3z"/>
+			<path id="&lt;Path&gt;" class="s3" d="m108.1 160.4l-27.7-40 27.7-39.9 27.7 41.3z"/>
+			<path id="&lt;Path&gt;" class="s4" d="m135.9 122.6l-27.7-41.6 27.7-38.4 27.7 41.4z"/>
+			<path id="&lt;Path&gt;" class="s5" d="m158.1 154.9l-22.6-33 28.1-37.9 22.2 32.2z"/>
+			<path id="&lt;Path&gt;" class="s6" d="m182.8 189.7l-24.5-35.1 27.5-38.4 24.7 35.6z"/>
+			<path id="&lt;Path&gt;" class="s7" d="m108 81.4l-28.1-38.6 27.7-39.3 28.3 39.1z"/>
+		</g>
+	</g>
+</svg>
