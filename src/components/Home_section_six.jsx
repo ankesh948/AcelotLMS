@@ -2,7 +2,7 @@ import React from 'react'
 import { Col, Container, Image, Row, Button } from 'react-bootstrap'
 import { Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
-
+import bgImage from '../assets/images/testimonial_bg.png';
 
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -35,7 +35,11 @@ const testimonials = [
 function Home_section_six() {
   return (
     <>
-      <section className='home_section_six' style={{backgroundImage: 'url(src/assets/images/bg.svg)'}}>
+      <section className='home_section_six'
+      style={{
+        backgroundImage: `url(${bgImage})`,
+      }}
+      >
         <Container fluid>
           <Row className='align-items-center justify-content-center gx-5'>
             <Col lg={7} className='text-center'>
