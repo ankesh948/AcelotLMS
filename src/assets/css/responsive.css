@@ -1,0 +1,51 @@
+@media (min-width:1200px) and (max-width:1280px) {
+    .container {
+        max-width: 86%;
+    }
+
+    .slide_head {
+        font-size: 52px;
+    }
+
+    .lead {
+        font-size: 38px;
+    }
+
+    .testimonial-bx {
+        width: 85%;
+    }
+    .home_section_six {
+        padding: 110px 70px 70px 70px;
+        width: 90%;
+        margin: 0 auto 80px;
+    }
+    .lead2 {
+        font-size: 32px;
+    }
+}
+
+@media (min-width:1300px) and (max-width:1366px) {
+    .container {
+        max-width: 86%;
+    }
+
+    .slide_head {
+        font-size: 52px;
+    }
+
+    .lead {
+        font-size: 38px;
+    }
+
+    .testimonial-bx {
+        width: 85%;
+    }
+    .home_section_six {
+        padding: 110px 70px 70px 70px;
+        width: 90%;
+        margin: 0 auto 80px;
+    }
+    .lead2 {
+        font-size: 32px;
+    }
+}

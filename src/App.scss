@@ -437,6 +437,22 @@ body {
 .home_section_three {
   background: #f2f7fb;
   padding: 70px 0;
+
+  .swiper-slide {
+    .swiper-slide-img {
+      img {
+        filter: grayscale(1);
+      }
+    }
+  }
+
+  .swiper-slide.swiper-slide-active {
+    .swiper-slide-img {
+      img {
+        filter: grayscale(0);
+      }
+    }
+  }
 }
 
 .solution-bx {
@@ -445,8 +461,9 @@ body {
     font-size: 28px;
     font-weight: 600;
     color: #1c1c1c;
-    border-left: 3px solid var(--blue);
-    padding-left: 16px;
+    background: #e6f4fb;
+    padding: 15px;
+    border-radius: 9px;
   }
 
   p {
@@ -575,7 +592,7 @@ body {
 
 
 .home_section_six {
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
   padding: 110px 70px 70px 70px;
   background-size: cover;
   width: 90%;
@@ -683,6 +700,13 @@ body {
   font-size: 45px;
   font-weight: 700;
   color: #373737;
+}
+
+.home_section_three {
+  font-size: 22px;
+  line-height: normal;
+  font-weight: 600;
+  color: #005793;
 }
 
 .lead3 {
@@ -837,12 +861,10 @@ body {
   }
 }
 
-
-
 .flip-card {
   background-color: transparent;
   width: 100%;
-  height: 470px;
+  height: 368px;
   perspective: 1000px;
   cursor: pointer;
 }
@@ -894,9 +916,6 @@ body {
   font-size: 30px;
 }
 
-.team_Card {
-  margin: 0 0 50px;
-}
 
 .Meet_team_section_three {
   padding: 0 0;
@@ -990,7 +1009,38 @@ ul.socialbx_two li a {
   background: #f7f7f7;
   padding: 26px;
 }
+
 .p-description {
   font-size: 20px;
   color: #404040;
+}
+
+.mySwiper {
+  padding: 0 0 50px;
+}
+
+.swiper-pagination {
+  font-weight: 600;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  padding: 20px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px !important;
+  background: #646464;
+  border: none;
+  box-shadow: 0 0 64px rgba(0, 0, 0, 0.768627451);
+  border-radius: 6px;
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
 }

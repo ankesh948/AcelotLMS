@@ -124,37 +124,37 @@ const Footer = () => {
                 <ul className='socialbx_two'>
                   <li>
                     <Link to='https://www.facebook.com/acelotacademy/'>
-                      <i class='bx bxl-facebook-circle'></i>
+                      <i className='bx bxl-facebook-circle'></i>
                       <span>Facebook</span>
                     </Link>
                   </li>
                   <li>
                     <Link to='https://twitter.com/Acelot_Academy?s=09'>
-                      <i class='bx bxl-twitter'></i>
+                      <i className='bx bxl-twitter'></i>
                       <span>Twitter</span>
                     </Link>
                   </li>
                   <li>
                     <Link to='https://www.linkedin.com/company/acelot-academy'>
-                      <i class='bx bxl-linkedin'></i>
+                      <i className='bx bxl-linkedin'></i>
                       <span>Linkedin</span>
                     </Link>
                   </li>
                   <li>
                     <Link to='https://youtube.com/channel/UCTVGTNSJpmkFWG9-ZGQkqKA'>
-                      <i class='bx bxl-youtube'></i>
+                      <i className='bx bxl-youtube'></i>
                       <span>Youtube</span>
                     </Link>
                   </li>
                   <li>
                     <Link to='https://instagram.com/acelot.academy?utm_medium=copy_link'>
-                      <i class='bx bxl-instagram'></i>
+                      <i className='bx bxl-instagram'></i>
                       <span>Instagram</span>
                     </Link>
                   </li>
                   <li>
                     <Link to='https://wa.me/+919999211110'>
-                      <i class='bx bxl-whatsapp'></i>
+                      <i className='bx bxl-whatsapp'></i>
                       <span>Whatsapp</span>
                     </Link>
                   </li>

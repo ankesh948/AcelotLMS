@@ -9,7 +9,7 @@ function Contact_section_three() {
                 <Container>
                     <Row className='g-5'>
                         <Col lg={4}>
-                            <h2 className='mb-4'>Enrollment & Support</h2>
+                            <h2 className='mb-4'>Support</h2>
                             <div className='contact3'>
                                 <div className='d-flex align-items-center gap-2 mb-2'>
                                     <i class='bx bxl-whatsapp fs-1 text-success'></i>
@@ -37,7 +37,7 @@ function Contact_section_three() {
                         <Col lg={8}>
                             <h2 className='mb-4'>Business Inquiry </h2>
                             <div className='contact-bx3'>
-                                <h4 className='blue mb-4'>Become Our Partner</h4>
+                                <h4 className='blue mb-4'>Fill out the form below and we’ll be in touch right away!</h4>
                                 <Form>
                                     <Form.Group className="mb-2" controlId="formFullName">
                                         <Form.Label>Full Name</Form.Label>
@@ -51,6 +51,16 @@ function Contact_section_three() {
 
                                     <Form.Group className="mb-2" controlId="formPhone">
                                         <Form.Label>Phone</Form.Label>
+                                        <Form.Control type="text" />
+                                    </Form.Group>
+
+                                    <Form.Group className="mb-2" controlId="formFullName">
+                                        <Form.Label>Company</Form.Label>
+                                        <Form.Control type="text" />
+                                    </Form.Group>
+
+                                    <Form.Group className="mb-2" controlId="formFullName">
+                                        <Form.Label>Designation</Form.Label>
                                         <Form.Control type="text" />
                                     </Form.Group>
 

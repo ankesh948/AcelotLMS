@@ -66,9 +66,9 @@ function Home_section_six() {
                       </div>
                       <div className="testimonial_right">
                         <p className='testimonial_description'>
-                          <i class='bx bxs-quote-alt-left pe-3'></i> 
+                          <i className='bx bxs-quote-alt-left pe-3'></i> 
                             {testimonial.description} 
-                          <i class='bx bxs-quote-alt-right ps-3' ></i>
+                          <i className='bx bxs-quote-alt-right ps-3' ></i>
                         </p>
                       </div>
                     </div>

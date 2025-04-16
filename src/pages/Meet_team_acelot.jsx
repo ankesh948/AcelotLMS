@@ -12,7 +12,6 @@ function Meet_team_acelot() {
             <Meet_team_section_one />
             <Meet_team_section_three />
             <Meet_team_section_two />
-            <About_section_five />
             <Home_section_six />
         </>
     )

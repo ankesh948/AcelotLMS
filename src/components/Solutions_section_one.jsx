@@ -20,15 +20,6 @@ function Solutions_section_one() {
                                 <Button variant="primary" className="btn_two mt-4 mb-5">
                                     Request a Demo
                                 </Button>
-
-                                <div className="extra_link mt-5">
-                                    <ul className="list-unstyled d-flex flex-wrap gap-3">
-                                        <li><Link to="/">LMS Platform</Link></li>
-                                        <li><Link to="/">Corporate Training</Link></li>
-                                        <li><Link to="/">Blogs</Link></li>
-                                        {/* <li><Link to="/">AI Proctoring</Link></li> */}
-                                    </ul>
-                                </div>
                             </div>
                         </Col>
 

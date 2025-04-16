@@ -5,7 +5,9 @@ import { Col, Container, Row } from 'react-bootstrap';
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 
-import p1 from '../assets/images/product1.png';
+import LMS from '../assets/images/LMS.jpg';
+import COPORATE_TRAINING from '../assets/images/COPORATE-TRAINING.jpg';
+import AI_PROCT from '../assets/images/AI-PROCT.jpg';
 
 
 
@@ -17,7 +19,8 @@ function Home_section_three() {
                 <Container>
                     <Row>
                         <Col lg={12} className='text-center'>
-                            <h2 className='lead'>One Learning Platform. For All Your Learning Needs</h2>
+                            <p className='lead5 blue mb-0'>One Learning Platform</p>
+                            <h2 className='lead'>For All Your Learning Needs</h2>
                             <p className='subhead'>Your all-in-one learning solution to engage, train, and elevate every learner at every stage.</p>
                         </Col>
                     </Row>
@@ -58,7 +61,7 @@ function Home_section_three() {
                                 <div className="swiper-slide-content">
                                     <h2 className='p-title'>{slide.title}</h2>
                                     <p className='p-description'>{slide.description}</p>
-                                    <a className="show-more" href={slide.link} target="_blank" rel="noreferrer">
+                                    {/* <a className="show-more" href={slide.link} target="_blank" rel="noreferrer">
                                         <svg
                                             fill="none"
                                             stroke="currentColor"
@@ -69,15 +72,14 @@ function Home_section_three() {
                                         >
                                             <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25L21 12l-3.75 3.75M21 12H3" />
                                         </svg>
-                                    </a>
+                                    </a> */}
                                 </div>
                             </SwiperSlide>
                         ))}
 
-                        {/* Navigation Arrows */}
                         <div className="swiper-navigation">
-                            <button className="swiper-button-prev btn fs-1"><i class='bx bx-chevron-left'></i></button>
-                            <button className="swiper-button-next btn fs-1"><i class='bx bx-chevron-right'></i></button>
+                            <button className="swiper-button-prev"></button>
+                            <button className="swiper-button-next"></button>
                         </div>
                     </Swiper>
                 </div>
@@ -89,40 +91,40 @@ function Home_section_three() {
 const slides = [
     {
         title: 'LMS Platform',
-        image: p1,
-        description:'The Smartest online training software for your modern workforce.',
+        image: LMS,
+        description: 'The Smartest online training software for your modern workforce.',
         link: '/',
     },
     {
         title: 'AI Proctoring',
-        image: p1,
-        description:'Automated proctoring that works silently in the background, so your team spends less time reviewing and more time teaching.',
+        image: AI_PROCT,
+        description: 'Automated proctoring that works silently in the background, so your team spends less time reviewing and more time teaching.',
         link: '/',
     },
     {
         title: 'Corporate Training',
-        image: p1,
-        description:'Corporate training that’s as dynamic as your team, offering real-time learning tailored to their roles',
+        image: COPORATE_TRAINING,
+        description: 'Corporate training that’s as dynamic as your team, offering real-time learning tailored to their roles',
         link: '/',
-    }, 
+    },
     {
         title: 'LMS Platform',
-        image: p1,
-        description:'The Smartest online training software for your modern workforce.',
+        image: LMS,
+        description: 'The Smartest online training software for your modern workforce.',
         link: '/',
     },
     {
         title: 'AI Proctoring',
-        image: p1,
-        description:'Automated proctoring that works silently in the background, so your team spends less time reviewing and more time teaching.',
+        image: AI_PROCT,
+        description: 'Automated proctoring that works silently in the background, so your team spends less time reviewing and more time teaching.',
         link: '/',
     },
     {
         title: 'Corporate Training',
-        image: p1,
-        description:'Corporate training that’s as dynamic as your team, offering real-time learning tailored to their roles',
+        image: COPORATE_TRAINING,
+        description: 'Corporate training that’s as dynamic as your team, offering real-time learning tailored to their roles',
         link: '/',
-    },
+    }
 
     // add more slides as needed...
 ];
