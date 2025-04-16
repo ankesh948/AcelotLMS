@@ -35,7 +35,7 @@ const testimonials = [
 function Home_section_six() {
   return (
     <>
-      <section className='home_section_six'>
+      <section className='home_section_six' style={{backgroundImage: 'url(src/assets/images/bg.svg)'}}>
         <Container fluid>
           <Row className='align-items-center justify-content-center gx-5'>
             <Col lg={7} className='text-center'>
