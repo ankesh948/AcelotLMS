@@ -1,5 +1,6 @@
 import React from 'react'
 import { Button, Col, Container, Row } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 
 function About_section_five() {
     return (
@@ -10,9 +11,9 @@ function About_section_five() {
                         <Col lg={12} className='text-center'>
                             <div className="ctasection">
                                 <h1 className="lead2 mb-5 text-white">
-                                    Start Your Coporate Training Service in 30 Seconds!
+                                    Start Your Corporate Training
                                 </h1>
-                                <Button variant='primary' className='btn_three'>Get Started it's Free</Button>
+                                <Button as={Link} to={'/contact-us'} variant='primary' className='btn_three'>Get Started it's Free</Button>
                             </div>
                         </Col>
                     </Row>

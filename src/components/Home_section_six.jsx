@@ -10,23 +10,19 @@ import 'swiper/css/pagination';
 
 const testimonials = [
   {
-    name: 'Cheryl Quang',
-    designation: 'CEO and Founder, Online Courses Australia, Wandr, Learning Lounge',
+    name: 'Mr. Sandeep Banerjee',
+    description: 'Acelot has really helped us transform the team to be more proactive, customer centric and flawlessly handle complex customer situation through effective skill building and communication interventions.',
     image: 'https://ehwmisgwycz.exactdn.com/wp-content/uploads/2023/08/Patty-Costley.png?strip=all&lossy=1&w=1140&ssl=1',
-    description: 'Without Docebo, I couldn’t do it. Our customer success managers would go back to having the same conversations five times a day. Our churn would be higher. It’s not a life I want to go back to. Without Docebo, I couldn’t do it. Our customer success managers would go back to having the same conversations five times a day. Our churn would be higher. It’s not a life I want to go back to',
   },
   {
-    name: 'Patty Costley',
-    designation: 'CEO and Founder, Online Courses Australia, Wandr, Learning Lounge',
+    name: 'Ms. Shivi Singh',
+    description: 'Indeed the program was very well received by the teams. The newly created trackers are implemented by the managers and progress being measured. I am sure the team will incorporate session learning on field.lt was great learning experience.',
     image: 'https://ehwmisgwycz.exactdn.com/wp-content/uploads/2023/08/Patty-Costley.png?strip=all&lossy=1&w=1140&ssl=1',
-    description: 'Without Docebo, I couldn’t do it. Our customer success managers would go back to having the same conversations five times a day. Our churn would be higher. It’s not a life I want to go back to. Without Docebo, I couldn’t do it. Our customer success managers would go back to having',
   },
   {
-    name: 'Chris Van Reusen',
-    designation: 'CEO and Founder, Online Courses Australia, Wandr, Learning Lounge',
+    name: 'Misha Joshi',
+    description: 'Team Acelot worked with our Enablement and Leadership team to craft out a very unique program that helps our team anticipate business needs and become a trusted advisor to customers ',
     image: 'https://ehwmisgwycz.exactdn.com/wp-content/uploads/2023/08/Patty-Costley.png?strip=all&lossy=1&w=1140&ssl=1',
-    description:
-      'National art museum in Paris, France. Home to works like the Mona Lisa and Venus de Milo.',
   }
 ];
 
@@ -62,7 +58,7 @@ function Home_section_six() {
                       <div className="testimonial_left">
                         <img src={testimonial.image} alt={testimonial.name} />
                         <p className='subhead pt-3 mb-1'>{testimonial.name}</p>
-                        <p className='testimonial_degi'>{testimonial.designation}</p>
+                        {/* <p className='testimonial_degi'>{testimonial.designation}</p> */}
                       </div>
                       <div className="testimonial_right">
                         <p className='testimonial_description'>

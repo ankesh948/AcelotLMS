@@ -8,6 +8,7 @@ import Corporate_training from "./pages/Corporate_training";
 import Meet_team_acelot from "./pages/Meet_team_acelot";
 import Solutions from "./pages/Solutions";
 import Privacy_policy from "./pages/Privacy_policy";
+import ScrollToTop from "./inc/ScrollToTop";
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
   return (
     <>
         <BrowserRouter>
+          <ScrollToTop /> 
           <Header />
           <Routes>
             <Route path="/" element={<Index />} />

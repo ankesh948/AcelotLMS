@@ -38,12 +38,12 @@ const tabData = [
     description: 'Ensure your team understands the “why” behind every policy and procedure.',
     image: Compliance,
   },
-  {
-    id: 'tab6',
-    title: 'Localization',
-    description: 'Break language barriers with personalized learning experiences in multiple regional languages.',
-    image: Localization,
-  }
+  // {
+  //   id: 'tab6',
+  //   title: 'Localization',
+  //   description: 'Break language barriers with personalized learning experiences in multiple regional languages.',
+  //   image: Localization,
+  // }
 ];
 
 function Home_section_four() {
@@ -55,7 +55,9 @@ function Home_section_four() {
         <Row>
           <Col lg={12} className='text-center'>
             <h2 className='lead'><span className='blue'>Our</span> Solutions</h2>
-            <p className='subhead mb-5'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam impedit, distinctio facere doloremque possimus accusamus officiis nisi labore a accusantium consectetur odit, nesciunt deserunt nemo iure. Quasi consequatur error quam?</p>
+            <p className='lead5 mb-0 fw-600'>One Platform. Limitless Learning.</p>
+            <p className='subhead mb-5'>Create training experiences that leads to growth, enhances performance, and build stronger connections across your teams.
+            </p>
           </Col>
         </Row>
         

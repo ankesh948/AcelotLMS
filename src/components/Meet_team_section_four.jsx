@@ -34,7 +34,6 @@ import T22 from '../assets/images/team/sachin-verma.jpg';
 import T23 from '../assets/images/team/sanjeev-singh.jpg';
 import T24 from '../assets/images/team/sanyam-sharma.jpeg';
 import T25 from '../assets/images/team/seema-dey.jpg';
-import T26 from '../assets/images/team/shubam-jayant.jpeg';
 import T27 from '../assets/images/team/team-mem-22.jpg';
 import T28 from '../assets/images/team/team-mem-25.jpg';
 import T29 from '../assets/images/team/team-mem-27.jpg';
@@ -42,24 +41,25 @@ import T30 from '../assets/images/team/team-mem-30.jpg';
 import T31 from '../assets/images/team/v-natarajan.jpg';
 import T32 from '../assets/images/team/rishi-nanda.jpg';
 import T33 from '../assets/images/team/rithik-bajoai.jpg';
+import T34 from '../assets/images/team/ankesh.jpg';
 
 const teamImages = [
-    T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17,
-    T18, T19, T20, T21, T22, T23, T24, T25, T26, T27, T28, T29, T30, T31, T32, T33
+    T2, T3, T4, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17,
+    T18, T19, T21, T23, T24, T25, T27, T28, T29, T30, T31, T32, T34
 ];
 
 
-function Meet_team_section_three() {
+function Meet_team_section_four() {
     const [swiperRef, setSwiperRef] = useState(null);
 
 
     return (
         <>
-            <section className="Meet_team_section_two">
+            <section className="Meet_team_section_four">
                 <Container>
                     <Row className='justify-content-center'>
                         <Col lg={10} className='text-center mb-5'>
-                            <h1 className='lead'>Our Expert Team</h1>
+                            <h1 className='lead'>Our Trainers</h1>
                         </Col>
                     </Row>
 
@@ -102,4 +102,4 @@ function Meet_team_section_three() {
     )
 }
 
-export default Meet_team_section_three
+export default Meet_team_section_four

@@ -16,12 +16,14 @@ function Home_section_five() {
             </Col>
             <Col lg={6}>
               <div className='whybx-right'>
-                <h3 className='lead mb-4'><span className='blue'>Why</span> AcelotLMS ?</h3>
-                <p className='subhead'>AcelotLMS is a powerful yet simple platform that makes learning easy and effective. It helps you create, manage, and track courses effortlessly, allowing both learners and administrators to focus on growth and success</p>
-                <p className='cont'>With features like customisable courses, real-time progress tracking, and interactive tools, AcelotLMS keeps learners engaged while offering insights through detailed reports and analytics.</p>
-                <p className='cont'>Secure, mobile-friendly, and cloud-based, AcelotLMS grows with your needs. It’s the perfect solution for a seamless, always-improving learning experience.</p>
+                <h3 className='lead mb-4'><span className='blue'>Why</span> Acelot ?</h3>
+                <p className='subhead'>At Acelot, we combine the timeless value of traditional learning with the flexibility of modern, cutting-edge methods.
+                </p>
+                <p className='cont'> While classroom training offers direct interaction and structured learning, it can be limited by time, location, and scalability. Our platform bridges these gaps by offering both self-paced and instructor-led learning, providing your team with the freedom to learn at their own pace while maintaining personalised guidance.</p>
+                <p className='cont'>We enhance this experience with advanced, adaptive technologies that ensure every learner gets the most relevant and engaging content tailored to their needs. With Acelot, you get the best of both worlds—combining the structure and personal touch of traditional training with the flexibility and scalability of modern learning solutions.
+                </p>
                 <Button as={Link} to={'solutions'} variant="primary" className="btn_two mt-4">
-                  Find Out How
+                  Know More
                 </Button>
               </div>
             </Col>

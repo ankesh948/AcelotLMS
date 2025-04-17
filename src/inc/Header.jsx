@@ -62,10 +62,10 @@ const Header = () => {
 
               <Nav.Link as={Link} to="/contact-us">Contact Us</Nav.Link>
               <div className='loginarea'>
-                <Nav.Link as={Link} to="#login" className='blue'><b>Login</b></Nav.Link>
+                <Nav.Link as={Link} to={'/contact-us'} className='blue'><b>Request a Demo</b></Nav.Link>
               </div>
 
-              <Button variant="primary" className="ms-3 btn_one topbtn">Request a Demo</Button>
+              <Button as={Link} to={'/'} variant="primary" className="ms-3 btn_one topbtn">Login </Button>
             </Nav>
           </Navbar.Collapse>
         </Container>

@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Button, Col, Container, Row, Image } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
-import corporate_banner from '../assets/images/bgmap.svg'
+import corporate_banner from '../assets/images/corporate-training.png'
 
 function Corporate_section_one() {
 
@@ -17,9 +17,9 @@ function Corporate_section_one() {
                                     Corporate Training
                                 </h1>
                                 <p className="slide_description">
-                                    AcelotLMS is your all-in-one corporate training platform, built to empower modern businesses.
+                                    Build a future-ready workforce with Acelot.
                                 </p>
-                                <p>Whether you're launching a structured employee onboarding journey or need a powerful system to manage ongoing skill development, AcelotLMS delivers a seamless, scalable solution that boosts productivity and performance across your organisation.
+                                <p>Acelot helps you elevate employee development with tailored training programs that drive performance, foster growth, and strengthen skills across your organisation. From onboarding to leadership development, we ensure your team is always learning and evolving.
                                 </p>
 
                                 <Button as={Link} to={'/contact-us'} variant="primary" className="btn_two mt-4 mb-5">

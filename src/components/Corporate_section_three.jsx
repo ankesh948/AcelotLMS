@@ -1,6 +1,11 @@
 import React, { useState } from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 
+import program1 from '../assets/images/leadership-and-management-dev.jpg'
+import program2 from '../assets/images/oraganiztional-dev.jpg'
+import program3 from '../assets/images/sales-and-business-dev.jpg'
+import program4 from '../assets/images/skill-dev-and-personnal-effect.jpg'
+
 const tabData = [
     {
         id: 'tab1',
@@ -23,7 +28,7 @@ const tabData = [
                     <li>Inclusive Leadership</li>
                 </ul>
                 </div>`,
-        image: 'https://www.franklincovey.com/wp-content/uploads/2022/01/young-man-smiling-and-collaborating.jpg',
+        image: program1,
     },
     {
         id: 'tab2',
@@ -42,7 +47,7 @@ const tabData = [
                 <li>Customer Service Excellence</li>
                 <li>Sales Growth - Product & Processes</li>
             </ul></div>`,
-        image: 'https://www.franklincovey.com/wp-content/uploads/2022/01/young-man-smiling-and-collaborating.jpg',
+        image: program3,
     },
     {
         id: 'tab4',
@@ -60,7 +65,7 @@ const tabData = [
                     <li>Creating & Running Assessment Centres</li>
                 </ul>
                 </div>`,
-        image: 'https://www.franklincovey.com/wp-content/uploads/2022/01/young-man-smiling-and-collaborating.jpg',
+        image: program2,
     },
     {
         id: 'tab5',
@@ -80,7 +85,7 @@ const tabData = [
                     <li>Train-The-Trainer</li>
                     <li>Personal Grooming & Business Etiquette</li>
                 </ul></div>`,
-        image: 'https://www.franklincovey.com/wp-content/uploads/2022/01/young-man-smiling-and-collaborating.jpg',
+        image: program4,
     }
 ];
 

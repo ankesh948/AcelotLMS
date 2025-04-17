@@ -1,7 +1,11 @@
 import React from 'react';
 import { Container, Row, Col, Button, Image } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import banner from '../assets/images/banner.jpg';
+import banner1 from '../assets/images/1.jpeg';
+import banner2 from '../assets/images/2.jpeg';
+import banner3 from '../assets/images/3.jpeg';
+import banner4 from '../assets/images/4.jpeg';
+import banner5 from '../assets/images/banner.jpg';
 
 function HomeSectionOne() {
     return (
@@ -11,10 +15,10 @@ function HomeSectionOne() {
                     <Col lg={6} className="mb-4 mb-lg-0">
                         <div className="left_banner">
                             <h1 className="slide_head mb-3">
-                                Corporate Learning That Drives Performance.
+                                Learn more.<br/> Do more.<br/>  All in one place
                             </h1>
                             <p className="slide_description">
-                                Empower your workforce with tailored learning solutions for maximum growth and efficiency.
+                                The Only Learning Platform You’ll Ever Need.
                             </p>
 
                             <Button as={Link} to={'/contact-us'} variant="primary" className="btn_two mt-4">
@@ -49,12 +53,13 @@ function HomeSectionOne() {
 
                     <Col lg={6}>
                         <div className="right_banner text-center">
-                            <Image
-                                src={banner}
-                                alt="Corporate Learning Banner"
-                                fluid
-                                className="rounded"
-                            />
+                            <div className="fadeeffect-custom">
+                                <Image src={banner5} className="img-fluid fade-image" />
+                                <Image src={banner2} className="img-fluid fade-image" />
+                                <Image src={banner3} className="img-fluid fade-image" />
+                                <Image src={banner4} className="img-fluid fade-image" />
+                                <Image src={banner1} className="img-fluid fade-image" />
+                            </div>
                         </div>
                     </Col>
                 </Row>

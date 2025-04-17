@@ -17,12 +17,12 @@ function About_section_one() {
                                 <p className="slide_description">
                                     Acelot is an innovative EdTech organization committed to transforming India's employability landscape through advanced technology and dynamic learning solutions.  Founded in 2019 as a Business Transformation and Corporate Training house,
                                 </p>
-                                <p> we have expanded into a comprehensive provider of education and training services with three distinct business units: Acelot Business and Acelot LMS. Each unit addresses different aspects of learning and career advancement, making us a versatile player in the education sector.
+                                <p className='cont'>We have expanded into a comprehensive provider of education and training services with three distinct business units: Acelot Business and Acelot LMS. Each unit addresses different aspects of learning and career advancement, making us a versatile player in the education sector.
                                 </p>
 
                                 <div className="extra_link mt-5">
                                     <ul className="list-unstyled d-flex flex-wrap gap-3">
-                                        <li><Link to="/">Meet Team Acelot</Link></li>
+                                        <li><Link to="/meet-team-acelot">Meet Team Acelot</Link></li>
 
                                     </ul>
                                 </div>

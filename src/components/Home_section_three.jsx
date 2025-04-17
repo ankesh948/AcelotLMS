@@ -19,7 +19,7 @@ function Home_section_three() {
                 <Container>
                     <Row>
                         <Col lg={12} className='text-center'>
-                            <p className='lead5 blue mb-0'>One Learning Platform</p>
+                            <p className='lead5 mb-0'>One Learning Platform</p>
                             <h2 className='lead'>For All Your Learning Needs</h2>
                             <p className='subhead'>Your all-in-one learning solution to engage, train, and elevate every learner at every stage.</p>
                         </Col>
@@ -90,15 +90,15 @@ function Home_section_three() {
 
 const slides = [
     {
-        title: 'LMS Platform',
-        image: LMS,
-        description: 'The Smartest online training software for your modern workforce.',
-        link: '/',
-    },
-    {
         title: 'AI Proctoring',
         image: AI_PROCT,
         description: 'Automated proctoring that works silently in the background, so your team spends less time reviewing and more time teaching.',
+        link: '/',
+    },
+    {
+        title: 'LMS Platform',
+        image: LMS,
+        description: 'The Smartest online training software for your modern workforce.',
         link: '/',
     },
     {
@@ -108,15 +108,15 @@ const slides = [
         link: '/',
     },
     {
-        title: 'LMS Platform',
-        image: LMS,
-        description: 'The Smartest online training software for your modern workforce.',
-        link: '/',
-    },
-    {
         title: 'AI Proctoring',
         image: AI_PROCT,
         description: 'Automated proctoring that works silently in the background, so your team spends less time reviewing and more time teaching.',
+        link: '/',
+    },
+    {
+        title: 'LMS Platform',
+        image: LMS,
+        description: 'The Smartest online training software for your modern workforce.',
         link: '/',
     },
     {

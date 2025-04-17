@@ -41,32 +41,32 @@ function Contact_section_three() {
                                 <Form>
                                     <Form.Group className="mb-2" controlId="formFullName">
                                         <Form.Label>Full Name</Form.Label>
-                                        <Form.Control type="text" />
+                                        <Form.Control type="text" required />
                                     </Form.Group>
 
                                     <Form.Group className="mb-2" controlId="formEmail">
-                                        <Form.Label>Email</Form.Label>
-                                        <Form.Control type="email" />
+                                        <Form.Label>Company Email</Form.Label>
+                                        <Form.Control type="email"  required />
                                     </Form.Group>
 
                                     <Form.Group className="mb-2" controlId="formPhone">
                                         <Form.Label>Phone</Form.Label>
-                                        <Form.Control type="text" />
+                                        <Form.Control type="text" required />
                                     </Form.Group>
 
                                     <Form.Group className="mb-2" controlId="formFullName">
                                         <Form.Label>Company</Form.Label>
-                                        <Form.Control type="text" />
+                                        <Form.Control type="text" required />
                                     </Form.Group>
 
                                     <Form.Group className="mb-2" controlId="formFullName">
                                         <Form.Label>Designation</Form.Label>
-                                        <Form.Control type="text" />
+                                        <Form.Control type="text" required />
                                     </Form.Group>
 
                                     <Form.Group className="mb-2" controlId="formMessage">
                                         <Form.Label>Message</Form.Label>
-                                        <Form.Control as="textarea" rows={3} />
+                                        <Form.Control as="textarea"  rows={3} />
                                     </Form.Group>
 
                                     <Button variant="primary" className="btn_four mt-4" type="submit">
