@@ -1,7 +1,7 @@
 import React from 'react'
 import { Button, Col, Container, Row, Image } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
-
+import bg from '../assets/images/corporate-training.png';
 
 function Solutions_section_one() {
     return (
@@ -29,7 +29,7 @@ function Solutions_section_one() {
                         <Col lg={6}>
                             <div className="right_banner text-center">
                                 <Image
-                                    src={'http://localhost:5173/src/assets/images/corporate-training.png'}
+                                    src={bg}
                                     alt=""
                                     fluid
                                     className="rounded"
