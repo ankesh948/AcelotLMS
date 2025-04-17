@@ -1,5 +1,6 @@
 import React from 'react'
 import { Button, Col, Container, Row } from 'react-bootstrap'
+import img1 from '../assets/images/img2.png'
 
 function Solutions_section_three() {
    return (
@@ -14,8 +15,7 @@ function Solutions_section_three() {
                </Row>
                <Row className="gx-5  mb-5 align-items-center">
                   <Col lg={4} className='offset-1'>
-                     <img className="img-fluid rounded-5"
-                        src="/src/assets/images/img2.png" />
+                     <img className="img-fluid rounded-5" src={img1} />
                   </Col>
                   <Col lg={6}>
                      <h2 className="lead5 fw-bold">B2B Sales Specialities</h2>
@@ -35,7 +35,7 @@ function Solutions_section_three() {
 
                   <Col lg={4} className=''>
                      <img className="img-fluid rounded-5"
-                        src="/src/assets/images/img2.png" />
+                        src={img1} />
                   </Col>
                </Row>
 
