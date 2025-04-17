@@ -17,6 +17,9 @@ function Solutions_section_one() {
                                 <p className="slide_description">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates eligendi itaque quia minima iure aut impedit,  illo in nisi quam unde.
                                 </p>
+                                <p className="">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur ullam totam assumenda delectus aut repudiandae eum, perspiciatis fugit voluptas et. Suscipit tempore voluptatem magnam debitis a nemo possimus, eveniet aperiam?
+                                </p>
                                 <Button variant="primary" className="btn_two mt-4 mb-5">
                                     Request a Demo
                                 </Button>
@@ -26,7 +29,7 @@ function Solutions_section_one() {
                         <Col lg={6}>
                             <div className="right_banner text-center">
                                 <Image
-                                    src='https://ehwmisgwycz.exactdn.com/wp-content/uploads/2023/09/Software-hero-image.png?strip=all&lossy=1&ssl=1'
+                                    src={'http://localhost:5173/src/assets/images/corporate-training.png'}
                                     alt=""
                                     fluid
                                     className="rounded"
