@@ -18,7 +18,6 @@ function Solutions() {
             <Solutions_section_three />
             <Solutions_section_four />
 
-            <Home_section_six />
             <About_section_five />
             </>
     )

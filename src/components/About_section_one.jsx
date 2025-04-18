@@ -1,6 +1,8 @@
 import React from 'react'
 import { Col, Container, Row, Button, Image } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+ 
+import Banner from '../assets/images/about-us-bg.jpg';
 
 
 function About_section_one() {
@@ -33,8 +35,7 @@ function About_section_one() {
                         <Col lg={6}>
                             <div className="right_banner text-center">
                                 <Image
-                                    src='https://ehwmisgwycz.exactdn.com/wp-content/uploads/2023/09/Software-hero-image.png?strip=all&lossy=1&ssl=1'
-                                    alt="Corporate Learning Banner"
+                                    src={Banner}
                                     fluid
                                     className="rounded"
                                 />

@@ -1135,17 +1135,19 @@ ul.socialbx_two li a {
   width: 50px;
 }
 
-.Missionvition_content .d-flex img {
-  width: 35px;
+.Missionvition_content  img {
+  width: 55px;
 }
-
+.Missionvition_content {
+  height: 100%;
+}
 .Missionvition_content_inner {
   background: #ffffff;
   padding: 15px;
-  margin: 0 0 30px;
   border-radius: 10px;
   box-shadow: 11px 11px 10px #00000012;
   border-bottom: 3px solid #154899;
+  height: 100%;
 }
 
 .problem-bx {

@@ -39,7 +39,7 @@ function Home_section_six() {
         <Container fluid>
           <Row className='align-items-center justify-content-center gx-5'>
             <Col lg={7} className='text-center'>
-              <h3 className='subhead blue'>Tesimonials</h3>
+              <h3 className='subhead blue'>Testimonials</h3>
               <h3 className='lead mb-5'>Get the customer education
                 platform that gets results</h3>
             </Col>

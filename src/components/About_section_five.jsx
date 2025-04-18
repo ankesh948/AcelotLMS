@@ -11,9 +11,11 @@ function About_section_five() {
                         <Col lg={12} className='text-center'>
                             <div className="ctasection">
                                 <h1 className="lead2 mb-5 text-white">
-                                    Start Your Corporate Training
+                                    Want To Know How ?
                                 </h1>
-                                <Button as={Link} to={'/contact-us'} variant='primary' className='btn_three'>Get Started it's Free</Button>
+                                <Button as={Link} to={'/contact-us'} variant='primary' className='btn_three'>
+                                    Connect With Us
+                                </Button>
                             </div>
                         </Col>
                     </Row>

@@ -12,7 +12,7 @@ function Corporate_section_two() {
                             <img src={img2} className='img-fluid rounded-5' alt="" />
                         </Col>
                         <Col lg={7}>
-                            <h1 className='lead'>B2B Sales Specialities</h1>
+                            <h1 className='lead'>B2B Sales Specialist</h1>
                             <p className="subhead mb-3">Customised B2B Training Solutions for Transformative Success</p>
                             <p className='cont'>We offer customised training programs and strategic consultancy to help B2B organisations enhance their performance and achieve tangible results.
                             </p>

@@ -20,14 +20,14 @@ function Meet_team_section_two() {
                             <div className='leaders'>
                                 <img src="https://cdn.acelotlms.com/assets/frontend/acelot/about_us_images/Debashish-Sen.jpg" alt="" />
                                 <h2 className='leader_heading mb-0'>Debashish Sen</h2>
-                                <p className='subhead blue mb-0'>Business Director and CEO</p>
+                                <p className='subhead blue mb-0'>Co - Founder and CEO</p>
                             </div>
                         </Col>
                         <Col lg={6}>
                             <div className='leaders'>
                                 <img src="https://cdn.acelotlms.com/assets/frontend/acelot/about_us_images/joydeb.png" alt="" />
                                 <h2 className='leader_heading mb-0'>Joydeb Mukherjee</h2>
-                                <p className='subhead blue mb-0'>Business Director and CEO</p>
+                                <p className='subhead blue mb-0'>Founder and Director</p>
                             </div>
                         </Col>
                     </Row>
