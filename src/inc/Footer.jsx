@@ -1,10 +1,13 @@
 import React from 'react';
 import { Container, Image, Col, Row } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
-import logo from "../assets/images/logo.svg";
+import logo from "../assets/images/logo.png";
 import msme from "../assets/images/msme.png";
 import dpiit from "../assets/images/dpiit.png";
-import { Link } from 'react-router-dom';
+import skillindia from "../assets/images/skill-india.png";
+import certification1 from "../assets/images/certification-01.jpg";
+import certification2 from "../assets/images/certification-02.jpg";
 
 
 const Footer = () => {
@@ -18,7 +21,7 @@ const Footer = () => {
                 <Link to='/'>
                   <Image
                     src={logo}
-                    className='img-fluid'
+                    className='img-fluid logo-footer-logo'
                     alt='AcelotLMS'
                   />
                 </Link>
@@ -26,9 +29,22 @@ const Footer = () => {
                 <p className='pe-5'>90 B Delhi – Jaipur Expressway, Udyog Vihar, Sector 18, Gurugram – 122018 ,Haryana, India</p>
 
 
-                <div className='startupbx d-flex gap-5 mt-5'>
-                <img src={msme} className='img-fluid' alt="" />
-                <img src={dpiit} className='img-fluid' alt="" />
+                <div className='startupbx d-flex flex-wrap gap-4 mt-5'>
+                  <div>
+                    <img src={msme} className='' alt="" />
+                  </div>
+                  <div>
+                    <img src={dpiit} className='' alt="" />
+                  </div>
+                  <div>
+                    <img src={skillindia} className='' alt="" />
+                  </div>
+                  <div className=''>
+                    <img src={certification1} className='' alt="" />
+                  </div>
+                  <div>
+                    <img src={certification2} className='' alt="" />
+                  </div>
                 </div>
               </div>
             </Col>
@@ -119,12 +135,6 @@ const Footer = () => {
                       if (el) el.scrollIntoView({ behavior: 'smooth' });
                     }, 100);
                   }}>Compliance Training </Link></li>
-                  <li><Link to='/' onClick={() => {
-                    setTimeout(() => {
-                      const el = document.getElementById('solutions');
-                      if (el) el.scrollIntoView({ behavior: 'smooth' });
-                    }, 100);
-                  }}>Localization </Link></li>
                 </ul>
               </div>
             </Col>
@@ -207,7 +217,16 @@ const Footer = () => {
         </Container>
 
         <div className='bottom-bar'>
-          <p className='mb-0'>Copyright © 2025 - Acelot - All Rights Reserved.</p>
+          <Container>
+            <Row>
+              <Col lg={6} className=''>
+                <p className='mb-0'>© 2025 Copyright @ Acelot Innovation Private limited, All Rights Reserved</p>
+              </Col>
+              <Col lg={6} className='text-end'>
+                <p className='mb-0 '><span>Build With</span> <i className='bx bxs-heart text-danger sdsd fs-3'></i>  <span> In India</span></p>
+              </Col>
+            </Row>
+          </Container>
         </div>
       </section >
     </>

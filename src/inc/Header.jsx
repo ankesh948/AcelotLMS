@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Navbar, Nav, NavDropdown, Container, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
-import logo from "../assets/images/logo.svg";
+import logo from "../assets/images/logo.png";
 
 const Header = () => {
   const [isSticky, setIsSticky] = useState(false);
@@ -57,7 +57,6 @@ const Header = () => {
                 <NavDropdown.Item as={Link} to="#solution3">Remote Workforce Training</NavDropdown.Item>
                 <NavDropdown.Item as={Link} to="#solution3">Sales Training</NavDropdown.Item>
                 <NavDropdown.Item as={Link} to="#solution3">Compliance Training</NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="#solution3">Localization</NavDropdown.Item>
               </NavDropdown>
 
               <Nav.Link as={Link} to="/contact-us">Contact Us</Nav.Link>

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Col, Container, Row, Image } from 'react-bootstrap'
-import img1 from '../assets/images/Onboarding-training.webp';
+import img1 from '../assets/images/core-value-01.jpg';
 import Accordion from 'react-bootstrap/Accordion';
 
 
@@ -11,7 +11,7 @@ function About_section_four() {
                 <Container>
                     <Row className='align-items-center justify-content-center'>
                         <Col lg={5}>
-                            <Image src={img1} className='img-fluid' />
+                            <Image src={img1} className='img-fluid rounded-5' />
                         </Col>
                         <Col lg={7}>
                             <div className="Missionvition_content">

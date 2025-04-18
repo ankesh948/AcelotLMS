@@ -573,7 +573,7 @@ body {
   }
 }
 
-.logo-footer img {
+.logo-footer .logo-footer-logo {
   width: 260px;
 }
 
@@ -824,6 +824,7 @@ body {
   height: 100%;
   transition: all 0.4s;
   transform: translate(0, 10px);
+  padding: 18px;
 
 
   &:hover {
@@ -836,33 +837,45 @@ body {
   }
 }
 
+.sdsd {
+  position: relative;
+  top: 4px;
+}
+
 .startupbx img {
-  width: 140px;
+  height: 62px;
+  width: inherit !important;
 }
 
 .corporate_section_four .col-lg-4:nth-child(1) .fiveDsection.active {
   border-bottom: 2px solid #f4831f;
   transform: translate(0, 0);
+  background: #E6F4FB;
 }
 
 .corporate_section_four .col-lg-4:nth-child(2) .fiveDsection.active {
   border-bottom: 2px solid #008fd3;
   transform: translate(0, 0);
+  background: #E6F4FB;
+
 }
 
 .corporate_section_four .col-lg-4:nth-child(3) .fiveDsection.active {
   border-bottom: 2px solid #0df0c6;
   transform: translate(0, 0);
+  background: #E6F4FB;
 }
 
 .corporate_section_four .col-lg-4:nth-child(4) .fiveDsection.active {
   border-bottom: 2px solid #9a00e8;
   transform: translate(0, 0);
+  background: #E6F4FB;
 }
 
 .corporate_section_four .col-lg-4:nth-child(5) .fiveDsection.active {
   border-bottom: 2px solid #fffb00;
   transform: translate(0, 0);
+  background: #E6F4FB;
 }
 
 .corporate_section_four {
@@ -1135,12 +1148,14 @@ ul.socialbx_two li a {
   width: 50px;
 }
 
-.Missionvition_content  img {
+.Missionvition_content img {
   width: 55px;
 }
+
 .Missionvition_content {
   height: 100%;
 }
+
 .Missionvition_content_inner {
   background: #ffffff;
   padding: 15px;
@@ -1169,5 +1184,8 @@ ul.socialbx_two li a {
 }
 
 .Solutions_section_four {
+  padding: 70px 0;
+}
+.Corporate_section_six{
   padding: 70px 0;
 }
