@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 
-import program1 from '../assets/images/leadership-and-management-dev.jpg'
-import program2 from '../assets/images/oraganiztional-dev.jpg'
-import program3 from '../assets/images/sales-and-business-dev.jpg'
-import program4 from '../assets/images/skill-dev-and-personnal-effect.jpg'
+import program1 from '../assets/images/L&M.jpg'
+import program2 from '../assets/images/OD.jpg'
+import program3 from '../assets/images/S&B.jpg'
+import program4 from '../assets/images/SD&PE.jpg'
 
 const tabData = [
     {

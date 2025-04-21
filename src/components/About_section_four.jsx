@@ -1,6 +1,6 @@
 import React from 'react'
 import { Col, Container, Row, Image } from 'react-bootstrap'
-import img1 from '../assets/images/core-value-01.jpg';
+import img1 from '../assets/images/core-value.gif';
 import Accordion from 'react-bootstrap/Accordion';
 
 

@@ -12,6 +12,7 @@ import g4 from '../assets/images/gallery/4.jpg'
 import g5 from '../assets/images/gallery/5.jpg'
 import g6 from '../assets/images/gallery/6.jpg'
 import g7 from '../assets/images/gallery/7.jpg'
+import g8 from '../assets/images/gallery/8.mp4'
 import g9 from '../assets/images/gallery/9.jpg'
 import g10 from '../assets/images/gallery/10.jpg'
 import g11 from '../assets/images/gallery/11.jpg'
@@ -22,7 +23,7 @@ import g15 from '../assets/images/gallery/15.jpg'
 import g16 from '../assets/images/gallery/16.jpg'
 import g17 from '../assets/images/gallery/17.jpg'
 import g18 from '../assets/images/gallery/18.mp4'
-import g8 from '../assets/images/gallery/8.mp4'
+import g19 from '../assets/images/gallery/19.jpg'
 import g20 from '../assets/images/gallery/DCGPAC.jpg'
 
 
@@ -34,7 +35,8 @@ function Corporate_section_six() {
                 <Container>
                     <Row>
                         <Col lg={12} className='text-center'>
-                            <h2 className='lead mb-5'>Our Success</h2>
+                            <h2 className='lead mb-5'>Our Success Stories
+                            </h2>
                         </Col>
                     </Row>
                 </Container>
@@ -70,8 +72,9 @@ function Corporate_section_six() {
                         <SwiperSlide>
                             <video src={g8} controls loop muted className='w-100' />
                         </SwiperSlide>
-                        <SwiperSlide>
-                            <video src={g18} controls loop muted className='w-100' />
+                        <SwiperSlide className='bg-white'>
+                            <video src={g18} controls loop muted className='w-100 ' />
+                            <h4 className='mb-0 p-3 m-auto blue'>Chairman and MD of DCGPAC</h4>
                         </SwiperSlide>
                         
                         <SwiperSlide>
@@ -136,6 +139,9 @@ function Corporate_section_six() {
                         </SwiperSlide>
                         <SwiperSlide>
                             <img src={g17} className='img-fluid' />
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <img src={g19} className='img-fluid' />
                         </SwiperSlide>
                         <SwiperSlide>
                             <img src={g20} className='img-fluid' />

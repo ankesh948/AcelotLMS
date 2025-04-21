@@ -1,111 +1,104 @@
-import React from 'react'
+import React from 'react';
+import { Container, Form, Button, Card, Image, } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
+import googleImage from '../assets/images/google.svg'
+import facebookImage from '../assets/images/facebook.svg'
 
 function Login() {
+
+
+
     return (
-        <div>
-            <div className="acelot-signupform">
-                <div className="card custom-card mb-0">
-                    <div className="card-body m-0">
-                        <div className="mb-3 d-flex justify-content-center">
-                            <a href="/">
-                                <img src="https://cdn.acelotlms.in/uploads/system/149/uat/9626f2981b424d392f04d143acb81767light-logo.png" alt="Ppt" className="desktop-logo" /> 
-                            </a>
-                        </div>
-                        <h4 className="mb-3 text-center"> Sign in to your <span className="fs-20 text-uppercase text-primary">Ppt</span> account                            </h4>
-                        <div className="row ">
-                            <form className="input-left-border form-ak">
-                                <div className="col-xl-12">
-                                    <h6 className="warning" style="color:orangered;" id="msglogin"></h6>
-                                </div>
-                                <div className="col-xl-12" id="uname">
-                                    <input type="text" name="email" className="form-control form-control-lg" id="signin-username" placeholder="" />
-                                        <label for="signin-username" className="form-label text-default"> Email / Mobile No / Employee code                                            <span className="red-color">*</span></label>
-                                        <label id="name-error" className="error d-none" for="name">Please enter user name                                        </label>
-                                </div>
-
-                                <div className="col-xl-12 my-3">
-                                    <div className="input-group">
-                                        <input type="password" name="password
-                                        " className="form-control form-control-lg" id="signin-password" placeholder="" />
-                                            <label for="signin-password" className="form-label text-default d-block">Password                                                <span className="red-color">*</span></label>
-                                            <button className="btn btn-light" type="button" onclick="createpassword('signin-password',this)" id="button-addon2"><i className="ri-eye-off-line align-middle"></i></button>
-                                    </div>
-                                    <label id="name-error" className="error  d-none" for="name"> Please enter password</label>
-                                    <div className="col-xl-12 otpclassName" style="display: none;">
-                                        <label className="mt-2 text-muted">Your OTP has been sent to Registered Phone Number.
-                                        </label>
-                                        <input placeholder="6 Digit OTP" id="otp_id" name="mobile_otp" type="text" className="form-control form-control-lg" />
-                                    </div>
-                                </div>
-
-                                <div className="d-flex justify-content-between align-items-center">
-
-                                    <a href="https://ppt.acelotlms.in/login/reset" className="float-end text-primary">
-                                        Forgot password                                            ?</a>
-
-                                    <div className="mt-2" id="loginUser">
-                                        <a href="javascript:void(0);" onclick="loginUser();" className="btn btn-lg btn-primary fw-bold Disable">Sign In <i className="bx bx-chevrons-right"></i></a>
-                                    </div>
-                                    <div className="mt-2" id="loadbtn" style="display: none !important;">
-                                        <button className="btn btn-primary btn-loader w-100">
-                                            <span className="me-2">Loading</span>
-                                            <span className="loading"><i className="ri-loader-2-fill fs-16"></i></span>
-                                        </button>
-                                    </div>
-                                    <div className="mt-2" id="verify_otp" style="display :none !important;">
-                                        <a href="javascript:;" onclick="verify_otp();" className="btn btn-lg btn-primary fw-bold Disable">Sign In<i className="bx bx-chevrons-right"></i></a>
-
-                                    </div>
-                                </div>
-
-                            </form>
-                            <div className="striped">
-                                <span className="striped-line"></span>
-                                <span className="striped-text">OR continue with</span>
-                                <span className="striped-line"></span>
+        <>
+            <section className='from_login'>
+                <Container className="d-flex  justify-content-center ">
+                    <Card className="main-form-bx p-4 shadow w-100" style={{ maxWidth: '500px' }}>
+                        <Card.Body>
+                            <h4 className="text-center blue mb-4">
+                                Sign in
+                            </h4>
+                            <div className='d-flex gap-2 align-items-center justify-content-center mb-3'>
+                                <Link to={'/'} className='lh-1'>
+                                    <i className='bx bx-edit fs-4 text-info'></i>
+                                </Link>
+                                <p className='fw-600 mb-0'>Instance 3</p>
                             </div>
-                            <div className="method" style="display: flex; flex-direction: row; gap: 10px; align-items: center; justify-content:center">
-                                <div className="method-control">
-                                    <a href="https://ppt.acelotlms.in/social_login/by/google" className="method-action">
-                                        <img src="https://acelot-common-bucket.s3.ap-south-1.amazonaws.com/google.svg" alt="" style="width:25px" />
+                            <Form>
+                                <Form.Group className="mb-3">
+                                    <Form.Label>
+                                        Email / Mobile No / Employee Code <span className="text-danger">*</span>
+                                    </Form.Label>
+                                    <Form.Control type="text" placeholder="Enter Your Email / Mobile No / Employee Code" />
+                                </Form.Group>
 
-                                    </a>
+                                <Form.Group className="mb-3">
+                                    <Form.Label>
+                                        Password <span className="text-danger">*</span>
+                                    </Form.Label>
+                                    <div className="d-flex">
+                                        <Form.Control type="password" placeholder="Enter Your Password" />
+                                    </div>
+
+                                </Form.Group>
+
+                                <div className="mb-3" style={{ display: 'none' }}>
+                                    <Form.Label className="text-muted">Your OTP has been sent to Registered Phone Number.</Form.Label>
+                                    <Form.Control type="text" placeholder="6 Digit OTP" />
                                 </div>
-                                <div className="method-control">
-                                    <a href="https://ppt.acelotlms.in/social_login/by/facebook" className="method-action">
-                                        <img src="https://acelot-common-bucket.s3.ap-south-1.amazonaws.com/facebook.svg" alt="" style="width:25px" />
 
-                                    </a>
+                                <div className="d-flex justify-content-end mb-3">
+                                    <Link to="" className="text-primary text-decoration-none blue fw-600 text-end">
+                                        Forgot password?
+                                    </Link>
                                 </div>
 
-                            </div>
-                            <div className="d-flex justify-content-center align-item-center mt-2">
-                                <p className="text text-normal mb-0">Dont have an account yet ?                                            <span>
-                                    <a href="https://ppt.acelotlms.in/login/signup" className="text text-links text-primary">Create an account</a>
-                                </span>
+                                <Button className="w-100 btn_four mb-2 rounded-pill">
+                                    Sign In
+                                </Button>
+
+                                <div style={{ display: 'none' }}>
+                                    <Button className="w-100 fw-bold" >
+                                        Verify OTP <i className="bx bx-chevrons-right"></i>
+                                    </Button>
+                                </div>
+
+                                <div className="text-center my-3">
+                                    <div className="d-flex align-items-center">
+                                        <hr className="flex-grow-1" />
+                                        <span className="px-2">Or continue with</span>
+                                        <hr className="flex-grow-1" />
+                                    </div>
+                                </div>
+
+                                <div className="social_login d-flex justify-content-center gap-3 mb-3">
+                                    <Link to=''>
+                                        <Image
+                                            src={googleImage}
+                                            alt="Google"
+                                            style={{ width: '30px' }}
+                                        />
+                                    </Link>
+                                    <Link to=''>
+                                        <Image
+                                            src={facebookImage}
+                                            alt="Facebook"
+                                            style={{ width: '30px' }}
+                                        />
+                                    </Link>
+                                </div>
+                                <p className="text-center text-muted">
+                                    Don’t have an account yet?{' '}
+                                    <Link to="/login/signup" className="text-primary text-decoration-none blue fw-600">
+                                        Create an account
+                                    </Link>
                                 </p>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div className="text-center d-none">
-                        <p className="text-muted fs-9 p-1 mb-0" style="line-height: 12px;">This application ‘AcelotLMS’ is available only for authorized users. If you are not an authorized user, please disconnect the session by closing the browser immediately. By accessing this system, you agree that your actions may be monitored if unauthorised usage is suspected.</p>
-                        <p className="b mt-2 mb-0">Copyright © <script type="text/javascript">
-                            var year = new Date();
-                            document.write(year.getFullYear());
-                        </script>2025
-                            Acelot Innovation Private Limited </p>
-                        <ul className="d-inline-flex mb-0">
-                            <li><a className="blue text-primary me-4" target="_blank" href="https://acelotlms.com/terms-and-condition/">Terms and conditions</a> </li>
-                            <li><a className="blue text-primary" target="_blank" href="https://acelotlms.com/privacy-policy/">Privacy Policy</a></li>
-                        </ul>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    )
+                            </Form>
+                        </Card.Body>
+                    </Card>
+                </Container>
+            </section>
+        </>
+    );
 }
 
-export default Login
+export default Login;

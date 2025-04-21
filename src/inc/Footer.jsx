@@ -5,9 +5,7 @@ import { Link } from 'react-router-dom';
 import logo from "../assets/images/logo.png";
 import msme from "../assets/images/msme.png";
 import dpiit from "../assets/images/dpiit.png";
-import skillindia from "../assets/images/skill-india.png";
-import certification1 from "../assets/images/certification-01.jpg";
-import certification2 from "../assets/images/certification-02.jpg";
+import mepse from "../assets/images/mepse.png";
 
 
 const Footer = () => {
@@ -36,15 +34,15 @@ const Footer = () => {
                   <div>
                     <img src={dpiit} className='' alt="" />
                   </div>
-                  <div>
-                    <img src={skillindia} className='' alt="" />
+                   <div>
+                    <img src={mepse} className='' alt="" />
                   </div>
-                  <div className=''>
+                  {/*<div className=''>
                     <img src={certification1} className='' alt="" />
                   </div>
                   <div>
                     <img src={certification2} className='' alt="" />
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </Col>
@@ -179,35 +177,6 @@ const Footer = () => {
                     </Link>
                   </li>
                 </ul>
-                {/* <ul className='socialbx'>
-                  <li>
-                    <Link to='https://www.facebook.com/acelotacademy/'>
-                      <i class='bx bxl-facebook-circle'></i>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to='https://twitter.com/Acelot_Academy?s=09'>
-                      <i class='bx bxl-twitter'></i>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to='https://www.linkedin.com/company/acelot-academy'>
-                      <i class='bx bxl-linkedin'></i></Link>
-                  </li>
-                  <li>
-                    <Link to='https://youtube.com/channel/UCTVGTNSJpmkFWG9-ZGQkqKA'>
-                      <i class='bx bxl-youtube'></i></Link>
-                  </li>
-                  <li>
-                    <Link to='https://instagram.com/acelot.academy?utm_medium=copy_link'>
-                      <i class='bx bxl-instagram'></i></Link>
-                  </li>
-                  <li>
-                    <Link to='https://wa.me/+919999211110'>
-                      <i class='bx bxl-whatsapp'></i></Link>
-                  </li>
-                </ul> */}
-
               </div>
             </Col>
 
@@ -219,10 +188,10 @@ const Footer = () => {
         <div className='bottom-bar'>
           <Container>
             <Row>
-              <Col lg={6} className=''>
-                <p className='mb-0'>© 2025 Copyright @ Acelot Innovation Private limited, All Rights Reserved</p>
+              <Col lg={7} className='text-start'>
+                <p className='mb-0 cont'>© 2025 Copyright @ Acelot Innovation Private limited, All Rights Reserved</p>
               </Col>
-              <Col lg={6} className='text-end'>
+              <Col lg={5} className='text-end'>
                 <p className='mb-0 '><span>Build With</span> <i className='bx bxs-heart text-danger sdsd fs-3'></i>  <span> In India</span></p>
               </Col>
             </Row>

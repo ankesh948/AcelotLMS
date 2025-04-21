@@ -28,9 +28,8 @@ const Header = () => {
           <Navbar.Brand as={Link} to="/">
             <img
               src={logo}
-              height="58"
               alt="Acelot Logo"
-              className="d-inline-block align-top"
+              className="headLogo d-inline-block align-top"
             />
           </Navbar.Brand>
 
@@ -60,11 +59,12 @@ const Header = () => {
               </NavDropdown>
 
               <Nav.Link as={Link} to="/contact-us">Contact Us</Nav.Link>
+              <Button as={Link} to={'/select-instance'} variant="primary" className="ms-3 btn_one topbtn">Login </Button>
+
               <div className='loginarea'>
                 <Nav.Link as={Link} to={'/contact-us'} className='blue'><b>Request a Demo</b></Nav.Link>
               </div>
 
-              <Button as={Link} to={'/'} variant="primary" className="ms-3 btn_one topbtn">Login </Button>
             </Nav>
           </Navbar.Collapse>
         </Container>

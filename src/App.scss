@@ -21,21 +21,26 @@ body {
   max-width: 74%;
 }
 
+.headLogo {
+  height: 52px;
+}
+
 .custom_nav {
-  padding: 40px 0 0;
+  padding: 5px 0;
   position: fixed;
   width: 100%;
   background: white;
-  transition: all;
+  transition: all 0.3s;
   z-index: 999;
 
   .loginarea {
-    padding-left: 25px;
+    padding-left: 10px;
 
     a {
       background: #0168ae;
       border-radius: 6px;
       color: white !important;
+      border-radius: 50px;
 
       &:hover {
         background: #015289;
@@ -45,7 +50,7 @@ body {
 
   .container {
     border-bottom: 1px solid #00000021;
-    align-items: end;
+    align-items: center;
     padding-bottom: 10px;
   }
 
@@ -90,9 +95,7 @@ body {
 }
 
 .topbtn {
-  position: absolute;
-  top: -54px;
-  right: 0;
+  position: relative;
 }
 
 .btn_one {
@@ -105,11 +108,14 @@ body {
   font-weight: 500;
   line-height: 24px;
   text-decoration: none;
-  border: 2px solid #0168AE;
+  border: 1px solid #0168ae38;
   box-shadow: none;
   margin: 0;
   transition: all 0.2s;
 
+  &:hover{
+    background: #015b99;
+  }
 }
 
 .btn_two {
@@ -632,8 +638,8 @@ body {
   width: 100%;
   z-index: 1050;
   background-color: white;
-  padding-top: 0;
-  transition: all 0.2s;
+  padding: 0 0;
+  transition: all 0.3s;
 
   .navbar {
     padding-bottom: 0;
@@ -644,7 +650,7 @@ body {
   }
 
   .btn_one {
-    margin: -20px 0 0;
+    margin: 0;
     transition: all 0.2s;
   }
 }
@@ -843,7 +849,7 @@ body {
 }
 
 .startupbx img {
-  height: 62px;
+  height: 52px;
   width: inherit !important;
 }
 
@@ -1186,6 +1192,38 @@ ul.socialbx_two li a {
 .Solutions_section_four {
   padding: 70px 0;
 }
-.Corporate_section_six{
+
+.Corporate_section_six {
   padding: 70px 0;
+}
+
+
+
+.main-form-bx {
+  min-height: 400px;
+  border-radius: 40px;
+  border: none;
+}
+
+.main-form-bx label {
+  color: #787878;
+}
+
+.from_login .form-control {
+  border-radius: 50px;
+  padding: 12px 15px;
+
+  &::placeholder {
+    color: #b9b9b9;
+  }
+}
+
+.social_login a {
+  padding: 8px;
+  box-shadow: 0px 0 10px #00000038;
+  border-radius: 8px;
+}
+
+.from_login {
+  padding: 200px 0 70px;
 }

@@ -91,16 +91,16 @@ const teamImages = [
         image: T19,
         link: 'https://www.linkedin.com/in/partheban-venkatachalam-622372250/'
     },
-    {
-        name: 'Simranjot Kaur',
-        image: T27,
-        link: 'https://www.linkedin.com/in/simranjot-kaur-0b69a5313/'
-    },
-    {
-        name: 'Kaniz Fatima',
-        image: T28,
-        link: 'https://www.linkedin.com/in/kanizfatima0318/'
-    },
+    // {
+    //     name: 'Simranjot Kaur',
+    //     image: T27,
+    //     link: 'https://www.linkedin.com/in/simranjot-kaur-0b69a5313/'
+    // },
+    // {
+    //     name: 'Kaniz Fatima',
+    //     image: T28,
+    //     link: 'https://www.linkedin.com/in/kanizfatima0318/'
+    // },
     {
         name: 'Danyal Ozair',
         image: T8,
