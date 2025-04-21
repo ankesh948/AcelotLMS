@@ -44,18 +44,17 @@ const Header = () => {
               </NavDropdown>
 
               <NavDropdown title="Products" id="product-dropdown">
-                <NavDropdown.Item as={Link} to="#product1">LMS Platform</NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="#product2">AI Proctoring</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/contact-us">LMS Platform</NavDropdown.Item>
+                {/* <NavDropdown.Item as={Link} to="/contact-us">AI Proctoring</NavDropdown.Item> */}
                 <NavDropdown.Item as={Link} to="/corporate-training">Corporate Training</NavDropdown.Item>
               </NavDropdown>
 
               <NavDropdown title="Solutions" id="solutions-dropdown">
-                <NavDropdown.Item as={Link} to="/solutions">Solutions</NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="#solution1">Onboarding Training</NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="#solution2">Product Training</NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="#solution3">Remote Workforce Training</NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="#solution3">Sales Training</NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="#solution3">Compliance Training</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/contact-us">Onboarding Training</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/contact-us">Product Training</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/contact-us">Remote Workforce Training</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/contact-us">Sales Training</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/contact-us">Compliance Training</NavDropdown.Item>
               </NavDropdown>
 
               <Nav.Link as={Link} to="/contact-us">Contact Us</Nav.Link>

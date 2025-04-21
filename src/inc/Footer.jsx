@@ -56,6 +56,7 @@ const Footer = () => {
                   <li><Link to='/about-us'>About Us</Link></li>
                   <li><Link to='/blog'>Blog</Link></li>
                   <li><Link to='/privacy-policy'>Privacy Policy</Link></li>
+                  <li><Link to='/contact-us'>Contact Us</Link></li>
                 </ul>
               </div>
             </Col>
@@ -64,7 +65,6 @@ const Footer = () => {
               <div className='footer_bx1'>
                 <h3>Our Producs:</h3>
                 <ul>
-
                   <li>
                     <Link to='/' onClick={() => {
                       setTimeout(() => {
@@ -75,7 +75,7 @@ const Footer = () => {
                       LMS Platform
                     </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link to='/' onClick={() => {
                       setTimeout(() => {
                         const el = document.getElementById('products');
@@ -84,7 +84,7 @@ const Footer = () => {
                     }}>
                       AI Proctoring
                     </Link>
-                  </li>
+                  </li> */}
                   <li>
                     <Link to='/' onClick={() => {
                       setTimeout(() => {
