@@ -192,7 +192,7 @@ const Footer = () => {
                 <p className='mb-0 cont'>© 2025 Copyright @ Acelot Innovation Private limited, All Rights Reserved</p>
               </Col>
               <Col lg={5} className='text-end'>
-                <p className='mb-0 '><span>Build With</span> <i className='bx bxs-heart text-danger sdsd fs-3'></i>  <span> In India</span></p>
+                <p className='mb-0 cont'><span>Build With</span> <i className='bx bxs-heart text-danger sdsd fs-3'></i>  <span> In India</span></p>
               </Col>
             </Row>
           </Container>
