@@ -113,7 +113,7 @@ body {
   margin: 0;
   transition: all 0.2s;
 
-  &:hover{
+  &:hover {
     background: #015b99;
   }
 }
@@ -1226,4 +1226,60 @@ ul.socialbx_two li a {
 
 .from_login {
   padding: 200px 0 70px;
+}
+
+.htmldata p {
+  padding: 0;
+}
+
+.Lms_two {
+
+  .solution-bx {
+    background: #f7f7f7;
+    padding: 15px;
+    border-radius: 15px;
+
+    h3 {
+      background: transparent;
+      padding: 15px 0;
+      border-bottom: 1px solid #ccc;
+      border-radius: 0;
+    }
+  }
+}
+
+.Acelot-bx {
+  background: #f7f7f7;
+  padding: 22px;
+  border-radius: 30px;
+  height: 100%;
+  cursor: pointer;
+}
+
+.Acelot-bx img {
+  width: 130px;
+}
+
+.Acelot-bx p.lead5 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+  color: var(--dark);
+}
+
+.Lms_three {
+  padding: 70px 0;
+}
+
+.Lms_four {
+  padding: 70px 0;
+}
+
+.Acelot-bx .lead5 {
+  transition: all 0.4s;
+}
+
+.Acelot-bx:hover .lead5 {
+  scale: 1.051;
+  transition: all 0.4s;
 }

@@ -32,7 +32,6 @@ const Header = () => {
               className="headLogo d-inline-block align-top"
             />
           </Navbar.Brand>
-
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto align-items-center">
@@ -44,7 +43,7 @@ const Header = () => {
               </NavDropdown>
 
               <NavDropdown title="Products" id="product-dropdown">
-                <NavDropdown.Item as={Link} to="/contact-us">LMS Platform</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/lms-platform">LMS Platform</NavDropdown.Item>
                 {/* <NavDropdown.Item as={Link} to="/contact-us">AI Proctoring</NavDropdown.Item> */}
                 <NavDropdown.Item as={Link} to="/corporate-training">Corporate Training</NavDropdown.Item>
               </NavDropdown>
