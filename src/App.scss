@@ -180,7 +180,7 @@ body {
 .slide_head {
   font-size: 68px;
   font-weight: 700;
-  color: #373737;
+  color: #292929;
 }
 
 .slide_descreption {
@@ -1225,7 +1225,7 @@ ul.socialbx_two li a {
 }
 
 .from_login {
-  padding: 200px 0 70px;
+  padding: 130px 0 70px;
 }
 
 .htmldata p {
@@ -1235,9 +1235,6 @@ ul.socialbx_two li a {
 .Lms_two {
 
   .solution-bx {
-    background: #f7f7f7;
-    padding: 15px;
-    border-radius: 15px;
 
     h3 {
       background: transparent;
@@ -1261,9 +1258,8 @@ ul.socialbx_two li a {
 }
 
 .Acelot-bx p.lead5 {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 600;
-  line-height: 30px;
   color: var(--dark);
 }
 
@@ -1282,4 +1278,65 @@ ul.socialbx_two li a {
 .Acelot-bx:hover .lead5 {
   scale: 1.051;
   transition: all 0.4s;
+}
+
+.htmldata {
+  display: flex;
+  gap: 1.5%;
+  flex-wrap: wrap;
+}
+
+
+.htmldata_inner {
+  background: #f7f7f7;
+  padding: 15px;
+  border-radius: 20px;
+  width: 49.2%;
+  box-shadow: 0px 7px 10px #00000014;
+  margin: 0 0 30px;
+}
+
+.htmldata_inner:hover {
+  background: #e6f4fb;
+}
+
+.htmldata_inner b {
+  display: block;
+  min-height: 62px;
+  font-size: 20px;
+  line-height: normal;
+  color: var(--dark);
+  font-weight: 600;
+}
+
+.htmldata_inner p {
+  color: #4c4c4c;
+}
+
+.Acelot-bx img {
+  width: 70px;
+  margin-bottom: 15px;
+}
+
+.Industries_bx {
+  text-align: center;
+  border: 1px solid #cccccc52;
+  padding: 20px;
+  border-radius: 30px;
+  transition: 0.4s;
+
+  &:hover {
+    background: #dfecf3;
+    transform: translate(0, -10px);
+    transition: 0.4s;
+    cursor: pointer;
+  }
+
+  h4 {
+    margin: 10px 0 0;
+  }
+}
+
+.Industries_bx img {
+  width: 85px;
 }

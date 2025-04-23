@@ -10,6 +10,16 @@ function Login() {
 
     return (
         <>
+         <style>
+        {`
+          .custom_nav {
+            display: none;
+          }
+        .footer{
+            display: none;
+        }
+        `}
+      </style>
             <section className='from_login'>
                 <Container className="d-flex  justify-content-center ">
                     <Card className="main-form-bx p-4 shadow w-100" style={{ maxWidth: '500px' }}>

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Button, Col, Container, Row, Image } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
-import corporate_banner from '../assets/images/corporate-training.png'
+import lms_banner from '../assets/images/lms-banner.png'
 
 
 function Lms_one() {
@@ -31,7 +31,7 @@ function Lms_one() {
                         <Col lg={6}>
                             <div className="right_banner text-center">
                                 <Image
-                                    src={corporate_banner}
+                                    src={lms_banner}
                                     alt="Corporate Learning Banner"
                                     fluid
                                     className="rounded"

@@ -1,5 +1,9 @@
 import React from 'react'
 import { Button, Col, Container, Row, Image } from 'react-bootstrap'
+import hub from '../assets/images/hub.png';
+import libraries from '../assets/images/libraries.png';
+import save from '../assets/images/save-time.png';
+import scalable from '../assets/images/scalable.png';
 
 
 function Lms_three() {
@@ -20,8 +24,8 @@ function Lms_three() {
                     <Row>
                         <Col lg={3}>
                             <div className="Acelot-bx">
-                                <img src="https://www.easygenerator.com/wp-content/uploads/2025/01/1-4.png" className='img-fluid' alt="" />
-                                <p className='lead5 fw-600'>Scalable, sustainable success
+                                <img src={scalable} />
+                                <p className='lead5 fw-600'>Scalable, Sustainable Success
                                 </p>
                                 <p className='cont'>Scaling fast is exciting—but only if your people and systems are ready to rise. Rapid growth demands a learning solution that doesn’t just keep up—it leads the way. With intelligent automation and streamlined workflows, AcelotLMS empowers you to train more, manage less, and scale smarter—securely and sustainably, no matter how fast you grow.
                                 </p>
@@ -29,7 +33,7 @@ function Lms_three() {
                         </Col>
                         <Col lg={3}>
                             <div className="Acelot-bx">
-                                <img src="https://www.easygenerator.com/wp-content/uploads/2025/01/1-4.png" className='img-fluid' alt="" />
+                                <img src={libraries} />
                                 <p className='lead5 fw-600'>Content Libraries</p>
                                 <p className="cont">Get started with AcelotLMS on day one with 70+ ready-to-deploy courses. Already have your own content from platforms like LinkedIn Learning? Easily integrate it into AcelotLMS with our seamless content integration tools.</p>
 
@@ -37,7 +41,7 @@ function Lms_three() {
                         </Col>
                         <Col lg={3}>
                             <div className="Acelot-bx">
-                                <img src="https://www.easygenerator.com/wp-content/uploads/2025/01/1-4.png" className='img-fluid' alt="" />
+                                <img src={hub} />
                                 <p className='lead5 fw-600'>Create a Learning Hub</p>
                                 <p className="cont">With AcelotLMS, you can easily store videos, PDFs, SCORM files, and more—all in one secure platform. Need to create content? Use our built-in video creation and editing tools to produce professional-quality training material. It’s a smarter, more secure solution than uploading to platforms like YouTube.</p>
 
@@ -45,7 +49,7 @@ function Lms_three() {
                         </Col>
                         <Col lg={3}>
                             <div className="Acelot-bx">
-                                <img src="https://www.easygenerator.com/wp-content/uploads/2025/01/1-4.png" className='img-fluid' alt="" />
+                                <img src={save} />
                                 <p className='lead5 fw-600'>Save Time and Cut Costs with AcelotLMS</p>
                                 <p className="cont">AcelotLMS is changing the way companies handle training. Our AI-powered platform streamlines the entire learning process—saving time and reducing costs. With intelligent automation and personalised learning paths, we deliver efficient, affordable training solutions that grow with your business.
                                 </p>

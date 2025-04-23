@@ -4,6 +4,7 @@ import Lms_two from '../components/Lms_two'
 import Lms_three from '../components/Lms_three'
 import Lms_four from '../components/Lms_four'
 import Lms_five from '../components/Lms_five'
+import Lms_six from '../components/Lms_six'
 
 function Lms() {
   return (
@@ -11,6 +12,7 @@ function Lms() {
        <Lms_one />
        <Lms_two />
        <Lms_three />
+       <Lms_six />
        <Lms_five />
        <Lms_four />
     </>

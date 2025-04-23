@@ -17,7 +17,7 @@ function Lms_four() {
                         <Col lg={12} className="">
                             <Accordion defaultActiveKey="0" flush>
                                 <Accordion.Item eventKey="0">
-                                    <Accordion.Header>What Does an LMS Do?</Accordion.Header>
+                                    <Accordion.Header>What does an LMS do?</Accordion.Header>
                                     <Accordion.Body>
                                         AcelotLMS is more than just software—it’s your go-to solution for creating, organizing, and delivering effective training. Whether you're scaling learning across teams or tracking progress in real-time, our LMS makes it simple and impactful.
                                     </Accordion.Body>
@@ -25,11 +25,11 @@ function Lms_four() {
                                 <Accordion.Item eventKey="1">
                                     <Accordion.Header> Does your LMS support unlimited users?</Accordion.Header>
                                     <Accordion.Body>
-                                        AcelotLMS supports unlimited users, so your organization can scale freely and ensure access for every learner—no matter how big you grow. Want to learn more about our unlimited user plans? Drop us an email at .
+                                        AcelotLMS supports unlimited users, so your organization can scale freely and ensure access for every learner—no matter how big you grow. Want to learn more about our unlimited user plans? Drop us an email at <b>support@acelot.in</b>
                                     </Accordion.Body>
                                 </Accordion.Item>
                                 <Accordion.Item eventKey="2">
-                                    <Accordion.Header>How does Paradiso LMS ensure the security of our data?
+                                    <Accordion.Header>How does AcelotLMS ensure the security of our data?
                                     </Accordion.Header>
                                     <Accordion.Body>
                                         At AcelotLMS, security is our priority. We use advanced measures like data encryption, secure cloud hosting, regular security audits, and compliance with global standards to keep your data safe. Our robust security framework protects your organization and learners from unauthorized access and digital threats.
@@ -43,7 +43,7 @@ function Lms_four() {
                                     </Accordion.Body>
                                 </Accordion.Item>
                                 <Accordion.Item eventKey="4">
-                                    <Accordion.Header> Does Acelot Have a Mobile App?</Accordion.Header>
+                                    <Accordion.Header> Does Acelot have a mobile app?</Accordion.Header>
                                     <Accordion.Body>
                                         Yes! AcelotLMS offers a mobile app that lets you deliver training anytime, anywhere—so your learners stay connected and engaged, no matter where they are.
                                     </Accordion.Body>
