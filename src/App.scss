@@ -6,7 +6,7 @@
 :root {
   --blue: #0168ae;
   --purple: #3B2271;
-  --dark: #444444;
+  --dark: #2e2e2e;
 }
 
 body {
@@ -19,6 +19,10 @@ body {
 
 .container {
   max-width: 74%;
+}
+
+section {
+  padding: 70px 0;
 }
 
 .headLogo {
@@ -228,7 +232,7 @@ body {
 
 
 .home_section_two {
-  padding: 40px 0 70px;
+  // padding: 40px 0 70px;
 }
 
 .lead {
@@ -251,7 +255,7 @@ body {
 }
 
 .home_section_four {
-  padding: 70px 0;
+  // padding: 70px 0;
 
   .nav-link {
     text-align: left;
@@ -453,7 +457,7 @@ body {
 
 .home_section_three {
   background: #f2f7fb;
-  padding: 70px 0;
+  padding-bottom: 30px;
 
   .swiper-slide {
     .swiper-slide-img {
@@ -492,11 +496,10 @@ body {
 
 .cont {
   font-size: 16px;
-  line-height: 25px;
 }
 
 .home_section_five {
-  padding: 100px 0;
+  // padding: 100px 0;
   overflow: hidden;
 }
 
@@ -611,7 +614,7 @@ body {
 
 .home_section_six {
   background-repeat: no-repeat;
-  padding: 110px 70px 70px 70px;
+  padding-bottom: 40px;
   background-size: cover;
   width: 90%;
   margin: 0 auto 80px;
@@ -679,14 +682,14 @@ body {
 }
 
 .About_section_two {
-  padding: 70px 0;
+  // padding: 70px 0;
   margin: 0 auto;
   border-radius: 0;
   background: #f7f7f7cf;
 }
 
 .About_section_three {
-  padding: 70px 0;
+  // padding: 70px 0;
   background: #fff;
 }
 
@@ -695,17 +698,18 @@ body {
 }
 
 .About_section_four {
-  padding: 70px 0;
+  // padding: 70px 0;
   // background: #f7f7f7;
 
 }
 
 
 .corporate_section_one {
-  padding: 70px 0;
+  // padding: 70px 0;
 }
 
 .About_section_five {
+  padding: 0;
 
   .container {
     background: linear-gradient(45deg, #0068ad, #6758a6);
@@ -748,12 +752,12 @@ body {
 }
 
 .Contact_section_two {
-  padding: 0 0 70px 0;
+  padding: 0;
   margin: -60px 0 0;
 }
 
 .Contact_section_three {
-  padding: 70px 0;
+  // padding: 70px 0;
 }
 
 .contact-bx {
@@ -886,11 +890,11 @@ body {
 }
 
 .corporate_section_four {
-  padding: 70px 0;
+  // padding: 70px 0;
 }
 
 .corporate_section_five {
-  padding: 70px 0;
+  // padding: 70px 0;
 
 
   .accordion-body {
@@ -953,7 +957,7 @@ body {
 }
 
 .Meet_team_section_two {
-  padding: 70px 0;
+  // padding: 70px 0;
 }
 
 .flip-card-back h1 {
@@ -962,11 +966,12 @@ body {
 
 
 .Meet_team_section_three {
-  padding: 0 0;
+  padding-top: 0;
 
   .container {
-    border-top: 1px solid #ccc;
     padding: 70px 0;
+    background: #f7f7f7;
+    border-radius: 50px;
   }
 }
 
@@ -980,7 +985,7 @@ body {
 }
 
 .solutions_section_three {
-  padding: 0 0 70px;
+  // padding: 0 0 70px;
 }
 
 .Awards_image {
@@ -1055,7 +1060,7 @@ ul.socialbx_two li a {
 }
 
 .p-description {
-  font-size: 20px;
+  font-size: 18px;
   color: var(--dark);
 }
 
@@ -1090,7 +1095,7 @@ ul.socialbx_two li a {
 }
 
 .Meet_team_section_four {
-  padding-bottom: 70px;
+  // padding-bottom: 70px;
 }
 
 .fadeeffect-custom {
@@ -1180,7 +1185,7 @@ ul.socialbx_two li a {
 }
 
 .Solutions_section_three {
-  padding: 70px 0;
+  // padding: 70px 0;
 }
 
 .Regulatory-bx {
@@ -1191,11 +1196,11 @@ ul.socialbx_two li a {
 }
 
 .Solutions_section_four {
-  padding: 70px 0;
+  // padding: 70px 0;
 }
 
 .Corporate_section_six {
-  padding: 70px 0;
+  // padding: 70px 0;
 }
 
 
@@ -1335,6 +1340,7 @@ ul.socialbx_two li a {
 
   h4 {
     margin: 10px 0 0;
+    font-size: 19px;
   }
 }
 

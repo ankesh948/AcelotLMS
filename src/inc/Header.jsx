@@ -56,7 +56,7 @@ const Header = () => {
                 <NavDropdown.Item as={Link} to="/contact-us">Compliance Training</NavDropdown.Item>
               </NavDropdown>
 
-              <Nav.Link as={Link} to="/contact-us">Contact Us</Nav.Link>
+              <Nav.Link className='border-bottom-0' as={Link} to="/contact-us">Contact Us</Nav.Link>
               <Button as={Link} to={'/select-instance'} variant="primary" className="ms-3 btn_one topbtn">Login </Button>
 
               <div className='loginarea'>

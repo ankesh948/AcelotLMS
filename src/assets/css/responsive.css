@@ -1,8 +1,8 @@
 :root {
     --blue: #0168ae;
     --purple: #3B2271;
-    --dark: #444444;
-  }
+    --dark: #2e2e2e;
+}
 
 @media (max-width:767px) {
     body {
@@ -12,7 +12,6 @@
 
     .cont {
         font-size: 14px;
-        line-height: normal;
     }
 
     .slide_head {
@@ -25,6 +24,10 @@
 
     .container {
         max-width: 100%;
+    }
+
+    section {
+        padding: 50px 0;
     }
 
     .custom_nav {
@@ -74,14 +77,6 @@
         font-weight: 700;
     }
 
-    .home_section_two {
-        padding: 20px 0 40px;
-    }
-
-    .home_section_three {
-        padding: 40px 0;
-    }
-
     .lead5 {
         font-size: 20px;
         line-height: 35px;
@@ -91,8 +86,10 @@
         font-size: 14px;
     }
 
-    .home_section_four {
-        padding: 40px 0;
+    .home_section_six {
+        padding: 70px 20px 30px 20px;
+        width: 96%;
+        margin-bottom: 40px;
     }
 
     .home_section_four .nav-link {
@@ -111,7 +108,6 @@
     }
 
     .home_section_five {
-        padding: 40px 0;
         background: linear-gradient(130deg, #0000000a, transparent);
     }
 
@@ -119,10 +115,7 @@
         margin: 20px 0 0;
     }
 
-    .home_section_six {
-        padding: 70px 20px 70px 20px;
-        width: 96%;
-    }
+
 
     .testimonial_description {
         font-size: 13px;
@@ -149,12 +142,15 @@
     .swiper-navigation {
         margin: 0;
     }
+
     button.swiper-button-prev {
         margin: -60px 0 0;
     }
+
     button.swiper-button-next {
         margin: -60px 0 0;
     }
+
     .p-description {
         font-size: 14px;
     }
@@ -162,25 +158,283 @@
     .logo-footer .logo-footer-logo {
         width: 180px;
     }
+
     .startupbx img {
         height: 40px;
         width: inherit !important;
         margin: 0 0 20px;
     }
+
     .footer_bx1 h3 {
         margin: 20px 0 0;
         font-size: 18px;
     }
+
     .footer_bx1 ul li a {
         font-size: 14px;
     }
+
     .bottom-bar {
         font-size: 18px;
         margin: 20px 0 0;
         background: #005793;
     }
+
     .footer_bx1 {
         padding: 0 0;
+    }
+
+    .loginarea a {
+        display: none;
+    }
+
+    div#basic-navbar-nav .ms-auto.align-items-center.navbar-nav {
+        align-items: start !important;
+    }
+
+    #basic-navbar-nav {
+        background: var(--blue);
+
+        .nav-link {
+            width: 100%;
+            border-bottom: 1px solid #ccc;
+            color: white;
+        }
+
+        .nav-item {
+            width: 100%;
+
+            .nav-link {
+                width: 100%;
+                border-bottom: 1px solid #ccc;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:768px) and (max-width:991px) {
+    body {
+        font-size: 16px;
+        line-height: normal;
+    }
+
+    .cont {
+        font-size: 16px;
+    }
+
+    .slide_head {
+        font-size: 32px;
+    }
+
+    .topbtn {
+        display: none;
+    }
+
+    .container {
+        max-width: 100%;
+    }
+
+    .custom_nav {
+        padding: 5px 0 0;
+    }
+
+    a.navbar-brand img {
+        height: 40px;
+    }
+
+    .custom_nav .container {
+        align-items: center;
+    }
+
+    .slide_description {
+        font-size: 18px;
+    }
+
+    .btn_two {
+        padding: 2px 15px;
+        font-weight: 500;
+        border: 1px solid var(--dark);
+    }
+
+    .extra_link ul li a {
+        font-size: 16px;
+    }
+
+    .extra_link ul li {
+        padding: 0 0;
+    }
+
+    .extra_link ul li a::after {
+        font-size: 23px;
+    }
+
+    .fadeeffect-custom {
+        height: 64vh;
+    }
+
+    .home_banner_section {
+        padding: 100px 0 60px;
+    }
+
+    .lead {
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+
+    .lead5 {
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    .subhead {
+        font-size: 16px;
+    }
+
+
+    .home_section_four .nav-link {
+        font-size: 18px;
+        padding: 12px 10px;
+    }
+
+    .solution-bx h3 {
+        margin: 25px 0 0;
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .solution-bx p {
+        font-size: 16px;
+    }
+
+    .home_section_five {
+        background: linear-gradient(130deg, #0000000a, transparent);
+    }
+
+    .whybx-right {
+        margin: 40px 0 0;
+    }
+
+    .home_section_six {
+        padding: 70px 20px 70px 20px;
+        width: 96%;
+    }
+
+    .testimonial_description {
+        font-size: 15px;
+    }
+
+    .testimonial-bx {
+        gap: 8%;
+        width: 100%;
+    }
+
+    .testimonial-bx .subhead {
+        font-size: 14px;
+    }
+
+    .swiper_main_bx {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .swiper_main_bx .p-title {
+        font-size: 22px;
+    }
+
+    .swiper-navigation {
+        margin: 0;
+    }
+
+    button.swiper-button-prev {
+        margin: -60px 0 0;
+    }
+
+    button.swiper-button-next {
+        margin: -60px 0 0;
+    }
+
+    .p-description {
+        font-size: 16px;
+    }
+
+    .logo-footer .logo-footer-logo {
+        width: 180px;
+    }
+
+    .startupbx img {
+        height: 40px;
+        width: inherit !important;
+        margin: 0 0 20px;
+    }
+
+    .footer_bx1 h3 {
+        margin: 20px 0 0;
+        font-size: 18px;
+    }
+
+    .footer_bx1 ul li a {
+        font-size: 16px;
+    }
+
+    .bottom-bar {
+        font-size: 18px;
+        margin: 20px 0 0;
+        background: #005793;
+    }
+
+    .footer_bx1 {
+        padding: 0 0;
+    }
+}
+
+@media (min-width:992px) and (max-width:1024px) {
+    .container {
+        max-width: 94%;
+    }
+
+    .slide_head {
+        font-size: 54px;
+    }
+
+    .fadeeffect-custom {
+        height: 35vh;
+    }
+
+    .home_section_six {
+        padding: 110px 30px 70px 30px
+    }
+
+    .testimonial-bx {
+        width: 94%;
     }
 }
 
@@ -193,8 +447,12 @@
         font-size: 20px;
     }
 
+    .flip-card-back h1 {
+        font-size: 20px;
+    }
+
     .flip-card {
-        height: 302px;
+        height: 288px;
     }
 
     .startupbx img {
@@ -206,7 +464,7 @@
     }
 
     .container {
-        max-width: 86%;
+        max-width: 95%;
     }
 
     .slide_head {
@@ -230,7 +488,11 @@
     .lead2 {
         font-size: 32px;
     }
-    
+
+    .Industries_bx h4 {
+        font-size: 18px;
+    }
+
 }
 
 @media (min-width:1300px) and (max-width:1366px) {
