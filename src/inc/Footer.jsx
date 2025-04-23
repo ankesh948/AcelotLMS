@@ -189,7 +189,7 @@ const Footer = () => {
           <Container>
             <Row>
               <Col lg={7} className='text-start text-lg-start text-center'>
-                <p className='mb-0 cont'>© 2025 Copyright @ Acelot Innovation Private limited, All Rights Reserved</p>
+                <p className='mb-0 cont'>Copyright © 2022 Acelot. All Rights Reserved.</p>
               </Col>
               <Col lg={5} className='text-lg-end text-center'>
                 <p className='mb-0 cont'><span>Build With</span> <i className='bx bxs-heart text-danger sdsd fs-3'></i>  <span> In India</span></p>
