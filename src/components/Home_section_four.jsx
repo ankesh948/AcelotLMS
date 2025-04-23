@@ -61,7 +61,7 @@ function Home_section_four() {
           </Col>
         </Row>
         
-        <Row className='gx-5'>
+        <Row className='gx-lg-5'>
           <Col md={3}>
             <div className="nav flex-column nav-pills">
               {tabData.map((tab) => (

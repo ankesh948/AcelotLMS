@@ -8,7 +8,7 @@ function Home_section_five() {
     <>
       <section className='home_section_five'>
         <Container>
-          <Row className='align-items-center justify-content-center gx-5'>
+          <Row className='align-items-center justify-content-center gx-lg-5'>
             <Col lg={6}>
               <div className='whybx-left'>
                 <Image src={Whyacelotlms} className='img-fluid' alt='' />
