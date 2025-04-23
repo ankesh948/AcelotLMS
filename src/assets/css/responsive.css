@@ -1,3 +1,9 @@
+:root {
+    --blue: #0168ae;
+    --purple: #3B2271;
+    --dark: #444444;
+  }
+
 @media (max-width:767px) {
     body {
         font-size: 14px;
@@ -38,7 +44,9 @@
     }
 
     .btn_two {
-        padding: 6px 15px;
+        padding: 2px 15px;
+        font-weight: 500;
+        border: 1px solid var(--dark);
     }
 
     .extra_link ul li a {
@@ -80,7 +88,7 @@
     }
 
     .subhead {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .home_section_four {
@@ -94,7 +102,8 @@
 
     .solution-bx h3 {
         margin: 25px 0 0;
-        font-size: 18px;
+        font-size: 16px;
+        padding: 10px;
     }
 
     .solution-bx p {
@@ -146,8 +155,7 @@
         margin: -60px 0 0;
     }
     .p-description {
-        font-size: 16px;
-        color: #404040;
+        font-size: 14px;
     }
 
     .logo-footer .logo-footer-logo {
