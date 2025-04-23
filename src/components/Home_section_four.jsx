@@ -56,7 +56,7 @@ function Home_section_four() {
           <Col lg={12} className='text-center'>
             <h2 className='lead'><span className='blue'>Our</span> Solutions</h2>
             <p className='lead5 mb-0 fw-600'>One Platform. Limitless Learning.</p>
-            <p className='subhead mb-5'>Create training experiences that leads to growth, enhances performance, and build stronger connections across your teams.
+            <p className='subhead mb-lg-5'>Create training experiences that leads to growth, enhances performance, and build stronger connections across your teams.
             </p>
           </Col>
         </Row>

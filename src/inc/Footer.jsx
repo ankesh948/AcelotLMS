@@ -14,7 +14,7 @@ const Footer = () => {
       <section className='footer'>
         <Container>
           <Row className='g-0'>
-            <Col lg={4}>
+            <Col lg={4} xs={12}>
               <div className='logo-footer'>
                 <Link to='/'>
                   <Image
@@ -48,7 +48,7 @@ const Footer = () => {
             </Col>
 
 
-            <Col lg={2}>
+            <Col lg={2} xs={6}>
               <div className='footer_bx1'>
                 <h3>Quick Links:</h3>
                 <ul>
@@ -61,7 +61,7 @@ const Footer = () => {
               </div>
             </Col>
 
-            <Col lg={2}>
+            <Col lg={2}  xs={6}>
               <div className='footer_bx1'>
                 <h3>Our Producs:</h3>
                 <ul>
@@ -98,7 +98,7 @@ const Footer = () => {
                 </ul>
               </div>
             </Col>
-            <Col lg={2}>
+            <Col lg={2}  xs={6}>
               <div className='footer_bx1'>
                 <h3>Our Solutions:</h3>
                 <ul>
@@ -136,7 +136,7 @@ const Footer = () => {
                 </ul>
               </div>
             </Col>
-            <Col lg={2}>
+            <Col lg={2}  xs={6}>
               <div className='footer_bx1'>
                 <h3>Follow Us</h3>
                 <ul className='socialbx_two'>
@@ -188,10 +188,10 @@ const Footer = () => {
         <div className='bottom-bar'>
           <Container>
             <Row>
-              <Col lg={7} className='text-start'>
+              <Col lg={7} className='text-start text-lg-start text-center'>
                 <p className='mb-0 cont'>© 2025 Copyright @ Acelot Innovation Private limited, All Rights Reserved</p>
               </Col>
-              <Col lg={5} className='text-end'>
+              <Col lg={5} className='text-lg-end text-center'>
                 <p className='mb-0 cont'><span>Build With</span> <i className='bx bxs-heart text-danger sdsd fs-3'></i>  <span> In India</span></p>
               </Col>
             </Row>
