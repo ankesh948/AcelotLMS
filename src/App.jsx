@@ -1,3 +1,5 @@
+import { useEffect } from "react";
+
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ScrollToTop from "./inc/ScrollToTop";
 
@@ -13,9 +15,21 @@ import Privacy_policy from "./pages/Privacy_policy";
 import Login from "./pages/Login";
 import Select_instance from "./pages/Select_instance";
 import Lms from "./pages/Lms";
+import Onboarding_training from "./pages/Onboarding_training";
+
+import AOS from "aos";
+import "aos/dist/aos.css"; // Import AOS styles
+import Compliance_training from "./pages/Compliance_training";
 
 
 function App() {
+
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, // animation duration
+      once: true, // whether animation should happen only once
+    });
+  }, []);
 
   return (
     <>
@@ -27,8 +41,16 @@ function App() {
             <Route path="/about-us" element={<About />} />
             <Route path="/meet-team-acelot" element={<Meet_team_acelot />} />
             <Route path="/solutions" element={<Solutions />} />
-            <Route path="/corporate-training" element={<Corporate_training />} />
             <Route path="/lms-platform" element={<Lms />} />
+            <Route path="/corporate-training" element={<Corporate_training />} />
+
+
+            <Route path="/onboarding-training" element={<Onboarding_training />} />
+            <Route path="/compliance-training" element={<Compliance_training />} />
+
+
+
+
             <Route path="/contact-us" element={<Contact />} />
             <Route path="/privacy-policy" element={<Privacy_policy />} />
             <Route path="/login" element={<Login />} />

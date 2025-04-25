@@ -49,11 +49,11 @@ const Header = () => {
               </NavDropdown>
 
               <NavDropdown title="Solutions" id="solutions-dropdown">
-                <NavDropdown.Item as={Link} to="/contact-us">Onboarding Training</NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/contact-us">Product Training</NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/contact-us">Remote Workforce Training</NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/contact-us">Sales Training</NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/contact-us">Compliance Training</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/onboarding-training">Onboarding Training</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/product-training">Product Training</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/remote-training">Remote Workforce Training</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/sales-training">Sales Training</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/compliance-training">Compliance Training</NavDropdown.Item>
               </NavDropdown>
 
               <Nav.Link className='border-bottom-0' as={Link} to="/contact-us">Contact Us</Nav.Link>

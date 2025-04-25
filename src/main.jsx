@@ -9,7 +9,7 @@ import '@fontsource/roboto/700.css';
 import 'boxicons/css/boxicons.min.css';
 import './App.scss';
 import './assets/css/responsive.css';
-import './assets/js/main.js'
+import './assets/js/main.js' 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>

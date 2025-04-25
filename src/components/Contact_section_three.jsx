@@ -12,7 +12,7 @@ function Contact_section_three() {
                             <h2 className='mb-4'>Support</h2>
                             <div className='contact3'>
                                 <div className='d-flex align-items-center gap-2 mb-2'>
-                                    <i class='bx bxl-whatsapp fs-1 text-success'></i>
+                                    <i className='bx bxl-whatsapp fs-1 text-success'></i>
                                     <h4 className='lead4'>24/7 WhatsApp Chat Support.</h4>
                                 </div>
                                 <Button variant='success' className='mb-2' as={Link} to={'https://wa.me/+919999211110'} target='_blank'>
@@ -23,7 +23,7 @@ function Contact_section_three() {
                                 <hr className='my-4' />
 
                                 <div className='d-flex align-items-center gap-2 mb-2'>
-                                    <i class='bx bx-phone fs-2 text-primary'></i>
+                                    <i className='bx bx-phone fs-2 text-primary'></i>
                                     <h4 className='lead4'>Available on Call.</h4>
                                 </div>
                                 <Button variant='primary' className='mb-2' as={Link} to={'tel:+919205309509'} target='_blank'>

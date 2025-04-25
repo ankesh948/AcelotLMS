@@ -11,7 +11,7 @@ const tabData = [
         id: 'tab1',
         title: 'Leadership & Management',
         description: 'Empowering professionals to lead with vision, make strategic decisions, and manage teams effectively.',
-        list: `<div class='d-flex gap-2'>
+        list: `<div className='d-flex gap-2'>
                  <ul>
                     <li>Leadership and Talent Management</li>
                     <li>Crucial Conversations</li>
@@ -34,7 +34,7 @@ const tabData = [
         id: 'tab2',
         title: 'Sales and Business Development',
         description: 'Unlock new growth opportunities and drive revenue through strategic sales approaches',
-        list: `<div class='d-flex gap-2'>
+        list: `<div className='d-flex gap-2'>
                 <ul>
                 <li>Consultative and Complex Solution Sales</li>
                 <li>Advanced Selling Skills - B2B, B2C, Channel, Distribution</li>
@@ -53,7 +53,7 @@ const tabData = [
         id: 'tab4',
         title: 'Organizational Development',
         description: `Enhance your organization's agility, culture, and performance for sustainable growth`,
-        list: `<div class='d-flex gap-2'><ul>
+        list: `<div className='d-flex gap-2'><ul>
                     <li>Managing Talent and Succession Planning</li>
                     <li>Process Consulting & Group Process Facilitation</li>
                     <li>HR & OD Consulting</li>
@@ -71,7 +71,7 @@ const tabData = [
         id: 'tab5',
         title: 'Skill Development and Personal Effectiveness',
         description: 'Enhance your core skills and maximize personal productivity for professional success.',
-        list: `<div class='d-flex gap-2'>
+        list: `<div className='d-flex gap-2'>
                     <ul>
                     <li>Campus to Corporate: Winning Interviews</li>
                     <li>Communication and Soft Skills</li>
