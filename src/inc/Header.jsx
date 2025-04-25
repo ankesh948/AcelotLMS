@@ -57,7 +57,7 @@ const Header = () => {
               </NavDropdown>
 
               <Nav.Link className='border-bottom-0' as={Link} to="/contact-us">Contact Us</Nav.Link>
-              <Button as={Link} to={'/select-instance'} variant="primary" className="ms-3 btn_one topbtn">Login </Button>
+              {/* <Button as={Link} to={'/select-instance'} variant="primary" className="ms-3 btn_one topbtn">Login </Button> */}
 
               <div className='loginarea'>
                 <Nav.Link as={Link} to={'/contact-us'} className='blue'><b>Request a Demo</b></Nav.Link>

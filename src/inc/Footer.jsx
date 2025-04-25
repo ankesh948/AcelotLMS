@@ -54,7 +54,7 @@ const Footer = () => {
                 <ul>
                   <li><Link to='/'>Home</Link></li>
                   <li><Link to='/about-us'>About Us</Link></li>
-                  <li><Link to='/blog'>Blog</Link></li>
+                  <li><Link to='/contact-us'>Blog</Link></li>
                   <li><Link to='/privacy-policy'>Privacy Policy</Link></li>
                   <li><Link to='/contact-us'>Contact Us</Link></li>
                 </ul>
@@ -66,12 +66,7 @@ const Footer = () => {
                 <h3>Our Producs:</h3>
                 <ul>
                   <li>
-                    <Link to='/' onClick={() => {
-                      setTimeout(() => {
-                        const el = document.getElementById('products');
-                        if (el) el.scrollIntoView({ behavior: 'smooth' });
-                      }, 100);
-                    }}>
+                    <Link to='/lms-platform'>
                       LMS Platform
                     </Link>
                   </li>
@@ -86,12 +81,7 @@ const Footer = () => {
                     </Link>
                   </li> */}
                   <li>
-                    <Link to='/' onClick={() => {
-                      setTimeout(() => {
-                        const el = document.getElementById('products');
-                        if (el) el.scrollIntoView({ behavior: 'smooth' });
-                      }, 100);
-                    }}>
+                    <Link to='/corporate-training'>
                       Corporate Training
                     </Link>
                   </li>
@@ -103,12 +93,7 @@ const Footer = () => {
                 <h3>Our Solutions:</h3>
                 <ul>
 
-                  <li><Link to='/' onClick={() => {
-                    setTimeout(() => {
-                      const el = document.getElementById('solutions');
-                      if (el) el.scrollIntoView({ behavior: 'smooth' });
-                    }, 100);
-                  }}>Onboarding Training</Link></li>
+                  <li><Link to='/onboarding-training'>Onboarding Training</Link></li>
                   <li><Link to='/' onClick={() => {
                     setTimeout(() => {
                       const el = document.getElementById('solutions');
@@ -127,12 +112,7 @@ const Footer = () => {
                       if (el) el.scrollIntoView({ behavior: 'smooth' });
                     }, 100);
                   }}>Sales Training </Link></li>
-                  <li><Link to='/' onClick={() => {
-                    setTimeout(() => {
-                      const el = document.getElementById('solutions');
-                      if (el) el.scrollIntoView({ behavior: 'smooth' });
-                    }, 100);
-                  }}>Compliance Training </Link></li>
+                  <li><Link to='/compliance-training'>Compliance Training </Link></li>
                 </ul>
               </div>
             </Col>

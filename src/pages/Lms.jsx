@@ -5,11 +5,13 @@ import Lms_three from '../components/Lms_three'
 import Lms_four from '../components/Lms_four'
 import Lms_five from '../components/Lms_five'
 import Lms_six from '../components/Lms_six'
+import Home_section_two from '../components/Home_section_two'
 
 function Lms() {
   return (
     <>
        <Lms_one />
+       <Home_section_two />
        <Lms_two />
        <Lms_three />
        <Lms_six />

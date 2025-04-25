@@ -15,17 +15,17 @@ function Onboarding_section_four() {
                     </Row>
                     <Row>
                         <Col lg={12}>
-                            <div className='ProductivityBx'>
+                            <div className='ProductivityBx' data-aos="fade-right" data-aos-delay="100">
                                 <h3>Reduce Time-to-Productivity with Automated Onboarding</h3>
                                 <p>Create seamless, zero-touch onboarding experiences using smart automation. Add learning modules as key milestones and track every new hire’s progress—so they ramp up faster, with less manual effort.</p>
                             </div>
-                            <div className='ProductivityBx'>
+                            <div className='ProductivityBx' data-aos="fade-right" data-aos-delay="200">
                                 <h3>Reduce Employee Turnover with Personalised Onboarding
                                 </h3>
                                 <p>Cut early attrition and lower hiring costs with tailored onboarding experiences that truly connect. By engaging new hires from day one, you build stronger retention, increase job satisfaction, and boost long-term employee success.
                                 </p>
                             </div>
-                            <div className='ProductivityBx'>
+                            <div className='ProductivityBx' data-aos="fade-right" data-aos-delay="300">
                                 <h3>Optimise Your Onboarding Strategy with Actionable Analytics</h3>
                                 <p>Create seamless, zero-touch onboarding experiences using smart automation. Add learning modules as key milestones and track every new hire’s progress—so they ramp up faster, with less manual effort.</p>
                             </div>

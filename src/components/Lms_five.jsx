@@ -20,17 +20,17 @@ const testimonials = [
   {
     name: 'Monika Thakur',
     description: 'What I love about AcelotLMS is how simple everything is. We particularly like the reporting feature – reports from AcelotLMS suit our needs and clearly show individual progress in specific areas of literacy. Turnaround time on reports is also very short.',
-    // image: bgImage1,
+    image: bgImage1,
   },
   {
     name: 'Tarun Kureel',
     description: 'We started using AcelotLMS as our learning platform two months ago, and the experience has been seamless. The platform makes it easy to integrate with various content providers, giving our learners smooth access to quality courses and upskilling opportunities. Big kudos to the AcelotLMS team for their proactive support and quick response to every query!',
-    // image: bgImage3,
+    image: bgImage3,
   },
   {
     name: 'Seema Anand',
     description: 'We enrolled our sales team in Acelot’s B2B Sales Training, and within weeks, we saw a noticeable improvement in confidence, communication, and deal closures. The training wasn’t just theory—it was packed with real-world strategies, objection-handling techniques, and practical roleplays. Our reps especially appreciated the personalized feedback and live sessions. Highly recommend it to any company serious about boosting their sales performance!',
-    // image: bgImage3,
+    image: bgImage1,
   }
 ];
 
@@ -39,9 +39,9 @@ function Lms_five() {
   return (
     <>
       <section className='home_section_six'
-      style={{
-        backgroundImage: `url(${bgImage})`,
-      }}
+        style={{
+          backgroundImage: `url(${bgImage})`,
+        }}
       >
         <Container fluid>
           <Row className='align-items-center justify-content-center gx-5'>
@@ -68,8 +68,8 @@ function Lms_five() {
                       </div>
                       <div className="testimonial_right">
                         <p className='testimonial_description'>
-                          <i className='bx bxs-quote-alt-left pe-3'></i> 
-                            {testimonial.description} 
+                          <i className='bx bxs-quote-alt-left pe-3'></i>
+                          {testimonial.description}
                           <i className='bx bxs-quote-alt-right ps-3' ></i>
                         </p>
                       </div>

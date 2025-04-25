@@ -2,7 +2,7 @@ import React from 'react'
 import { Button, Col, Container, Row, Image } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 
-import banner from '../assets/images/Why-acelot-lms.png'
+import banner from '../assets/images/onboarding-banner.png'
 
 function Onboarding_section_one() {
     return (

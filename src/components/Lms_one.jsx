@@ -1,7 +1,7 @@
 import React from 'react'
 import { Button, Col, Container, Row, Image } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
-import lms_banner from '../assets/images/lms-banner.png'
+import lms_banner from '../assets/images/lms-banner.jpg'
 
 
 function Lms_one() {
