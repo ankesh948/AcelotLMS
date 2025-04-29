@@ -13,8 +13,8 @@ function Onboarding_section_four() {
                             <p className='subhead'>Deliver consistent, role-based onboarding that helps new hires contribute faster.</p>
                         </Col>
                     </Row>
-                    <Row>
-                        <Col lg={12}>
+                    <Row className='align-items-center justify-content-center'>
+                        <Col lg={10}>
                             <div className='ProductivityBx' data-aos="fade-right" data-aos-delay="100">
                                 <h3>Reduce Time-to-Productivity with Automated Onboarding</h3>
                                 <p>Create seamless, zero-touch onboarding experiences using smart automation. Add learning modules as key milestones and track every new hire’s progress—so they ramp up faster, with less manual effort.</p>
@@ -27,7 +27,8 @@ function Onboarding_section_four() {
                             </div>
                             <div className='ProductivityBx' data-aos="fade-right" data-aos-delay="300">
                                 <h3>Optimise Your Onboarding Strategy with Actionable Analytics</h3>
-                                <p>Create seamless, zero-touch onboarding experiences using smart automation. Add learning modules as key milestones and track every new hire’s progress—so they ramp up faster, with less manual effort.</p>
+                                <p>Enhance the success of your onboarding process by using an integrated learning platform that tracks all activities and delivers in-depth analytics. Measure progress, identify gaps, and continuously improve your onboarding to ensure a smooth, effective experience for new hires.
+                                </p>
                             </div>
                         </Col>
                     </Row>

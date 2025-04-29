@@ -67,7 +67,7 @@ const teamImages = [
         link: 'https://www.linkedin.com/in/anjali-parihar-b7246a167?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'
     },
     {
-        name: 'Grace Arun',
+        name: 'Muskan Garg',
         image: T30,
         link: 'https://www.linkedin.com/in/grace-arun-64720a25/'
     },
@@ -82,7 +82,7 @@ const teamImages = [
         link: 'https://www.linkedin.com/in/syed-azhar-siddique-a987091a2/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'
     },
     {
-        name: 'Muskan Garg',
+        name: 'Ankesh Kumar',
         image: T34,
         link: 'https://www.linkedin.com/in/muskan-garg9503/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'
     },

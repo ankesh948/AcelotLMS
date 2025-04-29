@@ -20,6 +20,7 @@ import Onboarding_training from "./pages/Onboarding_training";
 import AOS from "aos";
 import "aos/dist/aos.css"; // Import AOS styles
 import Compliance_training from "./pages/Compliance_training";
+import Sales_traning from "./pages/Sales_traning";
 
 
 function App() {
@@ -46,6 +47,7 @@ function App() {
 
 
             <Route path="/onboarding-training" element={<Onboarding_training />} />
+            <Route path="/sales-training" element={<Sales_traning />} />
             <Route path="/compliance-training" element={<Compliance_training />} />
 
 

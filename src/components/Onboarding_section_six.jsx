@@ -1,6 +1,7 @@
 import React from 'react'
 import { Button, Col, Container, Row, Image } from 'react-bootstrap'
 import Accordion from 'react-bootstrap/Accordion';
+import { Link } from 'react-router-dom';
 
 
 function Onboarding_section_six() {
@@ -15,16 +16,16 @@ function Onboarding_section_six() {
                             <div className='extra_link mt-4'>
                                 <ul className="list-unstyled d-flex flex-wrap gap-3">
                                     <li>
-                                        <a href="/" data-discover="true">Product Training</a>
+                                        <Link to="/product-training" data-discover="true">Product Training</Link>
                                     </li>
                                     <li>
-                                        <a href="/" data-discover="true">Remote Workforce Training</a>
+                                        <Link to="/remote-workforce-training" data-discover="true">Remote Workforce Training</Link>
                                     </li>
                                     <li>
-                                        <a href="/" data-discover="true">Sales Training</a>
+                                        <Link to="/sales-training" data-discover="true">Sales Training</Link>
                                     </li>
                                     <li>
-                                        <a href="/" data-discover="true">Compliance Training</a>
+                                        <Link to="/compliance-training" data-discover="true">Compliance Training</Link>
                                     </li>
                                 </ul>
                             </div>

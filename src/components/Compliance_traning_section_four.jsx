@@ -15,16 +15,16 @@ function Compliance_traning_section_four() {
               <div className='extra_link mt-4'>
                 <ul className="list-unstyled d-flex flex-wrap gap-3">
                   <li>
-                    <Link to={''}>Onboarding Training</Link>
+                    <Link to={'/onboarding-training'}>Onboarding Training</Link>
                   </li>
                   <li>
-                    <Link to={''}>Product Training</Link>
+                    <Link to={'/product-training'}>Product Training</Link>
                   </li>
                   <li>
-                    <Link to={''}>Remote Workforce Training</Link>
+                    <Link to={'/remote-workforce-training'}>Remote Workforce Training</Link>
                   </li>
                   <li>
-                    <Link to={''}>Sales Training</Link>
+                    <Link to={'/sales-training'}>Sales Training</Link>
                   </li>
 
                 </ul>

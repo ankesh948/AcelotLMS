@@ -38,7 +38,7 @@ const Onboarding_section_two = () => {
             </div>
           </Col>
 
-          <Col lg={3} data-aos="fade-up" data-aos-delay="1000">
+          <Col lg={3} data-aos="fade-up" data-aos-delay="300">
             <div className="problem-bx">
               <p className="phead fw-600">
                 New hires don’t retain what they learn during onboarding
@@ -72,7 +72,7 @@ const Onboarding_section_two = () => {
               />
             </div>
           </Col>
-          <Col lg={3} data-aos="fade-up" data-aos-delay="1500">
+          <Col lg={3} data-aos="fade-up" data-aos-delay="800">
             <div className="problem-bx">
               <p className="phead fw-600">
                 Companies often face high early turnover and rehiring costs
