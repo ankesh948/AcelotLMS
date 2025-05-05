@@ -33,12 +33,7 @@ function HomeSectionOne() {
                                             if (el) el.scrollIntoView({ behavior: 'smooth' });
                                         }, 100);
                                     }}>LMS Platform</Link></li>
-                                    <li><Link to="/" onClick={() => {
-                                        setTimeout(() => {
-                                            const el = document.getElementById('products');
-                                            if (el) el.scrollIntoView({ behavior: 'smooth' });
-                                        }, 100);
-                                    }}>AI Proctoring</Link></li>
+                                
                                     <li><Link to="/" onClick={() => {
                                         setTimeout(() => {
                                             const el = document.getElementById('products');
