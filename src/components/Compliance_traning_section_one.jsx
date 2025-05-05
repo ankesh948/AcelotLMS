@@ -1,6 +1,6 @@
 import React from 'react'
 import { Button, Col, Container, Row, Image } from 'react-bootstrap'
-import banner from '../assets/images/Why-acelot-lms.png'
+import banner from '../assets/images/compliance-banner.jpg'
 import { Link } from 'react-router-dom'
 
 

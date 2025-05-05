@@ -1,7 +1,9 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
-import heart from '../assets/images/heart.png'
 import sec_third from '../assets/images/sec-third.png'
+import icon_one from '../assets/images/business.png'
+import icon_two from '../assets/images/leadership.png'
+import icon_three from '../assets/images/security-breach.png'
 
 
 function Compliance_traning_section_three() {
@@ -16,24 +18,24 @@ function Compliance_traning_section_three() {
               </h2>
               <div className='d-flex gap-4'>
                 <div className='number_Sec' data-aos="fade-up" data-aos-delay="100">
-                  <img src={heart} alt="icons" />
+                  <img src={icon_one} alt="icons" />
                   <h3>41%</h3>
                   <p className='lead4'>
-                    41% of businesses without continuous compliance report slowdowns on the sales cycle as a result.
+                    Of businesses without continuous compliance report slowdowns on the sales cycle as a result.
                   </p>
                 </div>
                 <div className='number_Sec' data-aos="fade-up" data-aos-delay="200">
-                  <img src={heart} alt="icons" />
+                  <img src={icon_two} alt="icons" />
                   <h3>73%</h3>
                   <p className='lead4'>
-                    73% of leaders state that meeting compliance standards improves the perception of their business.
+                    Of leaders state that meeting compliance standards improves the perception of their business.
                   </p>
                 </div>
                 <div className='number_Sec' data-aos="fade-up" data-aos-delay="300">
-                  <img src={heart} alt="icons" />
+                  <img src={icon_three} alt="icons" />
                   <h3>40%</h3>
                   <p className='lead4'>
-                    40% of teams faced a security breach caused by blind spots resulting from manual compliance practices
+                    Of teams faced a security breach caused by blind spots resulting from manual compliance practices
                   </p>
                 </div>
               </div>

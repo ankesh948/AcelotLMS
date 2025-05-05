@@ -63,7 +63,7 @@ const Footer = () => {
 
             <Col lg={2}  xs={6}>
               <div className='footer_bx1'>
-                <h3>Our Producs:</h3>
+                <h3>Our Products:</h3>
                 <ul>
                   <li>
                     <Link to='/lms-platform'>

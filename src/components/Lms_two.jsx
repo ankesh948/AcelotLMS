@@ -50,7 +50,7 @@ function Lms_two() {
                 <Row>
                     <Col lg={12} className='text-center'>
                         <h2 className='lead mb-5'>
-                            <span className='blue'>Features</span> that Power Smarter Learning
+                            <span className='blue'>Features</span> that Powers Smarter Learning
                         </h2>
                     </Col>
                 </Row>

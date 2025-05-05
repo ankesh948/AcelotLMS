@@ -65,7 +65,7 @@ function Lms_six() {
                         <Col>
                             <div className='Industries_bx'>
                                 <img src={logo5} />
-                                <h4>Food and Beverage </h4>
+                                <h4>FMCG </h4>
                             </div>
                         </Col>
                         <Col>
@@ -83,7 +83,7 @@ function Lms_six() {
                         <Col>
                             <div className='Industries_bx'>
                                 <img src={logo7} />
-                                <h4>Hospitality</h4>
+                                <h4>Telecom</h4>
                             </div>
                         </Col>
                     </Row>

@@ -1,6 +1,12 @@
 import React, { useState } from 'react'
 import { Button, Col, Container, Row, Image } from 'react-bootstrap';
-import img1 from '../assets/images/Sales.png'
+import img1 from '../assets/images/Stay-Audit-Ready-with-Clear-Compliance-Records.png'
+import img2 from '../assets/images/Save-Time-Skip-the-Stress.png'
+import img3 from '../assets/images/Stay-Ahead-with-Always-Up-to-Date-Training.png'
+import img4 from '../assets/images/Make-Safety-Stick-with-Effective-Training.png'
+import img5 from '../assets/images/Make-Compliance-Training-Fun-and-Engaging.png'
+import img6 from '../assets/images/White-Label-Your-Compliance-Training.png'
+import img7 from '../assets/images/Boost-Sales-and-Build-Brand-Trust.png'
 
 function Compliance_traning_section_two() {
   const [activeTab, setActiveTab] = useState('tab1');
@@ -51,7 +57,7 @@ function Compliance_traning_section_two() {
                       <h3>Save Time, Skip the Stress</h3>
                       <p>Automate recertifications and send timely reminders—no more manual tracking or deadline anxiety. Let the system handle the busywork so you can focus on what matters most.</p>
                     </div>
-                    <img src={img1} className='img-fluid' alt="" />
+                    <img src={img2} className='img-fluid' alt="" />
                   </div>
                 )}
 
@@ -61,7 +67,7 @@ function Compliance_traning_section_two() {
                       <h3>Stay Ahead with Always-Up-to-Date Training</h3>
                       <p>Laws change, audits happen—but your training stays ready. Easily update courses with our intuitive editor, so your team is always aligned without wasting hours on rewrites or outdated manuals.</p>
                     </div>
-                    <img src={img1} className='img-fluid' alt="" />
+                    <img src={img3} className='img-fluid' alt="" />
                   </div>
                 )}
 
@@ -71,7 +77,7 @@ function Compliance_traning_section_two() {
                       <h3>Make Safety Stick with Effective Training</h3>
                       <p>Avoid accidents and keep operations smooth by ensuring every learner understands safety protocols. Use quizzes, tests, and feedback surveys to reinforce learning and continuously improve your training experience.</p>
                     </div>
-                    <img src={img1} className='img-fluid' alt="" />
+                    <img src={img4} className='img-fluid' alt="" />
                   </div>
                 )}
 
@@ -81,7 +87,7 @@ function Compliance_traning_section_two() {
                       <h3>Make Compliance Training Fun and Engaging</h3>
                       <p>Turn mandatory training into a motivator with built-in gamification. Award badges, points, and leaderboard shoutouts to keep learners motivated and coming back for more.</p>
                     </div>
-                    <img src={img1} className='img-fluid' alt="" />
+                    <img src={img5} className='img-fluid' alt="" />
                   </div>
                 )}
 
@@ -92,7 +98,7 @@ function Compliance_traning_section_two() {
                       <p>Customise your compliance training LMS with your own branding. Add your colors, logo, and theme to create a cohesive learning experience that aligns with your brand identity.
                       </p>
                     </div>
-                    <img src={img1} className='img-fluid' alt="" />
+                    <img src={img6} className='img-fluid' alt="" />
                   </div>
                 )}
 
@@ -103,7 +109,7 @@ function Compliance_traning_section_two() {
                       <p>Compliance training isn’t just about ticking boxes—it’s a powerful tool to boost your sales and brand reputation. When your sales team is well-versed in regulations, they can engage customers with confidence, building trust and closing more deals. Plus, a company that prioritises compliance shows its commitment to doing things the right way, setting you apart as a credible and reliable brand. Strong compliance equals stronger sales, a better image, and a long-lasting impact!
                       </p>
                     </div>
-                    <img src={img1} className='img-fluid' alt="" />
+                    <img src={img7} className='img-fluid' alt="" />
                   </div>
                 )}
 

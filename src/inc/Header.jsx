@@ -51,7 +51,7 @@ const Header = () => {
               <NavDropdown title="Solutions" id="solutions-dropdown">
                 <NavDropdown.Item as={Link} to="/onboarding-training">Onboarding Training</NavDropdown.Item>
                 <NavDropdown.Item as={Link} to="/product-training">Product Training</NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/remote-training">Remote Workforce Training</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/remote-workforce-training">Remote Workforce Training</NavDropdown.Item>
                 <NavDropdown.Item as={Link} to="/sales-training">Sales Training</NavDropdown.Item>
                 <NavDropdown.Item as={Link} to="/compliance-training">Compliance Training</NavDropdown.Item>
               </NavDropdown>

@@ -69,7 +69,7 @@ const teamImages = [
     {
         name: 'Muskan Garg',
         image: T30,
-        link: 'https://www.linkedin.com/in/grace-arun-64720a25/'
+        link: 'https://www.linkedin.com/in/muskan-garg9503/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'
     },
     {
         name: 'Ritik Bajpai',
@@ -84,7 +84,7 @@ const teamImages = [
     {
         name: 'Ankesh Kumar',
         image: T34,
-        link: 'https://www.linkedin.com/in/muskan-garg9503/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'
+        link: 'https://www.linkedin.com/in/ankeshthakur948'
     },
     {
         name: 'Partheban Venkatachalam',

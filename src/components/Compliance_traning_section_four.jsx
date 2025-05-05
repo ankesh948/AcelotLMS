@@ -10,7 +10,7 @@ function Compliance_traning_section_four() {
           <Row>
             <Col lg={12}>
               <h1 className='lead mb-5'>
-                Learning goes beyond onboarding with Acelot.
+                Learning goes beyond compliance with Acelot.
               </h1>
               <div className='extra_link mt-4'>
                 <ul className="list-unstyled d-flex flex-wrap gap-3">

@@ -104,7 +104,7 @@ const slides = [
     {
         title: 'Corporate Training',
         image: COPORATE_TRAINING,
-        description: 'Corporate training that’s as dynamic as your team, offering real-time learning tailored to their roles',
+        description: 'Corporate training that’s as dynamic as your team, offering real-time learning tailored to their roles.',
         link: '/',
     },
     {
@@ -122,7 +122,7 @@ const slides = [
     {
         title: 'Corporate Training',
         image: COPORATE_TRAINING,
-        description: 'Corporate training that’s as dynamic as your team, offering real-time learning tailored to their roles',
+        description: 'Corporate training that’s as dynamic as your team, offering real-time learning tailored to their roles.',
         link: '/',
     }
 

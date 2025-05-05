@@ -21,21 +21,21 @@ function Onboarding_section_three() {
                                     <img src={success} alt="icons" />
                                     <h3>20%</h3>
                                     <p className='lead4'>
-                                        Sucessful onboarding increases an employee’s efforts by more than 20% and drive employee performances by 15%.
+                                        Of sucessful onboarding increases an employee’s efforts by more than 20% and drive employee performances by 15%.
                                     </p>
                                 </div>
                                 <div className='number_Sec' data-aos="fade-up" data-aos-delay="200">
                                     <img src={employee} alt="icons" />
                                     <h3>67%</h3>
                                     <p className='lead4'>
-                                        67% of Gen Z employees said that onboarding made them feel welcome and valued in their new company.
+                                        Of Gen Z employees said that onboarding made them feel welcome and valued in their new company.
                                     </p>
                                 </div>
                                 <div className='number_Sec' data-aos="fade-up" data-aos-delay="300">
                                     <img src={generation_z} alt="icons" />
                                     <h3>69%</h3>
                                     <p className='lead4'>
-                                        69% of employees who have an exceptional onboarding experience are likely to stick around for at least 3 years
+                                       Of employees who have an exceptional onboarding experience are likely to stick around for at least 3 years
                                     </p>
                                 </div>
                             </div>

@@ -1,10 +1,10 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 
-import img_one from '../assets/images/Why-Traditional-Onboarding-one.png'
-import img_two from '../assets/images/Why-Traditional-Onboarding-two.png'
-import img_three from '../assets/images/Why-Traditional-Onboarding-three.png'
-import img_four from '../assets/images/Why-Traditional-Onboarding-four.png'
+import img_one from '../assets/images/sales1.png'
+import img_two from '../assets/images/sales2.png'
+import img_three from '../assets/images/sales3.png'
+import img_four from '../assets/images/sales4.png'
 
 
 const Onboarding_section_two = () => {

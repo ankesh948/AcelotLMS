@@ -456,8 +456,8 @@ section {
 }
 
 .home_section_three {
-  background: #f2f7fb;
-  padding-bottom: 30px;
+  background: linear-gradient(180deg, #f2f7fb, transparent, #f9f9f9);
+  padding-bottom: 50px;
 
   .swiper-slide {
     .swiper-slide-img {
@@ -1426,9 +1426,11 @@ ul.socialbx_two li a {
   width: 50px;
   margin: -44px 0 0;
 }
+
 .Compliance_traning_section_two {
   background: #f7f7f7;
 }
+
 .custom_com_bx_inner div {
   background: #f7f7f7;
   padding: 15px;
@@ -1440,4 +1442,10 @@ ul.socialbx_two li a {
 .custom_com_bx_inner div h3 {
   font-size: 22px;
   margin: 0 0 15px;
+}
+
+.Compliance_traning_section_two .custom_com_bx_inner img {
+  width: 50%;
+  display: flex;
+  margin: 0 auto;
 }

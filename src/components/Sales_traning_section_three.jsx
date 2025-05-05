@@ -21,21 +21,21 @@ function Sales_traning_section_three() {
                                     <img src={success} alt="icons" />
                                     <h3>76%</h3>
                                     <p className='lead4'>
-                                        76% of leaders attribute improvements in sales performance to their investments in sales enablement.
+                                        Of leaders attribute improvements in sales performance to their investments in sales enablement.
                                     </p>
                                 </div>
                                 <div className='number_Sec' data-aos="fade-up" data-aos-delay="200">
                                     <img src={employee} alt="icons" />
                                     <h3>73%</h3>
                                     <p className='lead4'>
-                                        73% of customers expect better personalization from a brand with the advancement of technology.
+                                       Of customers expect better personalization from a brand with the advancement of technology.
                                     </p>
                                 </div>
                                 <div className='number_Sec' data-aos="fade-up" data-aos-delay="300">
                                     <img src={generation_z} alt="icons" />
                                     <h3>56%</h3>
                                     <p className='lead4'>
-                                        56% of customers say that they often have to repeat or re-explain information to different representations.
+                                        Of customers say that they often have to repeat or re-explain information to different representations.
 
                                     </p>
                                 </div>

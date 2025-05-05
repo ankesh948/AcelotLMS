@@ -12,7 +12,6 @@ function Contact_section_two() {
                                 <i className='bx bx-envelope-open'></i>
                                 <h3>Email</h3>
                                 <p className='mb-1'>info@acelot.in</p>
-                                <p className='mb-0'>jobs@acelot.in</p>
                             </div>
                         </Col>
 

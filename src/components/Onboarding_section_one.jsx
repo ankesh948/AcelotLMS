@@ -16,7 +16,7 @@ function Onboarding_section_one() {
                                     Onboarding Training
                                 </h1>
                                 <p className="slide_description">
-                                    Seamless employee onboarding that sets the tone
+                                    Seamless employee onboarding that sets the tone from day one.
                                 </p>
                                 <p>With Acelot, you can create a smooth, automated onboarding experience that’s simple to manage and delightful to use. Help new hires feel connected, confident, and productive from day one—all with an intuitive LMS that puts people first.</p>
                                 <Button as={Link} to={'/about-us'} variant="primary" className="btn_two mt-4 mb-5">

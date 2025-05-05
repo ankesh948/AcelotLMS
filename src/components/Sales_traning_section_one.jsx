@@ -1,7 +1,7 @@
 
 import React from 'react'
 import { Button, Col, Container, Row, Image } from 'react-bootstrap'
-import banner from '../assets/images/Why-acelot-lms.png'
+import banner from '../assets/images/sales-banner.jpg'
 import { Link } from 'react-router-dom'
 
 function Sales_traning_section_one() {

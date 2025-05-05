@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Button, Col, Container, Row, Image } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
-import corporate_banner from '../assets/images/corporate-training.png'
+import corporate_banner from '../assets/images/corporate-banner.jpg'
 
 function Corporate_section_one() {
 
