@@ -16,7 +16,7 @@ function Home_section_five() {
             </Col> */}
             <Col lg={12}>
               <div className='whybx-right'>
-                <h3 className='lead mb-4'><span className='blue'>Why</span> Acelot ?</h3>
+                <h3 className='lead mb-4'>Why Choose <span className='blue'>Us?</span></h3>
                 <p className='subhead'>At Acelot, we combine the timeless value of traditional learning with the flexibility of technology and AI. While classroom training offers direct interaction and structured learning, it can be limited by time, location, and scalability.  Our platform bridges these gaps by offering both self-paced and instructor-led learning, providing your team with the freedom to learn at their own pace while maintaining personalised guidance.
                 </p>
                 <p className='cont'>We enhance this experience with advanced, adaptive technologies that ensure every learner gets the most relevant and engaging content tailored to their needs. With Acelot, you get the best of both worlds—combining the structure and personal touch of traditional training with the flexibility and scalability of modern learning solutions.

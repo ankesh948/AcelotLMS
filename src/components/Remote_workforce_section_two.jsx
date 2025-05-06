@@ -32,10 +32,7 @@ function Remote_workforce_section_two() {
                   Despite all our technological advances, Psico Smart reports that 68% of organisations still struggle to measure the real impact of their training programs.
 
                 </p>
-                <p>
-                  Acelot changes that. In 2025, measuring remote training isn’t just about who completed a course—it’s about tracking how well knowledge is applied on the job and how it drives real business outcomes. With Acelot’s powerful analytics and feedback tools, L&D teams can finally connect training to performance, productivity, and ROI.
-
-                </p>
+                
 
               </div>
             </Col>
@@ -51,10 +48,7 @@ function Remote_workforce_section_two() {
                   Remote work has made us realise how much we miss casual coffee chats and quick desk-side conversations. Staying connected in a virtual setup remains a real challenge.
 
                 </p>
-                <p>
-                  While casual coffee chats may be gone, Acelot recreates that sense of connection through features like virtual classrooms, collaborative learning spaces, real-time discussions, and peer feedback. It’s not just training—it’s an experience that keeps teams engaged, connected, and growing together, no matter where they are.
-                </p>
-
+                
               </div>
             </Col>
 
@@ -68,9 +62,7 @@ function Remote_workforce_section_two() {
                 <p className="phead fw-600">
                   Traditional one-size-fits-all training programs fail to capture attention or maintain interest. When learners aren't engaged, information goes in one ear and out the other.
                 </p>
-                <p>
-                  By offering role-based learning paths, interactive content, and gamified modules, Acelot transforms dull, generic training into engaging, tailored experiences that stick—so learners don’t just complete training, they remember and apply it.
-                </p>
+               
 
               </div>
             </Col>
