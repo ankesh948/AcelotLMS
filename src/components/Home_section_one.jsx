@@ -27,19 +27,9 @@ function HomeSectionOne() {
 
                             <div className="extra_link mt-4">
                                 <ul className="list-unstyled d-flex flex-wrap gap-3">
-                                    <li><Link to="/" onClick={() => {
-                                        setTimeout(() => {
-                                            const el = document.getElementById('products');
-                                            if (el) el.scrollIntoView({ behavior: 'smooth' });
-                                        }, 100);
-                                    }}>LMS Platform</Link></li>
+                                    <li><Link to="/lms-platform">LMS Platform</Link></li>
                                 
-                                    <li><Link to="/" onClick={() => {
-                                        setTimeout(() => {
-                                            const el = document.getElementById('products');
-                                            if (el) el.scrollIntoView({ behavior: 'smooth' });
-                                        }, 100);
-                                    }}>Corporate Training</Link></li>
+                                    <li><Link to="/corporate-training">Corporate Training</Link></li>
                                     <li><Link to="/">Resources</Link></li>
                                 </ul>
                             </div>

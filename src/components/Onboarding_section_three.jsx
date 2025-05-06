@@ -14,14 +14,14 @@ function Onboarding_section_three() {
                     <Row className='gx-lg-5 align-items-center'>
                         <Col lg={7}>
                             <h2 className='lead mb-5' data-aos="fade-right">
-                                Onboarding by the Numbers: Why It’s a Game Changer
+                            Onboarding by the Numbers: Why It’s a Game Changer
                             </h2>
                             <div className='d-flex gap-4'>
                                 <div className='number_Sec' data-aos="fade-up" data-aos-delay="100">
                                     <img src={success} alt="icons" />
-                                    <h3>20%</h3>
+                                    <h3>15%</h3>
                                     <p className='lead4'>
-                                        Of sucessful onboarding increases an employee’s efforts by more than 20% and drive employee performances by 15%.
+                                    Sucessful onboarding increases an employee’s efforts by more than 20% and drive employee performances by 15%. 
                                     </p>
                                 </div>
                                 <div className='number_Sec' data-aos="fade-up" data-aos-delay="200">
@@ -35,7 +35,7 @@ function Onboarding_section_three() {
                                     <img src={generation_z} alt="icons" />
                                     <h3>69%</h3>
                                     <p className='lead4'>
-                                       Of employees who have an exceptional onboarding experience are likely to stick around for at least 3 years
+                                    Of employees who have an exceptional onboarding experience are likely to stick around for at least 3 years
                                     </p>
                                 </div>
                             </div>

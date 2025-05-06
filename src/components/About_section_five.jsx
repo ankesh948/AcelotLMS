@@ -10,7 +10,7 @@ function About_section_five() {
                     <Row className='align-items-center justify-content-center'>
                         <Col lg={12} className='text-center'>
                             <div className="ctasection">
-                                <h1 className="lead2 mb-5 text-white">
+                                <h1 className="lead2 mb-lg-5 text-white">
                                     Want To Know How ?
                                 </h1>
                                 <Button as={Link} to={'/contact-us'} variant='primary' className='btn_three'>

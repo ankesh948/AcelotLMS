@@ -605,6 +605,7 @@ section {
 
 .testimonial_left {
   width: 22%;
+  text-align: center;
 }
 
 .testimonial_right {
@@ -1373,6 +1374,32 @@ ul.socialbx_two li a {
   margin: 0 0 20px;
 }
 
+
+.Onboarding_section_two .col-lg-4:nth-child(1) .problem-bx {
+  border: 2px solid #E91E6350;
+}
+
+.Onboarding_section_two .col-lg-4:nth-child(1) .problem-bx:hover {
+  border: 2px solid #E91E63;
+}
+
+.Onboarding_section_two .col-lg-4:nth-child(2) .problem-bx {
+  border: 2px solid #03A9F450;
+}
+.Onboarding_section_two .col-lg-4:nth-child(2) .problem-bx:hover {
+  border: 2px solid #03A9F4;
+}
+.Onboarding_section_two .col-lg-4:nth-child(3) .problem-bx {
+  border: 2px solid #FFEB3B50;
+}
+
+.Onboarding_section_two .col-lg-4:nth-child(3) .problem-bx:hover {
+  border: 2px solid #FFEB3B;
+}
+
+
+
+
 .Onboarding_section_two .col-lg-3:nth-child(1) .problem-bx {
   border: 2px solid #E91E6350;
 }
@@ -1448,4 +1475,21 @@ ul.socialbx_two li a {
   width: 50%;
   display: flex;
   margin: 0 auto;
+}
+
+.Sales_traning_section_two {
+  background: white !important;
+}
+
+.Sales_traning_section_seven {
+  background: #f7f7f7;
+}
+
+.position-fixed{
+  z-index: 9999;
+}
+.whybx-right {
+  padding: 40px;
+  border-radius: 50px;
+  background: linear-gradient(90deg, #f7f7f7, transparent);
 }

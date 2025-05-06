@@ -10,7 +10,7 @@ function Onboarding_section_five() {
                 <Container>
                     <Row>
                         <Col lg={12} className="mb-4">
-                            <h2 className='lead'><span className='blue'>Frequently</span> asked questions</h2>
+                            <h2 className='lead'>Onboarding Training <span className='blue'>FAQ</span></h2>
                             <p className='subhead'>Can’t find any answer for your question? Ask our experts</p>
                         </Col>
                     </Row>
@@ -20,14 +20,14 @@ function Onboarding_section_five() {
                                 <Accordion.Item eventKey="0">
                                     <Accordion.Header>What can be automated with Acelot?</Accordion.Header>
                                     <Accordion.Body>
-                                        Acelot lets you build custom learning paths with a mix of self-paced courses, instructor-led sessions, and task-based learning—delivered automatically at the right time. You can also set up reports to get alerts about new enrollments or overdue learners, so nothing slips through the cracks.
+                                    Acelot lets you build custom learning paths with a mix of self-paced courses, instructor-led sessions, and task-based learning—delivered automatically at the right time. You can also set up reports to get alerts about new enrollments or overdue learners, so nothing slips through the cracks.
                                     </Accordion.Body>
                                 </Accordion.Item>
                                 <Accordion.Item eventKey="1">
                                     <Accordion.Header>Does AcelotLMS integrate with my tools?
                                     </Accordion.Header>
                                     <Accordion.Body>
-                                        AcelotLMS easily integrates with your eCommerce platform, HR systems, and content providers. It also supports single sign-on (SSO), secure authentication, and open APIs to keep everything connected and running smoothly.
+                                    AcelotLMS easily integrates with your, HR systems, and content providers. It also supports single sign-on (SSO), secure authentication, and open APIs to keep everything connected and running smoothly.
                                     </Accordion.Body>
                                 </Accordion.Item>
                                 <Accordion.Item eventKey="2">

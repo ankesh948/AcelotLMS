@@ -15,7 +15,7 @@ const Onboarding_section_two = () => {
         <Row className="gx-5 align-items-center justify-content-center">
           <Col lg={8} className="mb-4 text-center" data-aos="fade-down">
             <h1 className="lead mb-3">
-              Why Traditional Onboarding Just Don’t Cut It
+              Why Traditional Onboarding Just Don’t Cut It?
             </h1>
           </Col>
         </Row>
@@ -37,7 +37,7 @@ const Onboarding_section_two = () => {
           <Col lg={3} data-aos="fade-up" data-aos-delay="300">
             <div className="problem-bx">
               <p className="phead fw-600">
-                New hires don’t retain what they learn during onboarding
+                New employees often feel disconnected
               </p>
              
               <img
@@ -50,7 +50,7 @@ const Onboarding_section_two = () => {
           <Col lg={3} data-aos="fade-up" data-aos-delay="500">
             <div className="problem-bx">
               <p className="phead fw-600">
-                New employees often feel disconnected
+                New hires don’t retain what they learn during onboarding
               </p>
               
               <img
@@ -63,7 +63,7 @@ const Onboarding_section_two = () => {
           <Col lg={3} data-aos="fade-up" data-aos-delay="800">
             <div className="problem-bx">
               <p className="phead fw-600">
-                Companies often face high early turnover and rehiring costs
+              Companies often face high early turnover and rehiring costs
               </p>
              
               <img

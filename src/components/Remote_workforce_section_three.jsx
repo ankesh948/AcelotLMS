@@ -1,42 +1,42 @@
 import React from 'react'
-import { Button, Col, Container, Row, Image } from 'react-bootstrap'
+import {Col, Container, Row } from 'react-bootstrap'
 
 import sec_third from '../assets/images/sec-third.png'
-import employee from '../assets/images/employee.png'
-import success from '../assets/images/success.png'
-import generation_z from '../assets/images/generation-z.png'
+import remote_worker from '../assets/images/remote-worker.png'
+import remote_banner from '../assets/images/companies.png'
+import remote_employee from '../assets/images/remote-employee.png'
 
-function Sales_traning_section_three() {
-    return (
-        <>
+
+function Remote_workforce_section_three() {
+  return (
+    <>
             <section className='Onboarding_section_three'>
                 <Container>
                     <Row className='gx-lg-5 align-items-center'>
                         <Col lg={7}>
                             <h2 className='lead mb-5' data-aos="fade-right">
-                                Sales Training by the Numbers: Why It’s a Game Changer
+                                Remote Workforce Training by the Numbers: Why It’s a Game Changer
                             </h2>
                             <div className='d-flex gap-4'>
                                 <div className='number_Sec' data-aos="fade-up" data-aos-delay="100">
-                                    <img src={success} alt="icons" />
-                                    <h3>29%</h3>
+                                    <img src={remote_banner} alt="icons" />
+                                    <h3>85%</h3>
                                     <p className='lead4'>
-                                    Of sales professionals who receive weekly one-on-one coaching are top performers.
+                                        Of companies have revised training programs for remote work.
                                     </p>
                                 </div>
                                 <div className='number_Sec' data-aos="fade-up" data-aos-delay="200">
-                                    <img src={employee} alt="icons" />
-                                    <h3>73%</h3>
+                                    <img src={remote_worker} alt="icons" />
+                                    <h3>67%</h3>
                                     <p className='lead4'>
-                                       Of customers expect better personalization from a brand with the advancement of technology.
+                                        Of remote workers feel they need more specific training.
                                     </p>
                                 </div>
                                 <div className='number_Sec' data-aos="fade-up" data-aos-delay="300">
-                                    <img src={generation_z} alt="icons" />
-                                    <h3>56%</h3>
+                                    <img src={remote_employee} alt="icons" />
+                                    <h3>36%</h3>
                                     <p className='lead4'>
-                                        Of customers say that they often have to repeat or re-explain information to different representations.
-
+                                        Of remote employees find onboarding confusing. More than one-third of employees starting a new job remotely report feeling under-trained and disoriented during the onboarding process.
                                     </p>
                                 </div>
                             </div>
@@ -47,8 +47,8 @@ function Sales_traning_section_three() {
                     </Row>
                 </Container>
             </section>
-        </>
-    )
+    </>
+  )
 }
 
-export default Sales_traning_section_three
+export default Remote_workforce_section_three

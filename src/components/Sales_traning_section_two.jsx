@@ -7,10 +7,10 @@ import img_three from '../assets/images/sales3.png'
 import img_four from '../assets/images/sales4.png'
 
 
-const Onboarding_section_two = () => {
+const Sales_traning_section_two = () => {
 
     return (
-        <section className="Onboarding_section_two">
+        <section className="Onboarding_section_two Sales_traning_section_two">
             <Container>
                 <Row className="gx-5 align-items-center justify-content-center">
                     <Col lg={10} className="mb-4 text-center" data-aos="fade-down">
@@ -88,4 +88,4 @@ const Onboarding_section_two = () => {
     );
 };
 
-export default Onboarding_section_two;
+export default Sales_traning_section_two;

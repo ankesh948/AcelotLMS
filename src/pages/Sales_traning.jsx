@@ -5,6 +5,7 @@ import Sales_traning_section_three from '../components/Sales_traning_section_thr
 import Sales_traning_section_four from '../components/Sales_traning_section_four'
 import Sales_traning_section_five from '../components/Sales_traning_section_five'
 import Sales_traning_section_six from '../components/Sales_traning_section_six'
+import Sales_traning_section_seven from '../components/Sales_traning_section_seven'
 
 
 function Sales_traning() {
@@ -12,6 +13,7 @@ function Sales_traning() {
         <>
             <Sales_traning_section_one />
             <Sales_traning_section_two />
+            <Sales_traning_section_seven />
             <Sales_traning_section_three />
             <Sales_traning_section_four />
             <Sales_traning_section_five />

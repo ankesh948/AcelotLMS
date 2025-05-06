@@ -6,26 +6,30 @@ import logo from "../assets/images/logo.png";
 
 const Header = () => {
   const [isSticky, setIsSticky] = useState(false);
+  const [expanded, setExpanded] = useState(false); // track menu toggle state
 
   useEffect(() => {
     const handleScroll = () => {
       const scrollTop = window.scrollY;
-      setIsSticky(scrollTop > 50); // adjust the scroll threshold as needed
+      setIsSticky(scrollTop > 50);
     };
 
     window.addEventListener('scroll', handleScroll);
 
-    // Cleanup
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
 
+  const handleNavItemClick = () => {
+    setExpanded(false); // Close the menu on link click
+  };
+
   return (
     <div className={`custom_nav ${isSticky ? 'sticky-nav' : ''}`}>
-      <Navbar expand="lg">
+      <Navbar expand="lg" expanded={expanded} onToggle={setExpanded}>
         <Container>
-          <Navbar.Brand as={Link} to="/">
+          <Navbar.Brand as={Link} to="/" onClick={handleNavItemClick}>
             <img
               src={logo}
               alt="Acelot Logo"
@@ -35,34 +39,31 @@ const Header = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto align-items-center">
-              <Nav.Link as={Link} to="/">Home</Nav.Link>
+              <Nav.Link as={Link} to="/" onClick={handleNavItemClick}>Home</Nav.Link>
 
               <NavDropdown title="About Us" id="about-dropdown">
-                <NavDropdown.Item as={Link} to="/about-us">About Us</NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/meet-team-acelot">Meet Team Acelot</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/about-us" onClick={handleNavItemClick}>About Us</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/meet-team-acelot" onClick={handleNavItemClick}>Meet Team Acelot</NavDropdown.Item>
               </NavDropdown>
 
               <NavDropdown title="Products" id="product-dropdown">
-                <NavDropdown.Item as={Link} to="/lms-platform">LMS Platform</NavDropdown.Item>
-                {/* <NavDropdown.Item as={Link} to="/contact-us">AI Proctoring</NavDropdown.Item> */}
-                <NavDropdown.Item as={Link} to="/corporate-training">Corporate Training</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/lms-platform" onClick={handleNavItemClick}>LMS Platform</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/corporate-training" onClick={handleNavItemClick}>Corporate Training</NavDropdown.Item>
               </NavDropdown>
 
               <NavDropdown title="Solutions" id="solutions-dropdown">
-                <NavDropdown.Item as={Link} to="/onboarding-training">Onboarding Training</NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/product-training">Product Training</NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/remote-workforce-training">Remote Workforce Training</NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/sales-training">Sales Training</NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/compliance-training">Compliance Training</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/onboarding-training" onClick={handleNavItemClick}>Onboarding Training</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/product-training" onClick={handleNavItemClick}>Product Training</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/remote-workforce-training" onClick={handleNavItemClick}>Remote Workforce Training</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/sales-training" onClick={handleNavItemClick}>Sales Training</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/compliance-training" onClick={handleNavItemClick}>Compliance Training</NavDropdown.Item>
               </NavDropdown>
 
-              <Nav.Link className='border-bottom-0' as={Link} to="/contact-us">Contact Us</Nav.Link>
-              {/* <Button as={Link} to={'/select-instance'} variant="primary" className="ms-3 btn_one topbtn">Login </Button> */}
+              <Nav.Link as={Link} to="/contact-us" onClick={handleNavItemClick}>Contact Us</Nav.Link>
 
               <div className='loginarea'>
-                <Nav.Link as={Link} to={'/contact-us'} className='blue'><b>Request a Demo</b></Nav.Link>
+                <Nav.Link as={Link} to="/contact-us" className='blue' onClick={handleNavItemClick}><b>Request a Demo</b></Nav.Link>
               </div>
-
             </Nav>
           </Navbar.Collapse>
         </Container>
@@ -70,5 +71,6 @@ const Header = () => {
     </div>
   );
 };
+
 
 export default Header;

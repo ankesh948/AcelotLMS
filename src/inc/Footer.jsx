@@ -20,7 +20,7 @@ const Footer = () => {
                   <Image
                     src={logo}
                     className='img-fluid logo-footer-logo'
-                    alt='AcelotLMS'
+                    alt='Acelot'
                   />
                 </Link>
                 <h3 className='mt-4 fs-4 mb-2 fw-600'>Address : </h3>
@@ -48,20 +48,20 @@ const Footer = () => {
             </Col>
 
 
-            <Col lg={2} xs={6}>
+            <Col lg={2} xs={12}>
               <div className='footer_bx1'>
                 <h3>Quick Links:</h3>
                 <ul>
                   <li><Link to='/'>Home</Link></li>
                   <li><Link to='/about-us'>About Us</Link></li>
                   <li><Link to='/contact-us'>Blog</Link></li>
-                  <li><Link to='/privacy-policy'>Privacy Policy</Link></li>
                   <li><Link to='/contact-us'>Contact Us</Link></li>
+                  <li><Link to='/privacy-policy'>Privacy Policy</Link></li>
                 </ul>
               </div>
             </Col>
 
-            <Col lg={2}  xs={6}>
+            <Col lg={2}  xs={12}>
               <div className='footer_bx1'>
                 <h3>Our Products:</h3>
                 <ul>
@@ -88,35 +88,19 @@ const Footer = () => {
                 </ul>
               </div>
             </Col>
-            <Col lg={2}  xs={6}>
+            <Col lg={2}  xs={12}>
               <div className='footer_bx1'>
                 <h3>Our Solutions:</h3>
                 <ul>
-
                   <li><Link to='/onboarding-training'>Onboarding Training</Link></li>
-                  <li><Link to='/' onClick={() => {
-                    setTimeout(() => {
-                      const el = document.getElementById('solutions');
-                      if (el) el.scrollIntoView({ behavior: 'smooth' });
-                    }, 100);
-                  }}>Product Training</Link></li>
-                  <li><Link to='/' onClick={() => {
-                    setTimeout(() => {
-                      const el = document.getElementById('solutions');
-                      if (el) el.scrollIntoView({ behavior: 'smooth' });
-                    }, 100);
-                  }}>Remote Workforce Training</Link></li>
-                  <li><Link to='/' onClick={() => {
-                    setTimeout(() => {
-                      const el = document.getElementById('solutions');
-                      if (el) el.scrollIntoView({ behavior: 'smooth' });
-                    }, 100);
-                  }}>Sales Training </Link></li>
+                  <li><Link to='/product-training'>Product Training</Link></li>
+                  <li><Link to='/remote-workforce-training'>Remote Workforce Training</Link></li>
+                  <li><Link to='/sales-training'>Sales Training </Link></li>
                   <li><Link to='/compliance-training'>Compliance Training </Link></li>
                 </ul>
               </div>
             </Col>
-            <Col lg={2}  xs={6}>
+            <Col lg={2}  xs={12}>
               <div className='footer_bx1'>
                 <h3>Follow Us</h3>
                 <ul className='socialbx_two'>
@@ -169,7 +153,7 @@ const Footer = () => {
           <Container>
             <Row>
               <Col lg={7} className='text-start text-lg-start text-center'>
-                <p className='mb-0 cont'>Copyright © 2022 Acelot. All Rights Reserved.</p>
+                <p className='mb-0 cont'>Copyright © 2025 Acelot. All Rights Reserved.</p>
               </Col>
               <Col lg={5} className='text-lg-end text-center'>
                 <p className='mb-0 cont'><span>Build With</span> <i className='bx bxs-heart text-danger sdsd fs-3'></i>  <span> In India</span></p>

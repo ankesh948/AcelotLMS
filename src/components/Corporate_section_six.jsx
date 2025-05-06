@@ -7,13 +7,13 @@ import 'swiper/css/effect-coverflow';
 
 import g1 from '../assets/images/gallery/1.jpg'
 import g2 from '../assets/images/gallery/2.jpg'
-import g3 from '../assets/images/gallery/3.jpg'
-import g4 from '../assets/images/gallery/4.jpg'
+// import g3 from '../assets/images/gallery/3.jpg'
+// import g4 from '../assets/images/gallery/4.jpg'
 import g5 from '../assets/images/gallery/5.jpg'
 import g6 from '../assets/images/gallery/6.jpg'
 import g7 from '../assets/images/gallery/7.jpg'
 import g8 from '../assets/images/gallery/8.mp4'
-import g9 from '../assets/images/gallery/9.jpg'
+// import g9 from '../assets/images/gallery/9.jpg'
 import g10 from '../assets/images/gallery/10.jpg'
 import g11 from '../assets/images/gallery/11.jpg'
 import g12 from '../assets/images/gallery/12.jpg'
@@ -76,45 +76,20 @@ function Corporate_section_six() {
                             <video src={g18} controls loop muted className='w-100 ' />
                             <h4 className='mb-0 p-3 m-auto blue'>Chairman and MD of DCGPAC</h4>
                         </SwiperSlide>
-                        
                         <SwiperSlide>
-                            <div className="swiper-slide-img">
-                                <img src={g1} className='img-fluid' />
-                            </div>
+                            <img src={g1} className='img-fluid' />
                         </SwiperSlide>
                         <SwiperSlide>
-                            <div className="swiper-slide-img">
-                                <img src={g2} className='img-fluid' />
-                            </div>
+                            <img src={g2} className='img-fluid' />
                         </SwiperSlide>
                         <SwiperSlide>
-                            <div className="swiper-slide-img">
-                                <img src={g3} className='img-fluid' />
-                            </div>
+                            <img src={g5} className='img-fluid' />
                         </SwiperSlide>
                         <SwiperSlide>
-                            <div className="swiper-slide-img">
-                                <img src={g4} className='img-fluid' />
-                            </div>
+                            <img src={g6} className='img-fluid' />
                         </SwiperSlide>
                         <SwiperSlide>
-                            <div className="swiper-slide-img">
-                                <img src={g5} className='img-fluid' />
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div className="swiper-slide-img">
-                                <img src={g6} className='img-fluid' />
-                            </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <div className="swiper-slide-img">
-                                <img src={g7} className='img-fluid' />
-                            </div>
-                        </SwiperSlide>
-                        
-                        <SwiperSlide>
-                            <img src={g9} className='img-fluid' />
+                            <img src={g7} className='img-fluid' />
                         </SwiperSlide>
                         <SwiperSlide>
                             <img src={g10} className='img-fluid' />

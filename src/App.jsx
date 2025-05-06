@@ -24,6 +24,8 @@ import Sales_traning from "./pages/Sales_traning";
 import Remote_workforce_training from "./pages/Remote_workforce_training";
 
 
+import BackToTop from './inc/BackToTop';
+
 function App() {
 
   useEffect(() => {
@@ -37,6 +39,7 @@ function App() {
     <>
         <BrowserRouter>
           <ScrollToTop /> 
+          <BackToTop />
           <Header />
           <Routes>
             <Route path="/" element={<Index />} />
@@ -63,6 +66,7 @@ function App() {
           </Routes>
           <Footer />
         </BrowserRouter>
+
     </>
   )
 }
