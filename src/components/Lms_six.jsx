@@ -14,6 +14,7 @@ import logo10 from '../assets/images/industry-icon/software-it.png'
 function Lms_six() {
     return (
         <>
+        
             <section className='Lms_six'>
                 <Container>
                     <Row>
