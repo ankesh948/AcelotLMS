@@ -1386,9 +1386,11 @@ ul.socialbx_two li a {
 .Onboarding_section_two .col-lg-4:nth-child(2) .problem-bx {
   border: 2px solid #03A9F450;
 }
+
 .Onboarding_section_two .col-lg-4:nth-child(2) .problem-bx:hover {
   border: 2px solid #03A9F4;
 }
+
 .Onboarding_section_two .col-lg-4:nth-child(3) .problem-bx {
   border: 2px solid #FFEB3B50;
 }
@@ -1485,11 +1487,28 @@ ul.socialbx_two li a {
   background: #f7f7f7;
 }
 
-.position-fixed{
+.position-fixed {
   z-index: 9999;
 }
+
 .whybx-right {
   padding: 40px;
   border-radius: 50px;
   background: linear-gradient(90deg, #f7f7f7, transparent);
+}
+
+.custom_com_bx_inner {
+  display: flex;
+  gap: 1%;
+}
+.Remote_workforce_section_four .oneone {
+  background: white;
+  box-shadow: none;
+  width: 60%;
+}
+.Remote_workforce_section_four .twotwo {
+  background: white;
+  box-shadow: none;
+  width: 36%;
+  border: 1px solid #cccccc50;
 }

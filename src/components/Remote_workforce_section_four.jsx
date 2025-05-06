@@ -38,53 +38,63 @@ function Remote_workforce_section_four() {
               <div className='custom_com_bx'>
                 {activeTab === 'tab1' && (
                   <div className='custom_com_bx_inner'>
-                    <img src={img5} className='img-fluid' alt="" />
-                    <div>
+                    <div className='oneone'>
                       <h3>Train Anytime, Anywhere, on Any Device</h3>
                       <p>With Acelot’s intuitive learning platform, remote teams can access training anytime, from anywhere, and on any device. Whether they're at home or on the move, your workforce can stay on track without disrupting their daily workflow.
                       </p>
+                    </div>
+                    <div className="twotwo">
+                      <img src={img5} className='img-fluid' alt="" />
                     </div>
                   </div>
                 )}
 
                 {activeTab === 'tab2' && (
                   <div className='custom_com_bx_inner'>
-                    <img src={img1} className='img-fluid' alt="" />
-                    <div>
+                    <div className='oneone'>
                       <h3>Acelot Mobile App</h3>
                       <p>Learning on the go is easy with the Acelot mobile app. Employees can download, pause, and resume courses offline. The platform also integrates seamlessly with HRMS, CRM, ERP, and other systems—ensuring smooth operations. Plus, Salesforce-ready integration offers SSO and real-time data sync.</p>
+                    </div>
+                    <div className="twotwo">
+                      <img src={img1} className='img-fluid' alt="" />
                     </div>
                   </div>
                 )}
 
                 {activeTab === 'tab3' && (
                   <div className='custom_com_bx_inner'>
-                    <img src={img4} className='img-fluid' alt="" />
-                    <div>
+                    <div className='oneone'>
                       <h3>Security You Can Trust</h3>
                       <p>Acelot protects your team’s data with robust security standards. Using protocols like OAuth 2.0 and SAML, we provide a secure, reliable environment for remote learning. Data privacy and cybersecurity are always a top priority for us.</p>
+                    </div>
+                    <div className="twotwo">
+                      <img src={img4} className='img-fluid' alt="" />
                     </div>
                   </div>
                 )}
 
                 {activeTab === 'tab4' && (
                   <div className='custom_com_bx_inner'>
-                    <img src={img2} className='img-fluid' alt="" />
-                    <div>
+                    <div className='oneone'>
                       <h3>Engaging Gamification</h3>
                       <p>Motivate your remote teams with gamified learning! Acelot’s built-in features like badges, leaderboards, and completion certificates keep employees engaged and inspired to achieve their learning goals.
                       </p>
+                    </div>
+                    <div className="twotwo">
+                      <img src={img2} className='img-fluid' alt="" />
                     </div>
                   </div>
                 )}
 
                 {activeTab === 'tab5' && (
                   <div className='custom_com_bx_inner'>
-                    <img src={img3} className='img-fluid' alt="" />
-                    <div>
+                    <div className='oneone'>
                       <h3>Seamless Integrations </h3>
                       <p>Connect Acelot to the tools you already use. From CRMs like Salesforce and Zoho to HR platforms, AMS, EMS, and more—Acelot ensures a frictionless learning experience across all your systems.
                       </p>
+                    </div>
+                    <div className='twotwo'>
+                      <img src={img3} className='img-fluid' alt="" />
                     </div>
                   </div>
                 )}

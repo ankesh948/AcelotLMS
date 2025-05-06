@@ -8,6 +8,9 @@ import bgImage2 from '../assets/images/TESTI-02.jpg';
 import bgImage3 from '../assets/images/TESTI-03.jpg';
 import suresh_bansal from '../assets/images/suresh-bansal.png';
 
+import propic1 from '../assets/images/propic1.png'
+import propic2 from '../assets/images/propic2.png'
+
 import 'swiper/css';
 import 'swiper/css/pagination';
 
@@ -19,6 +22,12 @@ const testimonials = [
     image: bgImage2,
   },
   {
+    name: 'Mr. Suresh Bansal',
+    description: 'Thank you — it’s been a truly wonderful journey! Over the past two days, our team found the experience engaging, meaningful, and perfectly aligned with our goals. The program strengthened team bonds and sparked actionable inspiration. A big thank you to Joy, Manisha, and Debashish for delivering relevant and memorable sessions. The message was clear: with the right mindset and team spirit, success can be both fun and impactful.',
+    designation: 'Founder & CEO, DCGpac.com',
+    image: suresh_bansal,
+  },
+  {
     name: 'Ms. Shivi Singh',
     description: 'Indeed the program was very well received by the teams. The newly created trackers are implemented by the managers and progress being measured. I am sure the team will incorporate session learning on field.lt was great learning experience.',
     image: bgImage1,
@@ -28,19 +37,16 @@ const testimonials = [
     description: 'Team Acelot worked with our Enablement and Leadership team to craft out a very unique program that helps our team anticipate business needs and become a trusted advisor to customers ',
     image: bgImage3,
   },
-  {
-    name: 'Mr. Suresh Bansal',
-    description: 'Thank you — it’s been a truly wonderful journey! Over the past two days, our team found the experience engaging, meaningful, and perfectly aligned with our goals. The program strengthened team bonds and sparked actionable inspiration. A big thank you to Joy, Manisha, and Debashish for delivering relevant and memorable sessions. The message was clear: with the right mindset and team spirit, success can be both fun and impactful.',
-    designation: 'Founder & CEO, DCGpac.com',
-    image: suresh_bansal,
-  },
+ 
   {
     name: 'Shrish Pandey',
     description: 'AcelotLMS made everything so simple! The drag-and-drop features are super intuitive, and I could figure things out just by exploring—no steep learning curve at all.',
+    image: propic1
   },
   {
     name: 'Randhir Agnihotri',
     description: 'Everyone’s happy with AcelotLMS because we can shape the training around how our company actually works. It’s easy to adjust things as we go, and we don’t need to spend extra on travel or printed materials. It saves us time and money while keeping the team aligned and up to speed.',
+    image: propic2
   }
 ];
 
