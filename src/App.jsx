@@ -25,6 +25,7 @@ import Remote_workforce_training from "./pages/Remote_workforce_training";
 
 
 import BackToTop from './inc/BackToTop';
+import Blog from "./pages/Blog";
 
 function App() {
 
@@ -58,6 +59,8 @@ function App() {
 
 
 
+
+            <Route path="/blog" element={<Blog />} />
 
             <Route path="/contact-us" element={<Contact />} />
             <Route path="/privacy-policy" element={<Privacy_policy />} />
