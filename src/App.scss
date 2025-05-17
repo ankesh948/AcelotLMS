@@ -250,6 +250,7 @@ section {
 
 .subhead {
   font-size: 20px;
+  line-height: 28px;
   font-weight: 600;
   text-transform: capitalize;
 }
@@ -1516,8 +1517,9 @@ ul.socialbx_two li a {
 }
 
 .banner_cusom {
-  background: #f7f7f7;
-  padding: 180px 0 80px;
+    background: linear-gradient(357deg, #0068ae, #3c2372);
+    padding: 190px 0 100px;
+    color: white;
 }
 
 .btn-outline-primary {
@@ -1535,4 +1537,34 @@ ul.socialbx_two li a {
     --bs-btn-disabled-bg: transparent;
     --bs-btn-disabled-border-color: #0168ae;
     --bs-gradient: none;
+}
+.searchbxbb input{
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.searchbxbb .input-group-text{
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.blog-sidebar .card {
+  border: none;
+}
+
+.blog-sidebar .card-header {
+  font-size: 1.1rem;
+  border-bottom: 1px solid #eee;
+}
+
+.blog-sidebar .list-group-item {
+  border: none;
+  padding: 10px 15px;
+}
+.blog-sidebar {
+    background: #f7f7f7;
+    padding: 10px;
 }

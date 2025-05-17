@@ -1,5 +1,7 @@
 import React, { useEffect, useState, useCallback } from 'react';
 import { Button, Col, Container, Row, Spinner } from 'react-bootstrap';
+import BlogSidebar from '../components/BlogSidebar';
+import { Card, Form, InputGroup, ListGroup } from 'react-bootstrap';
 
 // Dummy blog posts (simulate 50)
 const allPosts = Array.from({ length: 50 }, (_, i) => ({
@@ -46,11 +48,11 @@ function Blog() {
       <section className='banner_cusom'>
         <Container>
           <Row className='align-items-center justify-content-center'>
-            <Col lg={8}>
+            <Col lg={10}>
               <div className='blog_banner text-center'>
-                <h1 className='slide_head mb-4'>Blog</h1>
-                <h2 className="slide_description">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                <h1 className='slide_head mb-4 text-white'>Blog</h1>
+                <h2 className="subhead text-white">
+                  The skills that made your team successful yesterday might not be enough for tomorrow's challenges. By 2030, 39% of today’s core job skills will no longer exist, partly due to...
                 </h2>
               </div>
             </Col>
@@ -58,31 +60,47 @@ function Blog() {
         </Container>
       </section>
 
+
+     <div className='pt-5'>
+       <Container>
+        <Row>
+          <Col lg={9}>
+            <h2 className='fw-bold'>Latest</h2>
+          </Col>
+          <Col lg={3}>
+            <InputGroup className='searchbxbb justify-content-end'>
+              <Form.Control type='text'  placeholder='Search' />
+                <InputGroup.Text>
+                  <i class='bx bx-search'></i> 
+                </InputGroup.Text>
+            </InputGroup>
+          </Col>
+        </Row>
+      </Container>
+     </div>
+
       <section className='banner_list py-5'>
         <Container>
-          <Row className='mb-4'>
-            <Col className='d-flex justify-content-center flex-wrap gap-2'>
-              {["All", "Online School", "Homeschool", "Case Study", "Parenting Tips", "Life at IS"].map((filter, idx) => (
-                <Button key={idx} variant="outline-primary" className="rounded-pill px-3 py-1">
-                  {filter}
-                </Button>
-              ))}
-            </Col>
-          </Row>
-
           <Row>
-            {visiblePosts.map((post, index) => (
-              <Col lg={4} md={6} className='mb-4' key={index}>
-                <div className='card h-100 shadow-sm rounded-4'>
-                  <img src={post.image} alt={post.title} className='card-img-top rounded-top-4' />
-                  <div className='card-body'>
-                    <h5 className='card-title'>{post.title}</h5>
-                    <p className='card-text'>{post.description}</p>
-                    <Button variant="outline-dark" className='rounded-pill'>Read More</Button>
-                  </div>
-                </div>
-              </Col>
-            ))}
+            <Col lg={9}>
+              <Row>
+                {visiblePosts.map((post, index) => (
+                  <Col lg={6} md={6} className='mb-4' key={index}>
+                    <div className='card h-100 shadow-sm rounded-4'>
+                      <img src={post.image} alt={post.title} className='card-img-top rounded-top-4' />
+                      <div className='card-body'>
+                        <h5 className='card-title'>{post.title}</h5>
+                        <p className='card-text'>{post.description}</p>
+                        <Button variant="outline-dark" className='rounded-pill'>Read More</Button>
+                      </div>
+                    </div>
+                  </Col>
+                ))}
+              </Row>
+            </Col>
+            <Col ls={3}>
+                <BlogSidebar />
+            </Col>
           </Row>
 
           {/* 🔄 Loading Spinner */}

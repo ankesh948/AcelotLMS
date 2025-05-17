@@ -30,7 +30,7 @@ function HomeSectionOne() {
                                     <li><Link to="/lms-platform">LMS Platform</Link></li>
                                 
                                     <li><Link to="/corporate-training">Corporate Training</Link></li>
-                                    <li><Link to="/">Resources</Link></li>
+                                    <li><Link to="/blog">Resources</Link></li>
                                 </ul>
                             </div>
                         </div>
