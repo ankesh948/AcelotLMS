@@ -62,7 +62,7 @@ const Header = () => {
               <Nav.Link as={Link} to="/contact-us" onClick={handleNavItemClick}>Contact Us</Nav.Link>
 
               <div className='loginarea'>
-                <Nav.Link as={Link} to="/contact-us" className='blue' onClick={handleNavItemClick}><b>Request a Demo</b></Nav.Link>
+                <Nav.Link as={Link} to="/request-a-demo" className='blue' onClick={handleNavItemClick}><b>Request a Demo</b></Nav.Link>
               </div>
             </Nav>
           </Navbar.Collapse>

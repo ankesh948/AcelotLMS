@@ -2,6 +2,7 @@ import React, { useEffect, useState, useCallback } from 'react';
 import { Button, Col, Container, Row, Spinner } from 'react-bootstrap';
 import BlogSidebar from '../components/BlogSidebar';
 import { Card, Form, InputGroup, ListGroup } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 // Dummy blog posts (simulate 50)
 const allPosts = Array.from({ length: 50 }, (_, i) => ({
@@ -63,9 +64,16 @@ function Blog() {
 
      <div className='pt-5'>
        <Container>
-        <Row>
+        <Row className='align-items-end'>
           <Col lg={9}>
-            <h2 className='fw-bold'>Latest</h2>
+          <h5 className='mb-3'>Explore More... </h5>
+           <div className='d-flex flex-wrap gap-2'>
+             <button className='btn btn-outline-primary'>All</button>
+              <button className='btn btn-outline-primary'>LMS</button>
+              <button className='btn btn-outline-primary'>Corprate</button>
+              <button className='btn btn-outline-primary'>Corprate</button>
+              <button className='btn btn-outline-primary'>Corprate</button>
+           </div>
           </Col>
           <Col lg={3}>
             <InputGroup className='searchbxbb justify-content-end'>
@@ -81,7 +89,7 @@ function Blog() {
 
       <section className='banner_list py-5'>
         <Container>
-          <Row>
+          <Row className='gx-lg-5'>
             <Col lg={9}>
               <Row>
                 {visiblePosts.map((post, index) => (
@@ -91,7 +99,9 @@ function Blog() {
                       <div className='card-body'>
                         <h5 className='card-title'>{post.title}</h5>
                         <p className='card-text'>{post.description}</p>
-                        <Button variant="outline-dark" className='rounded-pill'>Read More</Button>
+                        <Link to={`/blog/${index}`}>
+                          <Button variant="outline-dark" className='rounded-pill'>Read More</Button>
+                        </Link>
                       </div>
                     </div>
                   </Col>

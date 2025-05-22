@@ -3,7 +3,6 @@ import { Col, Container, Row, Image, Button } from 'react-bootstrap'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, Navigation } from 'swiper/modules';
 
-
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
@@ -34,86 +33,103 @@ const teamImages = [
     {
         name: 'Sachin Verma',
         image: T22,
+        designation: 'Software Engineer',
         link: 'https://www.linkedin.com/in/sachin-verma-37753a1a7/'
     },
     {
         name: 'Bharat Joshi',
         image: T5,
+        designation: 'Technical Lead',
         link: 'https://www.linkedin.com/in/bharat-joshi-07116395/'
     },
     {
         name: 'Pooja Patil',
         image: T20,
+        designation: '',
         link: 'https://www.linkedin.com/in/pooja-patil-798098258/'
     },
     {
         name: 'Seema Dey',
         image: T25,
+        designation: 'HR and Operations Specialist',
         link: 'https://www.linkedin.com/in/seema-dey-29b96b155/'
     },
     {
         name: 'Shubham Jayant',
         image: T26,
+        designation: 'Senior Marketing Manager',
         link: 'https://www.linkedin.com/in/shubhamjayant/'
     },
     {
         name: 'Sanyam Sharma',
         image: T24,
+        designation: 'Corporate Sales Manager',
         link: 'https://www.linkedin.com/in/sanyam-sharma-ba2110198/'
     },
     {
         name: 'Anjali Parihar',
         image: T1,
+        designation: 'Content Writer',
         link: 'https://www.linkedin.com/in/anjali-parihar-b7246a167?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'
     },
     {
         name: 'Muskan Garg',
         image: T30,
+        designation: 'DevOps Executive',
         link: 'https://www.linkedin.com/in/muskan-garg9503/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'
     },
     {
         name: 'Ritik Bajpai',
         image: T33,
+        designation: 'DevOps Executive',
         link: 'https://www.linkedin.com/in/ritik-bajpai/'
     },
     {
         name: 'Syed Azhar Siddique',
         image: T31,
+        designation: '',
         link: 'https://www.linkedin.com/in/syed-azhar-siddique-a987091a2/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'
     },
     {
         name: 'Ankesh Kumar',
         image: T34,
+        designation: '',
         link: 'https://www.linkedin.com/in/ankeshthakur948'
     },
     {
         name: 'Partheban Venkatachalam',
         image: T19,
+        designation: '',
         link: 'https://www.linkedin.com/in/partheban-venkatachalam-622372250/'
     },
     // {
     //     name: 'Simranjot Kaur',
     //     image: T27,
+    //     designation: 'Business Development Executive',
     //     link: 'https://www.linkedin.com/in/simranjot-kaur-0b69a5313/'
     // },
     // {
     //     name: 'Kaniz Fatima',
     //     image: T28,
+    //     designation: 'Management Trainee',
     //     link: 'https://www.linkedin.com/in/kanizfatima0318/'
     // },
     {
         name: 'Danyal Ozair',
         image: T8,
+        designation: '',
         link: 'https://www.linkedin.com/in/danyal-ozair/'
     },
     {
         name: 'Chandrasekaran Viswanathan',
         image: T7,
+        designation: '',
         link: 'https://www.linkedin.com/in/chandrasekaran-viswanathan-a6440a6/'
     },
     {
         name: 'Probal Ghosh',
         image: T16,
+        designation: 'Results Coach & Coporate Trainer',
         link: 'https://www.linkedin.com/in/probalghosh/'
     }
 ];
@@ -155,12 +171,14 @@ function Meet_team_section_three() {
                                                     </div>
                                                     <div className="flip-card-back">
                                                         <h1>{item.name}</h1>
+                                                        <p>{item.designation}</p>
                                                         <Button as={Link} to={item.link} target='_blank' variant="primary" className="btn_three btn-sm" >
                                                             <div className='d-flex gap-1'>
                                                                 <i className='bx bxl-linkedin-square fs-3' ></i>
                                                                 <span>Linkedin</span>
                                                             </div>
                                                         </Button>
+
                                                     </div>
                                                 </div>
                                             </div>

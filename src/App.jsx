@@ -26,6 +26,9 @@ import Remote_workforce_training from "./pages/Remote_workforce_training";
 
 import BackToTop from './inc/BackToTop';
 import Blog from "./pages/Blog";
+import BlogDetail from './pages/BlogDetail';
+import Request_demo from "./pages/Request_demo";
+import Product_traning from "./pages/Product_traning";
 
 function App() {
 
@@ -52,15 +55,16 @@ function App() {
 
 
             <Route path="/onboarding-training" element={<Onboarding_training />} />
+            <Route path="/product-training" element={<Product_traning />} />
             <Route path="/sales-training" element={<Sales_traning />} />
             <Route path="/compliance-training" element={<Compliance_training />} />
             <Route path="/remote-workforce-training" element={<Remote_workforce_training />} />
             
 
-
-
-
             <Route path="/blog" element={<Blog />} />
+            <Route path="/blog/:id" element={<BlogDetail />} />
+
+            <Route path="/request-a-demo" element={<Request_demo />} />
 
             <Route path="/contact-us" element={<Contact />} />
             <Route path="/privacy-policy" element={<Privacy_policy />} />

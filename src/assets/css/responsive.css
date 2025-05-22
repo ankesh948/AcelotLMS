@@ -537,7 +537,7 @@
     }
 
     .flip-card {
-        height: 302px;
+        height: 301px;
     }
 
     .startupbx img {
@@ -572,5 +572,16 @@
 
     .lead2 {
         font-size: 32px;
+    }
+}
+
+@media (min-width:1400px) and (max-width:1440px) {
+    .flip-card {
+        height: 272px;
+    }
+}
+@media (min-width:1600px) and (max-width:1680px) {
+    .flip-card {
+        height: 306px;
     }
 }

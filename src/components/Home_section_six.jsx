@@ -11,6 +11,10 @@ import suresh_bansal from '../assets/images/suresh-bansal.png';
 import propic1 from '../assets/images/propic1.png'
 import propic2 from '../assets/images/propic2.png'
 
+
+import dcgpac from '../assets/images/dcgpac.png'
+import eveready from '../assets/images/eveready-small.png'
+
 import 'swiper/css';
 import 'swiper/css/pagination';
 
@@ -20,33 +24,39 @@ const testimonials = [
     name: 'Mr. Sandeep Banerjee',
     description: 'Acelot has really helped us transform the team to be more proactive, customer centric and flawlessly handle complex customer situation through effective skill building and communication interventions.',
     image: bgImage2,
+    companyImg: eveready
   },
   {
     name: 'Mr. Suresh Bansal',
     description: 'Thank you — it’s been a truly wonderful journey! Over the past two days, our team found the experience engaging, meaningful, and perfectly aligned with our goals. The program strengthened team bonds and sparked actionable inspiration. A big thank you to Joy, Manisha, and Debashish for delivering relevant and memorable sessions. The message was clear: with the right mindset and team spirit, success can be both fun and impactful.',
     designation: 'Founder & CEO, DCGpac.com',
     image: suresh_bansal,
+    companyImg: dcgpac
   },
   {
     name: 'Ms. Shivi Singh',
     description: 'Indeed the program was very well received by the teams. The newly created trackers are implemented by the managers and progress being measured. I am sure the team will incorporate session learning on field.lt was great learning experience.',
     image: bgImage1,
+    // companyImg: dcgpac
   },
   {
     name: 'Misha Joshi',
     description: 'Team Acelot worked with our Enablement and Leadership team to craft out a very unique program that helps our team anticipate business needs and become a trusted advisor to customers ',
     image: bgImage3,
+    // companyImg: dcgpac
   },
  
   {
     name: 'Shrish Pandey',
     description: 'AcelotLMS made everything so simple! The drag-and-drop features are super intuitive, and I could figure things out just by exploring—no steep learning curve at all.',
-    image: propic1
+    image: propic1,
+    // companyImg: dcgpac
   },
   {
     name: 'Randhir Agnihotri',
     description: 'Everyone’s happy with AcelotLMS because we can shape the training around how our company actually works. It’s easy to adjust things as we go, and we don’t need to spend extra on travel or printed materials. It saves us time and money while keeping the team aligned and up to speed.',
-    image: propic2
+    image: propic2,
+    // companyImg: dcgpac
   }
 ];
 
@@ -73,8 +83,8 @@ function Home_section_six() {
                 loop={true}
                 modules={[Autoplay, Navigation]}
                 autoplay={{
-                  delay: 4000, // time between slides in ms
-                  disableOnInteraction: false, // keep autoplay after user interacts
+                  delay: 4000, 
+                  disableOnInteraction: false, 
                 }}
                 navigation={{
                   nextEl: '.swiper-next',
@@ -91,7 +101,10 @@ function Home_section_six() {
                       <div className="testimonial_left">
                         <img src={testimonial.image} alt={testimonial.name} className='img-fluid rounded-pill' />
                         <p className='subhead pt-3 mb-1'>{testimonial.name}</p>
-                        <p className='testimonial_degi'>{testimonial.designation}</p>
+                        {testimonial.designation && (
+                          <p className='testimonial_degi'>{testimonial.designation}</p>
+                        )}
+                        <img className='companyImg' src={testimonial.companyImg} /> 
                       </div>
                       <div className="testimonial_right">
                         <p className='testimonial_description'>
