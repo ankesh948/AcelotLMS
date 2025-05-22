@@ -81,11 +81,11 @@ function Home_section_six() {
             <Col lg={12}>
               <Swiper
                 loop={true}
-                modules={[Autoplay, Navigation]}
-                autoplay={{
-                  delay: 4000, 
-                  disableOnInteraction: false, 
-                }}
+                modules={[Navigation]}
+                // autoplay={{
+                //   delay: 4000, 
+                //   disableOnInteraction: false, 
+                // }}
                 navigation={{
                   nextEl: '.swiper-next',
                   prevEl: '.swiper-prev',

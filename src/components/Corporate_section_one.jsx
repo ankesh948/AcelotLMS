@@ -22,7 +22,7 @@ function Corporate_section_one() {
                                 <p>Acelot helps you elevate employee development with tailored training programs that drive performance, foster growth, and strengthen skills across your organisation. From onboarding to leadership development, we ensure your team is always learning and evolving.
                                 </p>
 
-                                <Button as={Link} to={'/contact-us'} variant="primary" className="btn_two mt-4 mb-5">
+                                <Button as={Link} to={'/request-a-demo'} variant="primary" className="btn_two mt-4 mb-5">
                                     Request a Demo
                                 </Button>
 

@@ -45,7 +45,7 @@ const teamImages = [
     {
         name: 'Pooja Patil',
         image: T20,
-        designation: '',
+        designation: 'Software Test Engineer',
         link: 'https://www.linkedin.com/in/pooja-patil-798098258/'
     },
     {
@@ -87,19 +87,19 @@ const teamImages = [
     {
         name: 'Syed Azhar Siddique',
         image: T31,
-        designation: '',
+        designation: 'AWS DevOps Engineer',
         link: 'https://www.linkedin.com/in/syed-azhar-siddique-a987091a2/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'
     },
     {
         name: 'Ankesh Kumar',
         image: T34,
-        designation: '',
+        designation: 'Frontend Developer',
         link: 'https://www.linkedin.com/in/ankeshthakur948'
     },
     {
         name: 'Partheban Venkatachalam',
         image: T19,
-        designation: '',
+        designation: 'Executive Graphic Designer',
         link: 'https://www.linkedin.com/in/partheban-venkatachalam-622372250/'
     },
     // {

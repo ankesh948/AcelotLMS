@@ -40,6 +40,7 @@ import certificate from '../assets/images/lms-icons/7/certificate.png';
 import scorm_compatibility from '../assets/images/lms-icons/7/scorm-compatibility.png';
 import sso from '../assets/images/lms-icons/7/sso.png';
 import video_drm from '../assets/images/lms-icons/7/video-drm.png';
+import { Link } from 'react-router-dom';
 
 function Lms_two() {
     const [activeTab, setActiveTab] = useState('tab1');
@@ -279,7 +280,7 @@ function Lms_two() {
                     </Col>
 
                     <Col lg={12} className='text-center mt-4'>
-                        <Button variant='primary' className='btn_four'>Request a Demo</Button>
+                        <Button as={Link} to={'/request-a-demo'} variant='primary' className='btn_four'>Request a Demo</Button>
                     </Col>
                 </Row>
             </Container>

@@ -21,7 +21,7 @@ function HomeSectionOne() {
                                 The Only Learning Platform You’ll Ever Need.
                             </p>
 
-                            <Button as={Link} to={'/contact-us'} variant="primary" className="btn_two mt-4">
+                            <Button as={Link} to={'/request-a-demo'} variant="primary" className="btn_two mt-4">
                                 Request a Demo
                             </Button>
 

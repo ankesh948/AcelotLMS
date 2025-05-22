@@ -21,7 +21,7 @@ function Lms_one() {
                                 <p>Whether you're training your teams, partners, or customers — we’ve got you covered.
                                 </p>
 
-                                <Button as={Link} to={'/contact-us'} variant="primary" className="btn_two mt-4 mb-5">
+                                <Button as={Link} to={'/request-a-demo'} variant="primary" className="btn_two mt-4 mb-5">
                                     Request a Demo
                                 </Button>
 
