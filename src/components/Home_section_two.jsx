@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { Col, Container, Row } from 'react-bootstrap';
 import Marquee from "react-fast-marquee";
 
@@ -29,6 +29,23 @@ function Home_section_one() {
         logo1, logo2, logo3, logo21, logo4, logo13, logo5, logo6, logo7, logo8, logo9, logo10, logo11, logo12, logo14, logo15, logo16, logo17, logo18, logo19, logo20,
     ];
 
+
+
+    const [isMobile, setIsMobile] = useState(false);
+
+    useEffect(() => {
+        const handleResize = () => {
+            setIsMobile(window.innerWidth <= 768); // You can adjust the breakpoint
+        };
+
+        handleResize(); // Check on mount
+        window.addEventListener('resize', handleResize);
+
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []);
+
     return (
         <>
             <section className="home_section_two">
@@ -43,13 +60,13 @@ function Home_section_one() {
                     <Row className='align-items-center justify-content-center'>
                         <Col lg={12}>
                             <div className='companies_logo'>
-                            <Marquee pauseOnHover={true} gradient={false} speed={50}>
-                                {logos.map((logo, index) => (
-                                    <div key={index} className="mx-4">
-                                        <img src={logo} alt={`Logo ${index}`} className="logo-company" />
-                                    </div>
-                                ))}
-                            </Marquee>
+                                <Marquee pauseOnHover={!isMobile} gradient={false} speed={50}>
+                                    {logos.map((logo, index) => (
+                                        <div key={index} className="mx-4">
+                                            <img src={logo} alt={`Logo ${index}`} className="logo-company" />
+                                        </div>
+                                    ))}
+                                </Marquee>
                             </div>
                         </Col>
                     </Row>

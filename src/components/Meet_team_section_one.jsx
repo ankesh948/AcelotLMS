@@ -1,7 +1,7 @@
 import React from 'react'
 import { Button, Col, Container, Row, Image } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
-import map from '../assets/images/bgmap.svg'
+import banner from '../assets/images/meet-team.jpg'
 
 
 function Meet_team_section_one() {
@@ -28,7 +28,7 @@ function Meet_team_section_one() {
                         <Col lg={6}>
                             <div className="right_banner text-center">
                                 <Image
-                                    src={map}
+                                    src={banner}
                                     alt=""
                                     fluid
                                     className="rounded"

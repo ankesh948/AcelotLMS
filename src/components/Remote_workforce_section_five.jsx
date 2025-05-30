@@ -1,7 +1,6 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
-import fourthsection from '../assets/images/corporate-banner.jpg'
-
+import fourthsection from '../assets/images/Why_section.png'
 
 function Remote_workforce_section_five() {
   return (
