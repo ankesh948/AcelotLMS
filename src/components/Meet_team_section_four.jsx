@@ -105,7 +105,7 @@ function Meet_team_section_four() {
             <section className="Meet_team_section_four">
                 <Container>
                     <Row className='justify-content-center'>
-                        <Col lg={10} className='text-center mb-5'>
+                        <Col lg={10} className='text-center mb-lg-5 mb-3'>
                             <h1 className='lead'>Our Trainers</h1>
                         </Col>
                     </Row>
@@ -121,6 +121,20 @@ function Meet_team_section_four() {
                                 navigation={true}
                                 modules={[Pagination, Navigation]}
                                 className="mySwiper"
+                                breakpoints={{
+                                    0: {
+                                        slidesPerView: 2,
+                                        spaceBetween: 20,
+                                    },
+                                    768: {
+                                        slidesPerView: 3,
+                                        spaceBetween: 25,
+                                    },
+                                    1024: {
+                                        slidesPerView: 4,
+                                        spaceBetween: 30,
+                                    }
+                                }}
                             >
                                 {teamImages.map((item, index) => (
                                     <SwiperSlide key={index}>

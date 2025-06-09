@@ -27,7 +27,7 @@
     }
 
     section {
-        padding: 50px 0;
+        padding: 40px 0;
     }
 
     .custom_nav {
@@ -241,6 +241,9 @@
         margin-top: 0px;
         margin-bottom: 20px;
         border-radius: 30px;
+    }
+    .flip-card {
+        height: 189px;
     }
 }
 
