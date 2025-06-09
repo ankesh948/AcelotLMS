@@ -115,8 +115,14 @@
         margin: 0;
         padding: 0 10px;
     }
-
-
+.btn_three {
+    padding: 10px 20px;
+    font-size: 14px;
+    line-height: 24px;
+}
+    .flip-card-back h1 {
+        font-size: 20px;
+    }
 
     .testimonial_description {
         font-size: 13px;
