@@ -31,7 +31,7 @@ function Remote_workforce_section_one() {
               <div className="right_banner text-center">
                 <Image
                   src={banner}
-                  alt=""
+                  alt="A remote worker learning with the flexibility of AcelotLMS, showcasing work-from-home training."
                   fluid
                   className="rounded"
                 />

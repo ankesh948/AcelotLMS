@@ -9,12 +9,11 @@ function About_section_two() {
             <section className="About_section_two">
                 <Container>
                     <Row className="gx-5">
-                        <Col lg={12} className="mb-4 mb-lg-0">
-                            <div className='Missionvition text-center mb-5'>
-                                <h1 className="lead mb-3">
+                        <Col lg={12} className="">
+                            <div className='Missionvition text-center mb-3 mb-lg-5'>
+                                <h1 className="lead mb-0">
                                     Mission & Vision
                                 </h1>
-
                             </div>
                         </Col>
                         <Col lg={6}>

@@ -8,7 +8,7 @@ function Onboarding_section_four() {
             <section className='Onboarding_section_four'>
                 <Container>
                     <Row className='align-items-center justify-content-center'>
-                        <Col lg={10} className='text-center mb-5'>
+                        <Col lg={10} className='text-center mb-lg-5 mb-3'>
                             <h1 className='lead'>Ace Onboarding Training: Speed Up Time-to-Productivity
                             </h1>
                             <p className='subhead'>Deliver consistent, role-based onboarding that helps new hires contribute faster.

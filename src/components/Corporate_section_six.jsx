@@ -70,7 +70,7 @@ function Corporate_section_six() {
                         className="swiper"
                     >
                         <SwiperSlide>
-                            <video src={g8} controls loop muted className='w-100' />
+                            <video src={g8} controls loop muted className='w-100' alt="A corporate training video by Acelot for ACT, demonstrating effective employee development programs." />
                         </SwiperSlide>
                         <SwiperSlide className='bg-white'>
                             <video src={g18} controls loop muted className='w-100 ' />
@@ -83,13 +83,13 @@ function Corporate_section_six() {
                             <img src={g2} className='img-fluid' />
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img src={g5} className='img-fluid' />
+                            <img src={g5} className='img-fluid' alt='An interactive classroom training session for ACT, delivered by Acelot, focusing on experiential learning.' />
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img src={g6} className='img-fluid' />
+                            <img src={g6} className='img-fluid' alt='A trainer-led corporate training video for ACT, showcasing Acelots expert instruction.' />
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img src={g7} className='img-fluid' />
+                            <img src={g7} className='img-fluid' alt='A leadership development workshop at DGCPAC led by Acelot trainer Manisha, focusing on management skills.' />
                         </SwiperSlide>
                         <SwiperSlide>
                             <img src={g10} className='img-fluid' />
@@ -116,10 +116,10 @@ function Corporate_section_six() {
                             <img src={g17} className='img-fluid' />
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img src={g19} className='img-fluid' />
+                            <img src={g19} className='img-fluid' alt='An Acelot training workshop at DGCPAC incorporating game-based learning for a fun and engaging employee experience.' />
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img src={g20} className='img-fluid' />
+                            <img src={g20} className='img-fluid' alt='Testimonial from DGCPAC Founder Sandeep Bhansal on the effectiveness of Acelots corporate training programs.' />
                         </SwiperSlide>
 
 

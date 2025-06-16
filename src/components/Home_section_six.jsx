@@ -29,7 +29,7 @@ const testimonials = [
   {
     name: 'Mr. Suresh Bansal',
     description: 'Thank you — it’s been a truly wonderful journey! Over the past two days, our team found the experience engaging, meaningful, and perfectly aligned with our goals. The program strengthened team bonds and sparked actionable inspiration. A big thank you to Joy, Manisha, and Debashish for delivering relevant and memorable sessions. The message was clear: with the right mindset and team spirit, success can be both fun and impactful.',
-    designation: 'Founder & CEO, DCGpac.com',
+    // designation: 'Founder & CEO, DCGpac.com',
     image: suresh_bansal,
     companyImg: dcgpac
   },
@@ -46,18 +46,18 @@ const testimonials = [
     // companyImg: dcgpac
   },
  
-  {
-    name: 'Shrish Pandey',
-    description: 'AcelotLMS made everything so simple! The drag-and-drop features are super intuitive, and I could figure things out just by exploring—no steep learning curve at all.',
-    image: propic1,
-    // companyImg: dcgpac
-  },
-  {
-    name: 'Randhir Agnihotri',
-    description: 'Everyone’s happy with AcelotLMS because we can shape the training around how our company actually works. It’s easy to adjust things as we go, and we don’t need to spend extra on travel or printed materials. It saves us time and money while keeping the team aligned and up to speed.',
-    image: propic2,
-    // companyImg: dcgpac
-  }
+  // {
+  //   name: 'Shrish Pandey',
+  //   description: 'AcelotLMS made everything so simple! The drag-and-drop features are super intuitive, and I could figure things out just by exploring—no steep learning curve at all.',
+  //   image: propic1,
+  //   // companyImg: dcgpac
+// },
+  // {
+  //   name: 'Randhir Agnihotri',
+  //   description: 'Everyone’s happy with AcelotLMS because we can shape the training around how our company actually works. It’s easy to adjust things as we go, and we don’t need to spend extra on travel or printed materials. It saves us time and money while keeping the team aligned and up to speed.',
+  //   image: propic2,
+  //   // companyImg: dcgpac
+  // }
 ];
 
 
@@ -74,7 +74,7 @@ function Home_section_six() {
           <Row className='align-items-center justify-content-center gx-5'>
             <Col lg={7} xs={12} className='text-center'>
               <h3 className='lead5 blue'>Testimonials</h3>
-              <h3 className='lead mb-5'>Get the customer education
+              <h3 className='lead mb-lg-5 mb-3'>Get the customer education
                 platform that gets results</h3>
             </Col>
 

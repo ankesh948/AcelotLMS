@@ -14,19 +14,19 @@ function Remote_workforce_section_two() {
       <section className="Onboarding_section_two">
         <Container>
           <Row className="gx-5 align-items-center justify-content-center">
-            <Col lg={10} className="mb-4 text-center" data-aos="fade-down">
+            <Col lg={10} className="mb-4 text-center">
               <h1 className="lead mb-3">
                 Why remote training has become a must for organisations in the new age of working?
               </h1>
             </Col>
           </Row>
           <Row>
-            <Col lg={4} data-aos="fade-up" data-aos-delay="100">
+            <Col lg={4}>
               <div className="problem-bx">
                 <img
                   src={img_one}
                   className="img-fluid w-50"
-                  alt=""
+                  alt="An icon showing workforce performance analysis and data-driven insights on AcelotLMS."
                 />
                 <p className="phead fw-600">
                   Despite all our technological advances, Psico Smart reports that 68% of organisations still struggle to measure the real impact of their training programs.
@@ -37,12 +37,12 @@ function Remote_workforce_section_two() {
               </div>
             </Col>
 
-            <Col lg={4} data-aos="fade-up" data-aos-delay="100">
+            <Col lg={4}>
               <div className="problem-bx">
                 <img
                   src={img_three}
                   className="img-fluid w-50"
-                  alt=""
+                  alt="A relaxed employee enjoying a flexible learning session on AcelotLMS with a cup of coffee."
                 />
                 <p className="phead fw-600">
                   Remote work has made us realise how much we miss casual coffee chats and quick desk-side conversations. Staying connected in a virtual setup remains a real challenge.
@@ -52,12 +52,12 @@ function Remote_workforce_section_two() {
               </div>
             </Col>
 
-            <Col lg={4} data-aos="fade-up" data-aos-delay="100">
+            <Col lg={4}>
               <div className="problem-bx">
                 <img
                   src={img_four}
                   className="img-fluid w-50"
-                  alt=""
+                  alt="An employee looking frustrated and disengaged with a boring, traditional training session."
                 />
                 <p className="phead fw-600">
                   Traditional one-size-fits-all training programs fail to capture attention or maintain interest. When learners aren't engaged, information goes in one ear and out the other.

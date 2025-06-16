@@ -29,7 +29,7 @@ function Onboarding_section_one() {
                             <div className="right_banner text-center">
                                 <Image
                                     src={banner}
-                                    alt=""
+                                    alt="An interactive employee onboarding session facilitated by AcelotLMS to enhance engagement and knowledge retention."
                                     fluid
                                     className="rounded"
                                 />

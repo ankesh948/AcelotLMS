@@ -29,6 +29,7 @@ const tabData = [
                 </ul>
                 </div>`,
         image: program1,
+        alt: 'Logos of B. Braun and DGCPAC, corporate training clients of Acelot, showcasing our learning and management programs.'
     },
     {
         id: 'tab2',
@@ -48,6 +49,7 @@ const tabData = [
                 <li>Sales Growth - Product & Processes</li>
             </ul></div>`,
         image: program3,
+        alt:'Logos of ACT, Johnson’s, DGCPAC, Eveready, and ICICI Lombard, highlighting Acelots sales training clients.'
     },
     {
         id: 'tab4',
@@ -66,6 +68,7 @@ const tabData = [
                 </ul>
                 </div>`,
         image: program2,
+        alt: 'Logo of VMware, an organizational development corporate training client of Acelot.'
     },
     {
         id: 'tab5',
@@ -86,6 +89,7 @@ const tabData = [
                     <li>Personal Grooming & Business Etiquette</li>
                 </ul></div>`,
         image: program4,
+        alt:'Logos of Eveready, ICICI Lombard, and Johnson’s, showcasing key corporate training clients of Acelot.'
     }
 ];
 
@@ -130,7 +134,7 @@ function Corporate_section_three() {
                         </Col>
                         <Col md={3}>
                             <div className='solution-bx'>
-                                <img src={activeTab.image} alt={activeTab.title} className="img-fluid rounded" />
+                                <img src={activeTab.image} alt={activeTab.alt} className="img-fluid rounded" />
                             </div>
                         </Col>
                     </Row>

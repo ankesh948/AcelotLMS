@@ -16,23 +16,23 @@ function Compliance_traning_section_three() {
               <h2 className='lead mb-5' data-aos="fade-right">
                 Smart Compliance Training Matters: What Numbers Say!
               </h2>
-              <div className='d-flex gap-4'>
+              <div className='d-flex flex-wrap gap-4'>
                 <div className='number_Sec' data-aos="fade-up" data-aos-delay="100">
-                  <img src={icon_one} alt="icons" />
+                  <img src={icon_one} alt="Professional handshake symbolizing a business partnership, with a briefcase in the background representing corporate deals." />
                   <h3>41%</h3>
                   <p className='lead4'>
                     Of businesses without continuous compliance report slowdowns on the sales cycle as a result.
                   </p>
                 </div>
                 <div className='number_Sec' data-aos="fade-up" data-aos-delay="200">
-                  <img src={icon_two} alt="icons" />
+                  <img src={icon_two} alt="A confident business leader standing on a pedestal, symbolizing effective leadership and professional growth." />
                   <h3>73%</h3>
                   <p className='lead4'>
                     Of leaders state that meeting compliance standards improves the perception of their business.
                   </p>
                 </div>
                 <div className='number_Sec' data-aos="fade-up" data-aos-delay="300">
-                  <img src={icon_three} alt="icons" />
+                  <img src={icon_three} alt="Data secured with AcelotLMS - an image representing robust protection against data and security breaches." />
                   <h3>40%</h3>
                   <p className='lead4'>
                     Of teams faced a security breach caused by blind spots resulting from manual compliance practices

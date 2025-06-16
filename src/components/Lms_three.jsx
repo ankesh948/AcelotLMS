@@ -24,7 +24,7 @@ function Lms_three() {
                     <Row>
                         <Col lg={3}>
                             <div className="Acelot-bx">
-                                <img src={scalable} />
+                                <img src={scalable} alt='An image illustrating the key features and benefits of the AcelotLMS platform.' />
                                 <p className='lead5 fw-600'>Scalable, Sustainable Success
                                 </p>
                                 <p className='cont'>Scaling fast is exciting—but only if your people and systems are ready to rise. Rapid growth demands a learning solution that doesn’t just keep up—it leads the way. With intelligent automation and streamlined workflows, AcelotLMS empowers you to train more, manage less, and scale smarter—securely and sustainably, no matter how fast you grow.

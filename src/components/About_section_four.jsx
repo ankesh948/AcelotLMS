@@ -11,7 +11,7 @@ function About_section_four() {
                 <Container>
                     <Row className='align-items-center justify-content-center'>
                         <Col lg={5}>
-                            <Image src={img1} className='img-fluid rounded-5' />
+                            <Image src={img1} className='img-fluid rounded-5' alt='The DNA That Drives AcelotLMS" - an image representing the core values and principles of the Acelot team.' />
                         </Col>
                         <Col lg={7}>
                             <div className="Missionvition_content">

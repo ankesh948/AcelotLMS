@@ -23,7 +23,7 @@ function Lms_six() {
                         </Col>
                     </Row>
 
-                    <Row className='mb-5'>
+                    <Row className='mb-lg-5'>
                         <Col>
                             <div className='Industries_bx'>
                                 <img src={logo3} />
@@ -56,7 +56,7 @@ function Lms_six() {
                         </Col>
                     </Row>
 
-                    <Row className='mb-5'>
+                    <Row className='mb-lg-5'>
                         <Col>
                             <div className='Industries_bx'>
                                 <img src={logo9} />
@@ -65,7 +65,7 @@ function Lms_six() {
                         </Col>
                         <Col>
                             <div className='Industries_bx'>
-                                <img src={logo5} />
+                                <img src={logo5} alt='Icon for FMCG Industries' />
                                 <h4>FMCG </h4>
                             </div>
                         </Col>
@@ -83,12 +83,11 @@ function Lms_six() {
                         </Col>
                         <Col>
                             <div className='Industries_bx'>
-                                <img src={logo7} />
+                                <img src={logo7} alt='Icon for telecommunication Industries' />
                                 <h4>Telecom</h4>
                             </div>
                         </Col>
                     </Row>
-
                 </Container>
             </section>
         </>

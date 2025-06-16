@@ -13,14 +13,14 @@ function Product_traning_section_two() {
             <section className="Product_traning_section_two Onboarding_section_two">
                 <Container>
                     <Row className="gx-5 align-items-center justify-content-center">
-                        <Col lg={10} className="mb-4 text-center" data-aos="fade-down">
+                        <Col lg={10} className="mb-4 text-center">
                             <h1 className="lead mb-3">
                                 Why remote training has become a must for organisations in the new age of working?
                             </h1>
                         </Col>
                     </Row>
                     <Row>
-                        <Col lg={4} data-aos="fade-up" data-aos-delay="100">
+                        <Col lg={4} >
                             <div className="problem-bx">
                                 <img
                                     src={img_one}
@@ -33,7 +33,7 @@ function Product_traning_section_two() {
                             </div>
                         </Col>
 
-                        <Col lg={4} data-aos="fade-up" data-aos-delay="100">
+                        <Col lg={4}>
                             <div className="problem-bx">
                                 <img
                                     src={img_three}
@@ -46,7 +46,7 @@ function Product_traning_section_two() {
                             </div>
                         </Col>
 
-                        <Col lg={4} data-aos="fade-up" data-aos-delay="100">
+                        <Col lg={4} >
                             <div className="problem-bx">
                                 <img
                                     src={img_four}

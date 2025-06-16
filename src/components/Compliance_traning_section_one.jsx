@@ -30,7 +30,7 @@ function Compliance_traning_section_one() {
               <div className="right_banner text-center">
                 <Image
                   src={banner}
-                  alt=""
+                  alt="Manager explaining new compliance regulations to a team of attentive employees in a modern office setting."
                   fluid
                   className="rounded"
                 />

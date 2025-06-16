@@ -19,7 +19,7 @@ function Meet_team_section_one() {
                                     People Matters Most: we live by our values!
                                 </p>
                                 <p>At Acelot, our people are at the heart of everything we do—from the way we collaborate and innovate to how we build our products and support our clients. Our values shape our culture, guide our growth, and keep us grounded.</p>
-                                <Button as={Link} to={'/about-us'} variant="primary" className="btn_two mt-4 mb-5">
+                                <Button as={Link} to={'/about-us'} variant="primary" className="btn_two mt-4">
                                     About Us
                                 </Button>
                             </div>

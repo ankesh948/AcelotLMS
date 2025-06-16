@@ -10,7 +10,7 @@ function Sales_traning_section_seven() {
                 <Container>
                     <Row className='align-items-center justify-content-center'>
                         <Col lg={5}>
-                            <img src={fourthsection} className='img-fluid' alt="" />
+                            <img src={fourthsection} className='img-fluid' alt="Two employees exploring the various features and functionalities of the AcelotLMS platform." />
                         </Col>
                         <Col lg={7}>
                             <div>

@@ -22,7 +22,7 @@ function Corporate_section_one() {
                                 <p>Acelot helps you elevate employee development with tailored training programs that drive performance, foster growth, and strengthen skills across your organisation. From onboarding to leadership development, we ensure your team is always learning and evolving.
                                 </p>
 
-                                <Button as={Link} to={'/request-a-demo'} variant="primary" className="btn_two mt-4 mb-5">
+                                <Button as={Link} to={'/request-a-demo'} variant="primary" className="btn_two mt-4">
                                     Request a Demo
                                 </Button>
 
@@ -39,7 +39,7 @@ function Corporate_section_one() {
                             <div className="right_banner text-center">
                                 <Image
                                     src={corporate_banner}
-                                    alt="Corporate Learning Banner"
+                                    alt="A real-time corporate training session being conducted by an expert Acelot trainer for a group of professionals."
                                     fluid
                                     className="rounded"
                                 />

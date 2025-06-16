@@ -3,6 +3,7 @@ import { Container, Image, Col, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 import logo from "../assets/images/logo.png";
+import logowhite from "../assets/images/logo-white.png";
 import msme from "../assets/images/msme.png";
 import dpiit from "../assets/images/dpiit.png";
 import mepse from "../assets/images/mepse.png";
@@ -11,14 +12,14 @@ import mepse from "../assets/images/mepse.png";
 const Footer = () => {
   return (
     <>
-        <section className='footer footer_mobile d-none'>
+        <section className='footer_mobile pb-0'>
         <Container>
           <Row className='g-0 justify-content-center'>
             <Col lg={12} xs={12}>
               <div className='logo-footer'>
                 <Link to='/' className='d-flex justify-content-center'>
                   <Image
-                    src={logo}
+                    src={logowhite}
                     className='img-fluid logo-footer-logo'
                     alt='Acelot'
                   />
@@ -60,9 +61,9 @@ const Footer = () => {
             </Col>
 
 
-            <Col lg={10} xs={12}>
+            <Col lg={12} xs={12}>
               <div className='footer_bx2'>
-                <h3 className='text-center mt-4'>Quick Links:</h3>
+                <h3 className='text-center mt-4 mb-3 text-white'>Quick Links:</h3>
                 <ul>
                   <li><Link to='/'>Home</Link></li>
                   <li><Link to='/about-us'>About Us</Link></li>
@@ -80,27 +81,17 @@ const Footer = () => {
               </div>
             </Col>
 
-            <Col lg={12}  xs={12}>
-              
-                 <div className='startupbx d-flex flex-wrap gap-4 mt-5'>
-                  <div>
-                    <img src={msme} className='' alt="" />
-                  </div>
-                  <div>
-                    <img src={dpiit} className='' alt="" />
-                  </div>
-                   <div>
-                    <img src={mepse} className='' alt="" />
-                  </div>
-                  {/*<div className=''>
-                    <img src={certification1} className='' alt="" />
-                  </div>
-                  <div>
-                    <img src={certification2} className='' alt="" />
-                  </div> */}
-                </div>
-              
+            <Col lg={12} xs={12}>
+              <div className='footer_bx2 mt-4'>
+                <ul>
+                  <li><Link to='/contact-us' className='fw-bold'>Contact Us</Link></li>
+                  <li><Link to='/blog' className='fw-bold'>Blog</Link></li>
+                  <li><Link to='/privacy-policy' className='fw-bold'>Privacy Policy</Link></li>
+                </ul>
+              </div>
             </Col>
+
+           
 
           </Row>
         </Container>
@@ -109,17 +100,8 @@ const Footer = () => {
           <Container>
             <Row>
               <Col lg={12} className='text-center'>
-
-                <h3 className='mt-4 fs-4 mb-2 fw-600'>Address : </h3>
-                <p className='pe-5 mb-5'>90 B Delhi – Jaipur Expressway, Udyog Vihar, Sector 18, Gurugram – 122018 ,Haryana, India</p>
-
-
-
                 <p className='mb-0 cont'>Copyright © 2025 Acelot. All Rights Reserved.</p>
               </Col>
-              {/* <Col lg={5} className='text-lg-end text-center'>
-                <p className='mb-0 cont'><span>Build With</span> <i className='bx bxs-heart text-danger sdsd fs-3'></i>  <span> In India</span></p>
-              </Col> */}
             </Row>
           </Container>
         </div>

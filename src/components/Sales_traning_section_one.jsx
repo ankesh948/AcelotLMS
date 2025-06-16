@@ -31,7 +31,7 @@ function Sales_traning_section_one() {
                             <div className="right_banner text-center">
                                 <Image
                                     src={banner}
-                                    alt=""
+                                    alt="A dynamic sales training session being conducted through the AcelotLMS platform."
                                     fluid
                                     className="rounded"
                                 />

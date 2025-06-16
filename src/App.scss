@@ -512,9 +512,6 @@ section {
 .footer {
   background: #f7f7f7;
   padding: 60px 0 0;
-
- 
-
 }
 
 .footer_bx1 h3 {
@@ -1437,11 +1434,6 @@ ul.socialbx_two li a {
   margin: 0 0 15px;
 }
 
-.Compliance_traning_section_two .custom_com_bx_inner img {
-  width: 50%;
-  display: flex;
-  margin: 0 auto;
-}
 
 .Sales_traning_section_two {
   background: white !important;
@@ -1546,22 +1538,24 @@ ul.socialbx_two li a {
 }
 
 ul.Meeting_bbx {
-    padding: 0 30px;
-    list-style: none;
-    font-size: 20px;
-    line-height: 40px;
+  padding: 0 30px;
+  list-style: none;
+  font-size: 20px;
+  line-height: 40px;
 }
+
 ul.Meeting_bbx li {
-    position: relative;
+  position: relative;
 }
+
 .Meeting_bbx li::after {
-    content: "✔";
-    position: absolute;
-    width: 15px;
-    height: 15px;
-    left: -32px;
-    top: 0px;
-    font-size: 18px;
+  content: "✔";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  left: -32px;
+  top: 0px;
+  font-size: 18px;
 }
 
 .formforDemo input {
@@ -1572,7 +1566,7 @@ ul.Meeting_bbx li {
 }
 
 .number_Sec {
-  width: 33.33%;
+  width: 31%;
 }
 
 .companyImg {
@@ -1612,53 +1606,63 @@ form.formforDemo {
 hr {
   border-color: #cccccc;
 }
+
 .testimonial_left img.img-fluid.rounded-pill {
-    width: 60%;
-}
-.banner_section_demo {
-    padding: 120px 0 15px;
-    background: linear-gradient(45deg, #0196ae, #0168ae);
-    text-align: center;
-    margin: 0px 0 0;
-    color: white;
-}
-.demo_section_banner h1 {
-    font-weight: 700;
-    margin: 0 0 12px;
+  width: 60%;
 }
 
+.banner_section_demo {
+  padding: 120px 0 15px;
+  background: linear-gradient(45deg, #0196ae, #0168ae);
+  text-align: center;
+  margin: 0px 0 0;
+  color: white;
+}
+
+.demo_section_banner h1 {
+  font-weight: 700;
+  margin: 0 0 12px;
+}
 
 .footer_bx2 ul {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
-.footer_bx2 ul li{
-    padding: 0 16px;
-    position: relative;
-}
-.footer_bx2 ul li a {
-    white-space: nowrap;
-    color: black;
-    text-decoration: none;
-}
-.footer_bx2 ul li:after {
-    content: "";
-    position: absolute;
-    right: 0;
-    top: 50%;
-    transform: translate(0, -50%);
-    width: 1px;
-    height: 80%;
-    background: red;
-}
-.footer_mobile{
-  background:#005793;
 
-   .socialbx {
+.footer_bx2 ul li {
+  padding: 5px 15px;
+  position: relative;
+}
+
+.footer_bx2 ul li a {
+  white-space: nowrap;
+  color: white;
+  text-decoration: none;
+}
+
+.footer_bx2 ul li:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(0, -50%);
+  width: 1px;
+  height: 50%;
+  background: #ffffff52;
+}
+
+.footer_bx2 ul li:last-child::after {
+  display: none;
+}
+
+.footer_mobile {
+  background: #005793;
+
+  .socialbx {
     padding: 0;
     list-style: none;
     display: flex;
@@ -1695,6 +1699,9 @@ hr {
   }
 
 }
-  
 
 
+
+.footer_mobile {
+  display: none;
+}

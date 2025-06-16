@@ -10,6 +10,41 @@
         line-height: normal;
     }
 
+    .banner_section {
+        padding: 100px 0 40px;
+    }
+
+    .number_Sec {
+        width: 100%;
+    }
+
+    .problem-bx {
+        height: 95%;
+        margin: 0 0 20px;
+    }
+
+    .banner_cusom {
+        background: linear-gradient(357deg, #0068ae, #3c2372);
+        padding: 90px 0 30px;
+        color: white;
+    }
+
+    .contact-bx {
+        height: auto;
+        margin: 0 0 20px;
+    }
+
+    .privacy_policy {
+        padding: 110px 0 0px;
+        background: var(--blue);
+    }
+
+    .phead {
+        font-size: 15px;
+        text-transform: capitalize;
+        margin: 0 0 0;
+    }
+
     .cont {
         font-size: 14px;
     }
@@ -34,8 +69,27 @@
         padding: 5px 0 0;
     }
 
+    .corporate_section_one .container {
+        background: #f7f7f7;
+        padding: 20px 5%;
+        max-width: 90%;
+        border-radius: 50px;
+        box-shadow: -2px 3px 0 #00BCD4;
+    }
+
+    .Corporate_section_two .solution-bx img {
+        width: 60%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .corporate_section_one video {
+        margin: 0 0 20px;
+    }
+
     a.navbar-brand img {
-        height: 40px;
+        height: 30px;
     }
 
     .custom_nav .container {
@@ -84,6 +138,7 @@
 
     .subhead {
         font-size: 14px;
+        line-height: normal;
     }
 
     .home_section_six {
@@ -115,18 +170,25 @@
         margin: 0;
         padding: 0 10px;
     }
-.btn_three {
-    padding: 10px 20px;
-    font-size: 14px;
-    line-height: 24px;
-}
+
+    .btn_three {
+        padding: 10px 20px;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
     .flip-card-back h1 {
         font-size: 20px;
     }
 
     .testimonial_description {
-        font-size: 13px;
+        font-size: 14px;
     }
+
+    .companyImg {
+        width: 70px;
+    }
+
 
     .testimonial-bx {
         gap: 8%;
@@ -135,6 +197,7 @@
 
     .testimonial-bx .subhead {
         font-size: 10px;
+        line-height: normal;
     }
 
     .swiper_main_bx {
@@ -223,9 +286,11 @@
         display: flex;
         flex-wrap: wrap;
     }
+
     .footer_bx1 ul li {
         position: relative;
     }
+
     .footer_bx1 ul li:after {
         content: "";
         position: absolute;
@@ -234,45 +299,131 @@
         height: 60%;
         border-right: 1px solid #d3d3d3;
     }
+
     .footer_bx1 ul li:last-child::after {
         border-right: none;
     }
+
     .lead2 {
         font-size: 22px;
     }
+
     h1.lead2.mb-lg-5.text-white {
         margin: 0 0 20px;
     }
+
+    .Meet_team_section_three .container {
+        max-width: 92%;
+        padding: 40px 10px;
+        background: #f7f7f7;
+        border-radius: 50px;
+    }
+
+    .leaders {
+        padding: 10px 0;
+    }
+
+    .htmldata {
+        margin: 20px 0 0;
+        gap: 2rem;
+    }
+
+    .Industries_bx img {
+        width: 65px;
+    }
+
+    .Industries_bx {
+        margin: 0 0 15px;
+    }
+
+    .Lms_three {
+        padding: 40px 0;
+    }
+
+    .Industries_bx h4 {
+        margin: 10px 0 0;
+        font-size: 14px;
+    }
+
+    .Acelot-bx {
+        height: auto;
+        margin: 0 0 20px;
+    }
+
+    .htmldata_inner {
+        width: 45%;
+        margin: 0;
+    }
+
+    .btn_four {
+        border-radius: 48px;
+        background: #015289;
+        padding: 6px 15px;
+        color: white;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+        text-decoration: none;
+        border: 2px solid #015289;
+        box-shadow: none;
+    }
+
+    .htmldata_inner b {
+        display: block;
+        min-height: 44px;
+        font-size: 15px;
+        margin: 10px 0 0;
+    }
+
     .About_section_five .container {
         margin-top: 0px;
         margin-bottom: 20px;
         border-radius: 30px;
+        padding: 15px 25px;
+        max-width: 90%;
     }
+
     .flip-card {
         height: 189px;
     }
+
+    .footer {
+        display: none;
+    }
+
+    .footer_mobile {
+        display: block;
+
+        .bottom-bar {
+            font-size: 18px;
+            margin: 20px 0 0;
+            background: #023d66;
+        }
+    }
+
+    button.btn.btn-sm.btn-light.border.position-fixed.bottom-0.end-0.m-4 {
+        padding: 1px 5px;
+    }
+
+    button.btn.btn-sm.btn-light.border.position-fixed.bottom-0.end-0.m-4 img {
+        width: 18px;
+    }
+
+    button.btn.btn-sm.btn-light.border.position-fixed.bottom-0.end-0.m-4 p {
+        font-size: 11px;
+        margin: 0 !important;
+    }
+
+    .Missionvition_content {
+        height: auto;
+        margin: 0 0 10px;
+    }
+
+    .About_section_four img.img-fluid {
+        margin: 0 0 30px;
+    }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -400,6 +551,7 @@
 
     .testimonial-bx .subhead {
         font-size: 14px;
+        line-height: normal !important;
     }
 
     .swiper_main_bx {
@@ -589,6 +741,7 @@
         height: 272px;
     }
 }
+
 @media (min-width:1600px) and (max-width:1680px) {
     .flip-card {
         height: 306px;

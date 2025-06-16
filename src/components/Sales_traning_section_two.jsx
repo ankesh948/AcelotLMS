@@ -13,14 +13,14 @@ const Sales_traning_section_two = () => {
         <section className="Onboarding_section_two Sales_traning_section_two">
             <Container>
                 <Row className="gx-5 align-items-center justify-content-center">
-                    <Col lg={10} className="mb-4 text-center" data-aos="fade-down">
+                    <Col lg={10} className="mb-4 text-center">
                         <h1 className="lead mb-3">
                             So, what’s the difference between sellers who struggle and those who succeed?
                         </h1>
                     </Col>
                 </Row>
                 <Row>
-                    <Col lg={3} data-aos="fade-up" data-aos-delay="100">
+                    <Col lg={3} xs={6}>
                         <div className="problem-bx">
                             <p className="phead fw-600">
                                 Instead of pushing customers to buy
@@ -31,12 +31,12 @@ const Sales_traning_section_two = () => {
                             <img
                                 src={img_one}
                                 className="img-fluid"
-                                alt=""
+                                alt="A graphic showing sales professionals being trained to effectively identify and solve customer problems."
                             />
                         </div>
                     </Col>
 
-                    <Col lg={3} data-aos="fade-up" data-aos-delay="300">
+                    <Col lg={3} xs={6}>
                         <div className="problem-bx">
                             <p className="phead fw-600">
                                 Instead of selling products
@@ -48,11 +48,12 @@ const Sales_traning_section_two = () => {
                             <img
                                 src={img_three}
                                 className="img-fluid"
-                                alt=""
+                                alt="An illustration of a sales team learning to align their strategies with evolving customer preferences.
+"
                             />
                         </div>
                     </Col>
-                    <Col lg={3} data-aos="fade-up" data-aos-delay="500">
+                    <Col lg={3} xs={6}>
                         <div className="problem-bx">
                             <p className="phead fw-600">
                                 Instead of waiting on inbound orders,
@@ -63,11 +64,11 @@ const Sales_traning_section_two = () => {
                             <img
                                 src={img_two}
                                 className="img-fluid"
-                                alt=""
+                                alt="An image of successful salespeople proactively creating new opportunities through advanced sales techniques."
                             />
                         </div>
                     </Col>
-                    <Col lg={3} data-aos="fade-up" data-aos-delay="800">
+                    <Col lg={3} xs={6}>
                         <div className="problem-bx">
                             <p className="phead fw-600">
                                 Instead of letting opportunities go stale,
@@ -78,7 +79,7 @@ const Sales_traning_section_two = () => {
                             <img
                                 src={img_four}
                                 className="img-fluid"
-                                alt=""
+                                alt="A visual representation of sales employees becoming stagnant or stale in their roles without proper training."
                             />
                         </div>
                     </Col>

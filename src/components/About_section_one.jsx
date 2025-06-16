@@ -40,6 +40,7 @@ function About_section_one() {
                                     src={Banner}
                                     fluid
                                     className="rounded"
+                                    alt='Group photo of the Acelot founding team and core team members, showcasing the leadership behind the innovative LMS platform.'
                                 />
                             </div>
                         </Col>

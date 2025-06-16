@@ -32,7 +32,7 @@ function Lms_one() {
                             <div className="right_banner text-center">
                                 <Image
                                     src={lms_banner}
-                                    alt="Corporate Learning Banner"
+                                    alt="Employees actively using the AcelotLMS platform for their professional development."
                                     fluid
                                     className="rounded"
                                 />
