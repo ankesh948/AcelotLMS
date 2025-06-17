@@ -127,7 +127,7 @@
     }
 
     .lead {
-        font-size: 28px;
+        font-size: 26px;
         font-weight: 700;
     }
 
@@ -137,8 +137,8 @@
     }
 
     .subhead {
-        font-size: 14px;
-        line-height: normal;
+        font-size: 16px;
+        line-height: 22px;
     }
 
     .home_section_six {
