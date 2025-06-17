@@ -110,20 +110,6 @@ const Footer = () => {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
       <section className='footer'>
         <Container>
           <Row className='g-0'>

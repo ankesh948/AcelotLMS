@@ -423,6 +423,12 @@
     .About_section_four img.img-fluid {
         margin: 0 0 30px;
     }
+    .offcanvas-start .offcanvas-body .dropdown-toggle::after {
+        rotate: -90deg;
+    }
+    .offcanvas-start .offcanvas-body a.nav-link.show::after {
+        rotate: 0deg;
+    }
 }
 
 
@@ -606,6 +612,12 @@
 
     .footer_bx1 {
         padding: 0 0;
+    }
+    .offcanvas-start .offcanvas-body .dropdown-toggle::after {
+        rotate: -90deg;
+    }
+    .offcanvas-start .offcanvas-body a.nav-link.show::after {
+        rotate: 0deg;
     }
 }
 

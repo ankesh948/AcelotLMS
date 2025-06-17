@@ -12,6 +12,8 @@ import propic1 from '../assets/images/propic1.png'
 import propic2 from '../assets/images/propic2.png'
 
 
+import Vmware from '../assets/images/vmware.png'
+import icici from '../assets/images/icici.png'
 import dcgpac from '../assets/images/dcgpac.png'
 import eveready from '../assets/images/eveready-small.png'
 
@@ -37,13 +39,13 @@ const testimonials = [
     name: 'Ms. Shivi Singh',
     description: 'Indeed the program was very well received by the teams. The newly created trackers are implemented by the managers and progress being measured. I am sure the team will incorporate session learning on field.lt was great learning experience.',
     image: bgImage1,
-    // companyImg: dcgpac
+    companyImg: icici
   },
   {
     name: 'Misha Joshi',
     description: 'Team Acelot worked with our Enablement and Leadership team to craft out a very unique program that helps our team anticipate business needs and become a trusted advisor to customers ',
     image: bgImage3,
-    // companyImg: dcgpac
+    companyImg: Vmware
   },
  
   // {

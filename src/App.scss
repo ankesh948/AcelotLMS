@@ -1570,7 +1570,7 @@ ul.Meeting_bbx li {
 }
 
 .companyImg {
-  width: 80px;
+  width: 90px;
 }
 
 form.formforDemo {
@@ -1704,4 +1704,59 @@ hr {
 
 .footer_mobile {
   display: none;
+}
+
+.sticky-nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.btn_mobile {
+  font-size: 14px;
+  font-weight: 600;
+  background: transparent;
+  padding: 4px 10px;
+  border-radius: 15px;
+  border: 1px solid #f5841f;
+  color: #f5841f;
+}
+
+.custom-bar {
+  background: transparent;
+  border: none;
+  display: flex;
+  font-size: 32px;
+  color: #545454;
+}
+
+.offcanvas-start .offcanvas-header {
+  border-bottom: 1px solid #cccccc50;
+}
+
+.offcanvas-start .offcanvas-body a.nav-link {
+  font-size: 18px;
+  color: #585858;
+  font-weight: 600;
+  border-bottom: 1px solid #cccccc30;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.offcanvas-start .dropdown-menu {
+  position: relative !important;
+  transform: translate3d(0, 0, 0px) !important;
+  background: #f7f7f7;
+  border: none;
+}
+.offcanvas-start .dropdown-menu .dropdown-item {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 600;
+    color: #585858;
 }
