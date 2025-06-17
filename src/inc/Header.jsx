@@ -82,13 +82,9 @@ const Header = () => {
       {/* Offcanvas Menu for Mobile */}
       <Offcanvas show={showMenu} onHide={() => setShowMenu(false)} placement="start" className="d-lg-none">
         <Offcanvas.Header closeButton>
-            <Navbar.Brand as={Link} to="/" onClick={handleNavItemClick}>
-            <img
-              src={logo}
-              alt="Acelot Logo"
-              className="headLogo d-inline-block align-top"
-            />
-          </Navbar.Brand>
+          <Offcanvas.Title>
+            <img src={logo} alt="Logo" style={{ height: '30px' }} />
+          </Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body>
           <Nav className="flex-column">
